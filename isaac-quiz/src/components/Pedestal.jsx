@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function getImageUrl(id) {
-  const padded = String(id).padStart(3, '0');
-  return `https://raw.githubusercontent.com/wofsauge/IsaacDocs/main/docs/images/items/collectibles/collectibles_${padded}.png`;
+const BASE = 'https://raw.githubusercontent.com/Heidar-An/Binding-Of-Isaac-Item-Dataset/main';
+
+function getImageUrl(item) {
+  const folder = item.imgFolder || 'passive';
+  const imgName = item.img || item.name.replace(/'/g, '');
+  return `${BASE}/${folder}-collectible-icons/${encodeURIComponent(imgName)}/${encodeURIComponent(imgName)}_0.png`;
 }
 
-export default function Pedestal({ item, onClick, disabled, result }) {
+export default function Pedestal({ item, onClick, disabled, result, hideLabel }) {
+  const [imgError, setImgError] = useState(false);
   const isCorrect = result === 'correct';
   const isWrong = result === 'wrong';
 
@@ -45,29 +49,49 @@ export default function Pedestal({ item, onClick, disabled, result }) {
         transition: 'box-shadow 0.3s',
         imageRendering: 'pixelated',
       }}>
-        <img
-          src={getImageUrl(item.id)}
-          alt={item.name}
-          style={{
+        {imgError ? (
+          <div style={{
             width: 64,
             height: 64,
-            imageRendering: 'pixelated',
-          }}
-          draggable={false}
-        />
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            background: '#333',
+            border: '2px solid #555',
+            borderRadius: 4,
+            fontSize: 24,
+            color: '#e0d5c0',
+          }}>
+            ?
+          </div>
+        ) : (
+          <img
+            src={getImageUrl(item)}
+            alt={hideLabel ? '???' : item.name}
+            onError={() => setImgError(true)}
+            style={{
+              width: 64,
+              height: 64,
+              imageRendering: 'pixelated',
+            }}
+            draggable={false}
+          />
+        )}
       </div>
 
-      {/* Pedestal SVG */}
-      <svg width="80" height="40" viewBox="0 0 80 40">
-        <rect x="16" y="0" width="48" height="4" fill="#8b7355" />
-        <rect x="12" y="4" width="56" height="4" fill="#a08060" />
-        <rect x="8" y="8" width="64" height="24" fill="#6b5335" />
-        <rect x="12" y="8" width="56" height="2" fill="#9b8365" />
-        <rect x="4" y="32" width="72" height="4" fill="#a08060" />
-        <rect x="0" y="36" width="80" height="4" fill="#8b7355" />
-      </svg>
+      {/* Pedestal sprite */}
+      <img
+        src="/assets/pedestal.png"
+        alt=""
+        style={{
+          width: 64,
+          height: 32,
+          imageRendering: 'pixelated',
+        }}
+        draggable={false}
+      />
 
-      {/* Item name */}
+      {/* Item name - hidden for ICON_QUIZ until answered */}
       <div style={{
         marginTop: 8,
         fontSize: 8,
@@ -75,6 +99,7 @@ export default function Pedestal({ item, onClick, disabled, result }) {
         maxWidth: 100,
         lineHeight: 1.4,
         color: isCorrect ? '#0f0' : isWrong ? '#f00' : '#ccc',
+        visibility: hideLabel ? 'hidden' : 'visible',
       }}>
         {item.name}
       </div>
