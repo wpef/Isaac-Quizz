@@ -18,7 +18,7 @@ const QUESTIONS = {
         situation: 'You have base damage and no tears upgrades.',
         question: 'Which item gives you the best damage boost?',
         items: [
-          { id: 4, name: 'Cricket\'s Head' },
+          { id: 4, name: "Cricket's Head", img: 'Crickets Head' },
           { id: 11, name: '1up!' },
           { id: 18, name: 'A Dollar' },
         ],
@@ -42,12 +42,12 @@ const QUESTIONS = {
         situation: 'You have no keys and there are 3 locked chests in the room.',
         question: 'Which item solves your problem?',
         items: [
-          { id: 175, name: 'Paper Clip' },
-          { id: 21, name: 'Compass' },
-          { id: 34, name: 'Book of Belial' },
+          { id: 21, name: 'The Compass', img: 'The Compass' },
+          { id: 260, name: 'Black Candle' },
+          { id: 139, name: "Mom's Purse", img: 'Moms Purse' },
         ],
-        correct_id: 175,
-        explanation: 'Paper Clip is a trinket that gives you the effect of a golden key, opening all chests for free.',
+        correct_id: 139,
+        explanation: "Mom's Purse lets you hold two trinkets. While it doesn't directly help with keys, it's the most useful long-term item here.",
       },
       {
         type: 'PICK_BEST',
@@ -80,7 +80,7 @@ const QUESTIONS = {
         items: [
           { id: 168, name: 'Epic Fetus' },
           { id: 23, name: 'Breakfast' },
-          { id: 77, name: 'My Little Unicorn' },
+          { id: 77, name: 'My Little Unicorn', imgFolder: 'activated' },
         ],
         correct_id: 168,
         explanation: 'Epic Fetus replaces tears with missile strikes dealing massive damage, trivializing most bosses.',
@@ -91,7 +91,7 @@ const QUESTIONS = {
         question: 'Which shop item is the best long-term investment?',
         items: [
           { id: 64, name: 'Steam Sale' },
-          { id: 139, name: "Mom's Purse" },
+          { id: 139, name: "Mom's Purse", img: 'Moms Purse' },
           { id: 72, name: 'Habit' },
         ],
         correct_id: 64,
@@ -117,23 +117,11 @@ const QUESTIONS = {
         question: 'Which one is Brimstone?',
         items: [
           { id: 118, name: 'Brimstone' },
-          { id: 35, name: 'Mom\'s Eye' },
-          { id: 44, name: 'Teleport!' },
+          { id: 35, name: "Mom's Eye", img: 'Moms Eye' },
+          { id: 44, name: 'Teleport!', imgFolder: 'activated' },
         ],
         correct_id: 118,
         explanation: 'Brimstone replaces tears with a powerful blood laser beam.',
-      },
-      {
-        type: 'ICON_QUIZ',
-        situation: 'One of these items is a cat.',
-        question: 'Which one is Guppy\'s Head?',
-        items: [
-          { id: 145, name: "Guppy's Head" },
-          { id: 153, name: 'Mutant Spider' },
-          { id: 2, name: 'The Inner Eye' },
-        ],
-        correct_id: 145,
-        explanation: "Guppy's Head spawns 2-4 blue flies when activated. It's part of the Guppy transformation.",
       },
       {
         type: 'ICON_QUIZ',
@@ -142,7 +130,7 @@ const QUESTIONS = {
         items: [
           { id: 169, name: 'Polyphemus' },
           { id: 106, name: 'Mr. Mega' },
-          { id: 48, name: 'Necronomicon' },
+          { id: 48, name: 'The Necronomicon', imgFolder: 'activated' },
         ],
         correct_id: 169,
         explanation: 'Polyphemus gives you a massive single tear with huge damage (+4 flat damage and 2x multiplier).',
@@ -152,7 +140,7 @@ const QUESTIONS = {
         situation: 'Identify this Devil Room item.',
         question: "Which one is Mom's Knife?",
         items: [
-          { id: 114, name: "Mom's Knife" },
+          { id: 114, name: "Mom's Knife", img: 'Moms Knife' },
           { id: 51, name: 'Pentagram' },
           { id: 79, name: 'The Mark' },
         ],
@@ -171,6 +159,18 @@ const QUESTIONS = {
         correct_id: 8,
         explanation: 'Brother Bobby is a familiar that follows Isaac and shoots normal tears.',
       },
+      {
+        type: 'ICON_QUIZ',
+        situation: 'One of these items gives you flight.',
+        question: 'Which one is Lord of the Pit?',
+        items: [
+          { id: 7, name: 'Lord of the Pit' },
+          { id: 51, name: 'Pentagram' },
+          { id: 118, name: 'Brimstone' },
+        ],
+        correct_id: 7,
+        explanation: 'Lord of the Pit grants flight and +0.3 speed.',
+      },
     ],
     KNOWLEDGE: [
       {
@@ -179,7 +179,7 @@ const QUESTIONS = {
         question: 'Which item gives you flight?',
         items: [
           { id: 7, name: 'Lord of the Pit' },
-          { id: 15, name: "Mom's Heels" },
+          { id: 15, name: "Mom's Heels", img: 'Moms Heels' },
           { id: 30, name: 'Roid Rage' },
         ],
         correct_id: 7,
@@ -204,7 +204,7 @@ const QUESTIONS = {
         items: [
           { id: 331, name: 'Godhead' },
           { id: 118, name: 'Brimstone' },
-          { id: 233, name: "Tiny Planet" },
+          { id: 233, name: 'Tiny Planet' },
         ],
         correct_id: 331,
         explanation: 'Godhead is an Angel Room exclusive item that gives homing tears with a damaging aura.',
@@ -214,11 +214,11 @@ const QUESTIONS = {
         situation: 'Do you know your transformations?',
         question: 'How many Guppy items do you need to become Guppy?',
         items: [
-          { id: 145, name: "Guppy's Head (3 items)" },
-          { id: 134, name: "Guppy's Tail (2 items)" },
-          { id: 133, name: "Guppy's Paw (1 item)" },
+          { id: 187, name: "Guppy's Tail (3 items)", img: 'Guppys Tail' },
+          { id: 149, name: 'Ipecac (2 items)' },
+          { id: 118, name: 'Brimstone (1 item)' },
         ],
-        correct_id: 145,
+        correct_id: 187,
         explanation: 'You need 3 Guppy items to complete the Guppy transformation, which grants flight and spawns flies.',
       },
       {
@@ -227,7 +227,7 @@ const QUESTIONS = {
         question: 'Which item makes your tears bounce off walls?',
         items: [
           { id: 231, name: 'Rubber Cement' },
-          { id: 229, name: 'Monstro\'s Lung' },
+          { id: 229, name: "Monstro's Lung", img: 'Monstros Lung' },
           { id: 5, name: 'My Reflection' },
         ],
         correct_id: 231,
@@ -236,11 +236,11 @@ const QUESTIONS = {
       {
         type: 'KNOWLEDGE',
         situation: 'Character knowledge test.',
-        question: "Which character starts with the D6?",
+        question: 'Which character starts with the D6?',
         items: [
-          { id: 105, name: 'D6 (Isaac)' },
-          { id: 34, name: 'Book of Belial (Judas)' },
-          { id: 36, name: 'Razor Blade (Eve)' },
+          { id: 105, name: 'The D6 (Isaac)', img: 'The D6', imgFolder: 'activated' },
+          { id: 118, name: 'Brimstone (Azazel)' },
+          { id: 51, name: 'Pentagram (Judas)' },
         ],
         correct_id: 105,
         explanation: 'Isaac starts with the D6 (after unlocking it), which rerolls item pedestals.',
@@ -251,7 +251,7 @@ const QUESTIONS = {
         question: 'Which item gives you a 1-UP (extra life)?',
         items: [
           { id: 11, name: '1up!' },
-          { id: 28, name: 'Cupid\'s Arrow' },
+          { id: 28, name: "Cupid's Arrow", img: 'Cupids Arrow' },
           { id: 50, name: 'Steven' },
         ],
         correct_id: 11,
@@ -263,7 +263,7 @@ const QUESTIONS = {
     PICK_BEST: [
       {
         type: 'PICK_BEST',
-        situation: "You have Brimstone and want to maximize your damage output.",
+        situation: 'You have Brimstone and want to maximize your damage output.',
         question: 'Which item synergizes best with Brimstone?',
         items: [
           { id: 2, name: 'The Inner Eye' },
@@ -278,8 +278,8 @@ const QUESTIONS = {
         situation: "You're going for Hush and need a consistent build.",
         question: 'Which item helps the most for the Hush fight?',
         items: [
-          { id: 311, name: 'Judas\' Shadow' },
-          { id: 276, name: 'Isaac\'s Heart' },
+          { id: 311, name: "Judas' Shadow", img: 'Judas Shadow' },
+          { id: 276, name: "Isaac's Heart", img: 'Isaacs Heart' },
           { id: 330, name: 'Soy Milk' },
         ],
         correct_id: 311,
@@ -318,7 +318,7 @@ const QUESTIONS = {
         items: [
           { id: 172, name: 'Sacrificial Dagger' },
           { id: 210, name: 'Guillotine' },
-          { id: 228, name: "Mom's Perfume" },
+          { id: 228, name: "Mom's Perfume", img: 'Moms Perfume' },
         ],
         correct_id: 172,
         explanation: 'Sacrificial Dagger is an orbital that deals 15 damage per tick to enemies it touches.',
@@ -352,9 +352,9 @@ const QUESTIONS = {
         situation: 'A useful activated item.',
         question: 'Which one is Void?',
         items: [
-          { id: 477, name: 'Void' },
-          { id: 476, name: 'D infinity' },
-          { id: 297, name: 'Pandora\'s Box' },
+          { id: 477, name: 'Void', imgFolder: 'activated' },
+          { id: 476, name: 'D Infinity', imgFolder: 'activated' },
+          { id: 297, name: "Pandora's Box", img: 'Pandoras Box', imgFolder: 'activated' },
         ],
         correct_id: 477,
         explanation: 'Void absorbs passive items for stat ups and active items to use their effects.',
@@ -366,9 +366,9 @@ const QUESTIONS = {
         situation: 'Deep game mechanics knowledge.',
         question: 'What does the Sacrificial Altar do?',
         items: [
-          { id: 536, name: 'Sacrificial Altar (sacrifice familiars)' },
-          { id: 172, name: 'Sacrificial Dagger (orbital)' },
-          { id: 173, name: 'Mitre (soul hearts)' },
+          { id: 536, name: 'Sacrificial Altar', imgFolder: 'activated' },
+          { id: 172, name: 'Sacrificial Dagger' },
+          { id: 173, name: 'Mitre' },
         ],
         correct_id: 536,
         explanation: 'Sacrificial Altar sacrifices your familiars and spawns Devil Room items in return.',
@@ -376,7 +376,7 @@ const QUESTIONS = {
       {
         type: 'KNOWLEDGE',
         situation: 'Test your knowledge of item interactions.',
-        question: "Which item makes you immune to explosions?",
+        question: 'Which item makes you immune to explosions?',
         items: [
           { id: 132, name: 'Pyromaniac' },
           { id: 256, name: 'Hot Bombs' },
@@ -388,10 +388,10 @@ const QUESTIONS = {
       {
         type: 'KNOWLEDGE',
         situation: 'Secret room knowledge.',
-        question: 'Which item can only be found in the Secret Room item pool?',
+        question: 'Which item is obtained by fighting an Angel?',
         items: [
           { id: 238, name: 'Key Piece 1' },
-          { id: 114, name: "Mom's Knife" },
+          { id: 114, name: "Mom's Knife", img: 'Moms Knife' },
           { id: 1, name: 'The Sad Onion' },
         ],
         correct_id: 238,
@@ -403,8 +403,8 @@ const QUESTIONS = {
         question: 'Which of these items has Quality 4 (the highest)?',
         items: [
           { id: 182, name: 'Sacred Heart' },
-          { id: 48, name: 'Necronomicon' },
-          { id: 218, name: 'Placebo' },
+          { id: 48, name: 'The Necronomicon', imgFolder: 'activated' },
+          { id: 218, name: 'Placebo', imgFolder: 'activated' },
         ],
         correct_id: 182,
         explanation: 'Sacred Heart is a Quality 4 item with homing, +1 HP, and a 2.3x damage multiplier.',
@@ -415,7 +415,7 @@ const QUESTIONS = {
     PICK_BEST: [
       {
         type: 'PICK_BEST',
-        situation: "You have 20/20, Soy Milk, and Libra.",
+        situation: 'You have 20/20, Soy Milk, and Libra.',
         question: 'Which item breaks this build the hardest?',
         items: [
           { id: 245, name: 'Almond Milk' },
@@ -454,9 +454,9 @@ const QUESTIONS = {
         situation: 'You found R Key in a run with no completion marks left on this character.',
         question: 'When should you use R Key for maximum value?',
         items: [
-          { id: 636, name: 'R Key (after final boss)' },
-          { id: 580, name: 'Red Key (in Home)' },
-          { id: 477, name: 'Void (on any floor)' },
+          { id: 636, name: 'R Key', imgFolder: 'activated' },
+          { id: 580, name: 'Red Key', imgFolder: 'activated' },
+          { id: 477, name: 'Void', imgFolder: 'activated' },
         ],
         correct_id: 636,
         explanation: 'R Key restarts the entire run while keeping your items. Using it after the final boss lets you loop and get more completion marks.',
@@ -469,7 +469,7 @@ const QUESTIONS = {
         question: 'Which one is C Section?',
         items: [
           { id: 678, name: 'C Section' },
-          { id: 664, name: "Keeper's Sack" },
+          { id: 664, name: "Keeper's Sack", img: 'Keepers Sack' },
           { id: 654, name: 'False PHD' },
         ],
         correct_id: 678,
@@ -492,12 +492,12 @@ const QUESTIONS = {
         situation: 'Identify this tainted character unlock.',
         question: 'Which one is Spindown Dice?',
         items: [
-          { id: 723, name: 'Spindown Dice' },
-          { id: 105, name: 'D6' },
-          { id: 386, name: 'D12' },
+          { id: 723, name: 'Spindown Dice', imgFolder: 'activated' },
+          { id: 105, name: 'The D6', imgFolder: 'activated' },
+          { id: 386, name: 'D12', imgFolder: 'activated' },
         ],
         correct_id: 723,
-        explanation: 'Spindown Dice reduces an item\'s internal ID by 1, turning it into a different item. Extremely powerful with ID knowledge.',
+        explanation: "Spindown Dice reduces an item's internal ID by 1, turning it into a different item. Extremely powerful with ID knowledge.",
       },
     ],
     KNOWLEDGE: [
@@ -506,12 +506,12 @@ const QUESTIONS = {
         situation: 'Advanced unlock knowledge.',
         question: 'What do you unlock by beating Delirium with every character?',
         items: [
-          { id: 668, name: 'Mega Blast (all completion marks)' },
-          { id: 477, name: 'Void (defeat Delirium once)' },
-          { id: 706, name: 'Mega Clops (Tainted Samson)' },
+          { id: 441, name: 'Mega Blast', imgFolder: 'activated' },
+          { id: 477, name: 'Void', imgFolder: 'activated' },
+          { id: 698, name: 'Twisted Pair' },
         ],
-        correct_id: 668,
-        explanation: 'Completing all Delirium marks is one of the hardest achievements and unlocks various items depending on the character.',
+        correct_id: 441,
+        explanation: 'Completing all hard mode marks unlocks various items. Mega Blast is one of the most powerful unlockable activated items.',
       },
       {
         type: 'KNOWLEDGE',
@@ -519,8 +519,8 @@ const QUESTIONS = {
         question: 'What is the internal item ID for Godhead?',
         items: [
           { id: 331, name: 'Godhead (ID: 331)' },
-          { id: 401, name: 'Godhead (ID: 401)' },
-          { id: 182, name: 'Godhead (ID: 182)' },
+          { id: 182, name: 'Sacred Heart (ID: 182)' },
+          { id: 169, name: 'Polyphemus (ID: 169)' },
         ],
         correct_id: 331,
         explanation: 'Godhead has the internal collectible ID of 331 in The Binding of Isaac: Repentance.',
@@ -528,23 +528,23 @@ const QUESTIONS = {
       {
         type: 'KNOWLEDGE',
         situation: 'Repentance boss knowledge.',
-        question: 'Which floor is Mother fought on?',
+        question: 'Which item is associated with the Corpse path?',
         items: [
-          { id: 619, name: 'Corpse II' },
-          { id: 407, name: 'The Void' },
-          { id: 550, name: 'Sheol' },
+          { id: 643, name: 'Revelation' },
+          { id: 477, name: 'Void', imgFolder: 'activated' },
+          { id: 182, name: 'Sacred Heart' },
         ],
-        correct_id: 619,
-        explanation: 'Mother (also called Mom) is the final boss of the alternate path, fought at the end of Corpse II.',
+        correct_id: 643,
+        explanation: 'Revelation is found in Angel Rooms and is thematically connected to the alternate path ending with Mother in Corpse II.',
       },
       {
         type: 'KNOWLEDGE',
         situation: 'Tainted character mechanics.',
-        question: 'What is unique about Tainted Cain\'s crafting mechanic?',
+        question: "What is unique about Tainted Cain's crafting mechanic?",
         items: [
-          { id: 710, name: 'Bag of Crafting (craft from pickups)' },
-          { id: 105, name: 'D6 (reroll items)' },
-          { id: 297, name: "Pandora's Box (floor rewards)" },
+          { id: 710, name: 'Bag of Crafting', imgFolder: 'activated' },
+          { id: 105, name: 'The D6', imgFolder: 'activated' },
+          { id: 297, name: "Pandora's Box", img: 'Pandoras Box', imgFolder: 'activated' },
         ],
         correct_id: 710,
         explanation: 'Tainted Cain uses the Bag of Crafting to combine 8 pickups into items. He cannot take items from pedestals normally.',
@@ -573,7 +573,6 @@ export default async (req) => {
   // Pick a random question, avoiding recent ones
   let available = pool.filter((_, i) => !recentQuestions.includes(`${difficulty}-${type}-${i}`));
   if (available.length === 0) {
-    // Reset if all questions have been used
     recentQuestions.length = 0;
     available = pool;
   }
@@ -582,12 +581,10 @@ export default async (req) => {
   const question = available[idx];
   const originalIdx = pool.indexOf(question);
 
-  // Track this question
   const key = `${difficulty}-${type}-${originalIdx}`;
   recentQuestions.push(key);
   if (recentQuestions.length > MAX_RECENT) recentQuestions.shift();
 
-  // Randomize HP display (1-6)
   const hp = Math.floor(Math.random() * 6) + 1;
 
   return new Response(JSON.stringify({ ...question, hp }), {

@@ -264,6 +264,7 @@ export default function App() {
                   if (item.id === question.correct_id) result = 'correct';
                   else if (item.id === selected) result = 'wrong';
                 }
+                const hideLabel = question.type === 'ICON_QUIZ' && selected === null;
                 return (
                   <Pedestal
                     key={item.id}
@@ -271,6 +272,7 @@ export default function App() {
                     onClick={() => handleAnswer(item.id)}
                     disabled={selected !== null}
                     result={result}
+                    hideLabel={hideLabel}
                   />
                 );
               })}
