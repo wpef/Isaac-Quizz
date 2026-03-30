@@ -48,34 +48,6 @@ function Torch({ left }) {
   );
 }
 
-function Door({ position }) {
-  const isVertical = position === 'top' || position === 'bottom';
-  const style = {
-    position: 'absolute',
-    zIndex: 2,
-    ...(position === 'top' && { top: 0, left: '50%', transform: 'translateX(-50%)' }),
-    ...(position === 'bottom' && { bottom: 0, left: '50%', transform: 'translateX(-50%) scaleY(-1)' }),
-    ...(position === 'left' && { left: 0, top: '50%', transform: 'translateY(-50%) rotate(90deg)' }),
-    ...(position === 'right' && { right: 0, top: '50%', transform: 'translateY(-50%) rotate(-90deg)' }),
-  };
-
-  return (
-    <div style={style}>
-      <img
-        src="/assets/door.png"
-        alt=""
-        style={{
-          width: isVertical ? 64 : 48,
-          height: isVertical ? 40 : 32,
-          imageRendering: 'pixelated',
-          display: 'block',
-        }}
-        draggable={false}
-      />
-    </div>
-  );
-}
-
 export default function Room({ children }) {
   return (
     <>
@@ -86,63 +58,24 @@ export default function Room({ children }) {
         height: '100%',
         overflow: 'hidden',
       }}>
-        {/* Background walls using game sprite */}
-        <div style={{
-          position: 'absolute',
-          inset: 0,
-          backgroundColor: '#1a1410',
-        }}>
-          {/* Top-left corner (original orientation) */}
-          <img src="/assets/basement_bg.png" alt="" style={{
-            position: 'absolute', top: 0, left: 0,
+        {/* Full room background image */}
+        <img
+          src="/assets/room_bg.png"
+          alt=""
+          style={{
+            position: 'absolute',
+            inset: 0,
+            width: '100%',
+            height: '100%',
+            objectFit: 'fill',
             imageRendering: 'pixelated',
-            width: '50%', height: 'auto',
-          }} draggable={false} />
-          {/* Top-right corner (flipped horizontally) */}
-          <img src="/assets/basement_bg.png" alt="" style={{
-            position: 'absolute', top: 0, right: 0,
-            imageRendering: 'pixelated',
-            width: '50%', height: 'auto',
-            transform: 'scaleX(-1)',
-          }} draggable={false} />
-          {/* Bottom-left corner (flipped vertically) */}
-          <img src="/assets/basement_bg.png" alt="" style={{
-            position: 'absolute', bottom: 0, left: 0,
-            imageRendering: 'pixelated',
-            width: '50%', height: 'auto',
-            transform: 'scaleY(-1)',
-          }} draggable={false} />
-          {/* Bottom-right corner (flipped both) */}
-          <img src="/assets/basement_bg.png" alt="" style={{
-            position: 'absolute', bottom: 0, right: 0,
-            imageRendering: 'pixelated',
-            width: '50%', height: 'auto',
-            transform: 'scale(-1, -1)',
-          }} draggable={false} />
-        </div>
-
-        {/* Floor tiles */}
-        <div style={{
-          position: 'absolute',
-          top: 32,
-          left: 32,
-          right: 32,
-          bottom: 32,
-          backgroundImage: 'url(/assets/basement_floor.png)',
-          backgroundSize: '128px 128px',
-          backgroundRepeat: 'repeat',
-          imageRendering: 'pixelated',
-        }} />
+          }}
+          draggable={false}
+        />
 
         {/* Torches */}
         <Torch left />
         <Torch />
-
-        {/* Doors */}
-        <Door position="top" />
-        <Door position="bottom" />
-        <Door position="left" />
-        <Door position="right" />
 
         {/* Content */}
         <div style={{
