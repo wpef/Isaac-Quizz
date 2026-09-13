@@ -29,7 +29,9 @@
   "colors": [
    "green"
   ],
-  "tags": []
+  "tags": [
+   "tears_up"
+  ]
  },
  {
   "id": 2,
@@ -61,7 +63,11 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "multi_shot",
+   "tear_modifier",
+   "tears_down"
+  ]
  },
  {
   "id": 3,
@@ -91,7 +97,9 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "homing"
+  ]
  },
  {
   "id": 4,
@@ -130,7 +138,10 @@
    "brown",
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "damage_multiplier",
+   "damage_up"
+  ]
  },
  {
   "id": 5,
@@ -169,7 +180,14 @@
    "grey",
    "silver"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "luck_down",
+   "range_up",
+   "shot_speed_up",
+   "speed_up",
+   "tear_modifier"
+  ]
  },
  {
   "id": 6,
@@ -204,7 +222,10 @@
   "colors": [
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "range_down",
+   "tears_up"
+  ]
  },
  {
   "id": 7,
@@ -238,7 +259,10 @@
   "colors": [
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "damage_multiplier",
+   "damage_up"
+  ]
  },
  {
   "id": 8,
@@ -274,7 +298,10 @@
    "purple",
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar"
+  ]
  },
  {
   "id": 9,
@@ -305,7 +332,11 @@
    "black",
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "contact_damage",
+   "oh_crap"
+  ]
  },
  {
   "id": 10,
@@ -341,7 +372,11 @@
   "colors": [
    "black"
   ],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "orbital",
+   "shield"
+  ]
  },
  {
   "id": 11,
@@ -371,7 +406,10 @@
    "spotted"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "extra_life",
+   "fun_guy"
+  ]
  },
  {
   "id": 12,
@@ -413,7 +451,17 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "damage_multiplier",
+   "damage_up",
+   "fun_guy",
+   "healing",
+   "hp_up",
+   "range_up",
+   "size_up",
+   "speed_up",
+   "stompy"
+  ]
  },
  {
   "id": 13,
@@ -454,7 +502,11 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "poison",
+   "speed_up",
+   "spun"
+  ]
  },
  {
   "id": 14,
@@ -497,7 +549,11 @@
   "colors": [
    "green"
   ],
-  "tags": []
+  "tags": [
+   "range_up",
+   "speed_up",
+   "spun"
+  ]
  },
  {
   "id": 15,
@@ -533,7 +589,10 @@
    "the lost item pool"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "healing",
+   "hp_up"
+  ]
  },
  {
   "id": 16,
@@ -564,7 +623,10 @@
   "colors": [
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "healing",
+   "hp_up"
+  ]
  },
  {
   "id": 17,
@@ -595,7 +657,9 @@
    "silver",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "gives_keys"
+  ]
  },
  {
   "id": 18,
@@ -623,7 +687,10 @@
   "colors": [
    "green"
   ],
-  "tags": []
+  "tags": [
+   "explosive",
+   "gives_coins"
+  ]
  },
  {
   "id": 19,
@@ -655,7 +722,9 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "gives_bombs"
+  ]
  },
  {
   "id": 20,
@@ -684,7 +753,9 @@
   "colors": [
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "flight"
+  ]
  },
  {
   "id": 21,
@@ -763,7 +834,10 @@
    "brown",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "healing",
+   "hp_up"
+  ]
  },
  {
   "id": 23,
@@ -805,7 +879,10 @@
   "colors": [
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "healing",
+   "hp_up"
+  ]
  },
  {
   "id": 24,
@@ -848,7 +925,10 @@
   "colors": [
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "healing",
+   "hp_up"
+  ]
  },
  {
   "id": 25,
@@ -888,7 +968,10 @@
    "milk"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "healing",
+   "hp_up"
+  ]
  },
  {
   "id": 26,
@@ -931,7 +1014,10 @@
    "green",
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "healing",
+   "hp_up"
+  ]
  },
  {
   "id": 27,
@@ -960,7 +1046,9 @@
   "colors": [
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "speed_up"
+  ]
  },
  {
   "id": 28,
@@ -995,7 +1083,9 @@
   "colors": [
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "speed_up"
+  ]
  },
  {
   "id": 29,
@@ -1038,7 +1128,10 @@
   "colors": [
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "range_up",
+   "yes_mother"
+  ]
  },
  {
   "id": 30,
@@ -1078,7 +1171,11 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "range_up",
+   "yes_mother"
+  ]
  },
  {
   "id": 31,
@@ -1119,7 +1216,10 @@
    "red",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "range_up",
+   "yes_mother"
+  ]
  },
  {
   "id": 32,
@@ -1149,7 +1249,9 @@
   "colors": [
    "black"
   ],
-  "tags": []
+  "tags": [
+   "tears_up"
+  ]
  },
  {
   "id": 33,
@@ -1188,7 +1290,11 @@
   "colors": [
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "bookworm",
+   "seraphim"
+  ]
  },
  {
   "id": 34,
@@ -1224,7 +1330,13 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "angel_deal_helper",
+   "bookworm",
+   "character_start",
+   "devil_deal_helper"
+  ]
  },
  {
   "id": 35,
@@ -1263,7 +1375,10 @@
    "pink",
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "bookworm"
+  ]
  },
  {
   "id": 36,
@@ -1295,7 +1410,12 @@
   "colors": [
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "character_start",
+   "explosive",
+   "oh_crap"
+  ]
  },
  {
   "id": 37,
@@ -1331,7 +1451,9 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 38,
@@ -1365,7 +1487,12 @@
    "white",
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "homing",
+   "orbital",
+   "poison"
+  ]
  },
  {
   "id": 39,
@@ -1405,7 +1532,11 @@
    "white",
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "freeze",
+   "yes_mother"
+  ]
  },
  {
   "id": 40,
@@ -1437,7 +1568,12 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "angel_deal_helper",
+   "devil_deal_helper",
+   "explosive"
+  ]
  },
  {
   "id": 41,
@@ -1476,7 +1612,11 @@
    "white",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "fear",
+   "yes_mother"
+  ]
  },
  {
   "id": 42,
@@ -1516,7 +1656,12 @@
    "grey",
    "green"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "bob",
+   "explosive",
+   "poison"
+  ]
  },
  {
   "id": 44,
@@ -1543,7 +1688,10 @@
    "robot"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "teleport"
+  ]
  },
  {
   "id": 45,
@@ -1578,7 +1726,11 @@
    "red",
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "character_start",
+   "healing"
+  ]
  },
  {
   "id": 46,
@@ -1618,7 +1770,10 @@
    "white",
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "luck_scaling",
+   "luck_up"
+  ]
  },
  {
   "id": 47,
@@ -1648,7 +1803,9 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 48,
@@ -1684,7 +1841,9 @@
    "grey",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "piercing"
+  ]
  },
  {
   "id": 49,
@@ -1717,7 +1876,9 @@
    "red",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 50,
@@ -1750,7 +1911,9 @@
    "black",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "damage_up"
+  ]
  },
  {
   "id": 51,
@@ -1793,7 +1956,12 @@
    "red",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "angel_deal_helper",
+   "damage_up",
+   "devil_deal_helper",
+   "leviathan"
+  ]
  },
  {
   "id": 52,
@@ -1832,7 +2000,14 @@
    "white",
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "damage_multiplier",
+   "damage_up",
+   "explosive",
+   "explosive_tears",
+   "tear_modifier",
+   "tears_down"
+  ]
  },
  {
   "id": 53,
@@ -1935,7 +2110,11 @@
    "white",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "luck_scaling",
+   "tear_modifier",
+   "yes_mother"
+  ]
  },
  {
   "id": 56,
@@ -1964,7 +2143,9 @@
   "colors": [
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 57,
@@ -1999,7 +2180,11 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "contact_damage",
+   "orbital"
+  ]
  },
  {
   "id": 58,
@@ -2035,7 +2220,11 @@
    "white",
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "bookworm",
+   "invincibility"
+  ]
  },
  {
   "id": 60,
@@ -2099,7 +2288,10 @@
    "black",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "healing"
+  ]
  },
  {
   "id": 63,
@@ -2128,7 +2320,9 @@
    "pink",
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "charge_shot"
+  ]
  },
  {
   "id": 64,
@@ -2202,7 +2396,10 @@
    "red",
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "bookworm"
+  ]
  },
  {
   "id": 66,
@@ -2232,7 +2429,9 @@
    "glass"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 67,
@@ -2266,7 +2465,10 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar"
+  ]
  },
  {
   "id": 68,
@@ -2298,7 +2500,10 @@
    "red",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "laser",
+   "tear_modifier"
+  ]
  },
  {
   "id": 69,
@@ -2330,7 +2535,11 @@
    "brown",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "charge_shot",
+   "tear_modifier",
+   "tears_down"
+  ]
  },
  {
   "id": 70,
@@ -2372,7 +2581,11 @@
    "purple",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "speed_up",
+   "spun"
+  ]
  },
  {
   "id": 71,
@@ -2407,7 +2620,12 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "explosive",
+   "fun_guy",
+   "range_up",
+   "speed_up"
+  ]
  },
  {
   "id": 72,
@@ -2451,7 +2669,11 @@
    "red",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "seraphim",
+   "soul_hearts",
+   "tears_up"
+  ]
  },
  {
   "id": 73,
@@ -2476,7 +2698,10 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "shield"
+  ]
  },
  {
   "id": 74,
@@ -2514,7 +2739,9 @@
    "grey",
    "silver"
   ],
-  "tags": []
+  "tags": [
+   "gives_coins"
+  ]
  },
  {
   "id": 75,
@@ -2548,7 +2775,9 @@
    "pink",
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "healing"
+  ]
  },
  {
   "id": 76,
@@ -2611,7 +2840,11 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "contact_damage",
+   "invincibility"
+  ]
  },
  {
   "id": 78,
@@ -2647,7 +2880,11 @@
   "colors": [
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "bookworm",
+   "devil_deal_helper"
+  ]
  },
  {
   "id": 79,
@@ -2686,7 +2923,13 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "black_hearts",
+   "damage_up",
+   "leviathan",
+   "soul_hearts",
+   "speed_up"
+  ]
  },
  {
   "id": 80,
@@ -2727,7 +2970,12 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "black_hearts",
+   "damage_up",
+   "leviathan",
+   "tears_up"
+  ]
  },
  {
   "id": 81,
@@ -2760,7 +3008,10 @@
    "devil deal"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "extra_life",
+   "guppy"
+  ]
  },
  {
   "id": 82,
@@ -2798,7 +3049,11 @@
    "red",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "flight",
+   "leviathan",
+   "speed_up"
+  ]
  },
  {
   "id": 83,
@@ -2831,7 +3086,11 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "contact_damage",
+   "leviathan"
+  ]
  },
  {
   "id": 84,
@@ -2867,7 +3126,9 @@
    "silver",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 85,
@@ -2900,7 +3161,9 @@
    "brown",
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 86,
@@ -2934,7 +3197,9 @@
    "white",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 87,
@@ -2966,7 +3231,10 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "luck_scaling",
+   "tear_modifier"
+  ]
  },
  {
   "id": 88,
@@ -2997,7 +3265,9 @@
   "colors": [
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 89,
@@ -3033,7 +3303,11 @@
    "grey",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "luck_scaling",
+   "slow",
+   "spider_baby"
+  ]
  },
  {
   "id": 90,
@@ -3066,7 +3340,12 @@
    "grey",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "explosive",
+   "speed_down",
+   "tears_up"
+  ]
  },
  {
   "id": 91,
@@ -3104,7 +3383,9 @@
    "purple",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "shield"
+  ]
  },
  {
   "id": 92,
@@ -3141,7 +3422,11 @@
   "colors": [
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "healing",
+   "hp_up",
+   "soul_hearts"
+  ]
  },
  {
   "id": 93,
@@ -3173,7 +3458,11 @@
    "grey",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "contact_damage",
+   "invincibility"
+  ]
  },
  {
   "id": 94,
@@ -3204,7 +3493,10 @@
   "colors": [
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "familiar",
+   "gives_coins"
+  ]
  },
  {
   "id": 95,
@@ -3241,7 +3533,12 @@
    "silver",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar",
+   "piercing",
+   "spectral"
+  ]
  },
  {
   "id": 96,
@@ -3276,7 +3573,9 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 97,
@@ -3318,7 +3617,10 @@
    "grey",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "bookworm"
+  ]
  },
  {
   "id": 98,
@@ -3348,7 +3650,9 @@
    "the lost item pool"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 99,
@@ -3382,7 +3686,9 @@
    "grey",
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 100,
@@ -3417,7 +3723,11 @@
    "black",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar",
+   "homing"
+  ]
  },
  {
   "id": 101,
@@ -3463,7 +3773,15 @@
    "yellow",
    "gold"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "healing",
+   "hp_up",
+   "range_up",
+   "seraphim",
+   "speed_up",
+   "tears_up"
+  ]
  },
  {
   "id": 102,
@@ -3518,7 +3836,10 @@
    "red",
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "yes_mother"
+  ]
  },
  {
   "id": 103,
@@ -3550,7 +3871,10 @@
   "colors": [
    "green"
   ],
-  "tags": []
+  "tags": [
+   "luck_scaling",
+   "poison"
+  ]
  },
  {
   "id": 104,
@@ -3581,7 +3905,9 @@
   "colors": [
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage"
+  ]
  },
  {
   "id": 105,
@@ -3615,7 +3941,10 @@
    "pink",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "character_start"
+  ]
  },
  {
   "id": 106,
@@ -3654,7 +3983,9 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "gives_bombs"
+  ]
  },
  {
   "id": 107,
@@ -3689,7 +4020,9 @@
    "silver",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 108,
@@ -3763,7 +4096,9 @@
    "red",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "damage_up"
+  ]
  },
  {
   "id": 110,
@@ -3804,7 +4139,12 @@
    "pink",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "freeze",
+   "luck_scaling",
+   "range_up",
+   "yes_mother"
+  ]
  },
  {
   "id": 111,
@@ -3840,7 +4180,10 @@
   "colors": [
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "poison"
+  ]
  },
  {
   "id": 112,
@@ -3867,7 +4210,13 @@
    "wings"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "contact_damage",
+   "orbital",
+   "seraphim",
+   "shield"
+  ]
  },
  {
   "id": 113,
@@ -3904,7 +4253,10 @@
    "black",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar"
+  ]
  },
  {
   "id": 114,
@@ -3946,7 +4298,11 @@
    "grey",
    "silver"
   ],
-  "tags": []
+  "tags": [
+   "knife",
+   "tear_modifier",
+   "yes_mother"
+  ]
  },
  {
   "id": 115,
@@ -3978,7 +4334,10 @@
    "grown"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "spectral",
+   "tears_up"
+  ]
  },
  {
   "id": 116,
@@ -4039,7 +4398,10 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "character_start",
+   "familiar"
+  ]
  },
  {
   "id": 118,
@@ -4074,7 +4436,12 @@
    "red",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "laser",
+   "leviathan",
+   "tear_modifier",
+   "tears_down"
+  ]
  },
  {
   "id": 119,
@@ -4103,7 +4470,11 @@
    "red",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "healing",
+   "hp_up",
+   "speed_up"
+  ]
  },
  {
   "id": 120,
@@ -4146,7 +4517,13 @@
    "purple",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "damage_down",
+   "damage_up",
+   "fun_guy",
+   "speed_up",
+   "tears_up"
+  ]
  },
  {
   "id": 121,
@@ -4188,7 +4565,14 @@
    "pink",
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "fun_guy",
+   "healing",
+   "hp_up",
+   "range_up",
+   "speed_down"
+  ]
  },
  {
   "id": 122,
@@ -4224,7 +4608,11 @@
    "red",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "damage_multiplier",
+   "damage_up",
+   "speed_up"
+  ]
  },
  {
   "id": 123,
@@ -4264,7 +4652,11 @@
    "brown",
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "bookworm",
+   "familiar"
+  ]
  },
  {
   "id": 124,
@@ -4298,7 +4690,9 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 125,
@@ -4332,7 +4726,10 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "gives_bombs",
+   "homing"
+  ]
  },
  {
   "id": 126,
@@ -4367,7 +4764,10 @@
    "silver",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "character_start"
+  ]
  },
  {
   "id": 127,
@@ -4404,7 +4804,10 @@
    "white",
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "one_time_use"
+  ]
  },
  {
   "id": 128,
@@ -4434,7 +4837,11 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "contact_damage",
+   "orbital"
+  ]
  },
  {
   "id": 129,
@@ -4471,7 +4878,10 @@
    "white",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "hp_up",
+   "speed_down"
+  ]
  },
  {
   "id": 130,
@@ -4499,7 +4909,10 @@
    "red",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "contact_damage"
+  ]
  },
  {
   "id": 131,
@@ -4534,7 +4947,10 @@
    "blue",
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "familiar",
+   "gives_bombs"
+  ]
  },
  {
   "id": 132,
@@ -4561,7 +4977,9 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "damage_up"
+  ]
  },
  {
   "id": 133,
@@ -4604,7 +5022,10 @@
    "pink",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "guppy"
+  ]
  },
  {
   "id": 134,
@@ -4646,7 +5067,9 @@
    "white",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "guppy"
+  ]
  },
  {
   "id": 135,
@@ -4672,7 +5095,9 @@
    "red",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 136,
@@ -4704,7 +5129,10 @@
   "colors": [
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "explosive"
+  ]
  },
  {
   "id": 137,
@@ -4740,7 +5168,11 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "explosive",
+   "gives_bombs"
+  ]
  },
  {
   "id": 138,
@@ -4773,7 +5205,11 @@
   "colors": [
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "healing",
+   "hp_up"
+  ]
  },
  {
   "id": 139,
@@ -4806,7 +5242,9 @@
    "purple",
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "yes_mother"
+  ]
  },
  {
   "id": 140,
@@ -4845,7 +5283,11 @@
   "colors": [
    "green"
   ],
-  "tags": []
+  "tags": [
+   "bob",
+   "gives_bombs",
+   "poison"
+  ]
  },
  {
   "id": 141,
@@ -4880,7 +5322,9 @@
    "pink",
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "gives_coins"
+  ]
  },
  {
   "id": 142,
@@ -4918,7 +5362,9 @@
    "brown",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "seraphim"
+  ]
  },
  {
   "id": 143,
@@ -4961,7 +5407,11 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "shot_speed_up",
+   "speed_up",
+   "spun"
+  ]
  },
  {
   "id": 144,
@@ -4992,7 +5442,10 @@
   "colors": [
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "familiar",
+   "super_bum"
+  ]
  },
  {
   "id": 145,
@@ -5035,7 +5488,10 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "guppy"
+  ]
  },
  {
   "id": 146,
@@ -5072,7 +5528,9 @@
    "yellow",
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 147,
@@ -5107,7 +5565,9 @@
    "grey",
    "silver"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 148,
@@ -5140,7 +5600,9 @@
   "colors": [
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "beelzebub"
+  ]
  },
  {
   "id": 149,
@@ -5177,7 +5639,16 @@
   "colors": [
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "bob",
+   "damage_up",
+   "explosive",
+   "explosive_tears",
+   "poison",
+   "range_down",
+   "tear_modifier",
+   "tears_down"
+  ]
  },
  {
   "id": 150,
@@ -5212,7 +5683,9 @@
    "silver",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "luck_scaling"
+  ]
  },
  {
   "id": 151,
@@ -5240,7 +5713,10 @@
    "heart"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "luck_scaling"
+  ]
  },
  {
   "id": 152,
@@ -5276,7 +5752,14 @@
    "grey",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "damage_multiplier",
+   "damage_up",
+   "laser",
+   "poison",
+   "tear_modifier",
+   "tears_down"
+  ]
  },
  {
   "id": 153,
@@ -5310,7 +5793,12 @@
    "green",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "multi_shot",
+   "spider_baby",
+   "tear_modifier",
+   "tears_down"
+  ]
  },
  {
   "id": 154,
@@ -5346,7 +5834,9 @@
    "green",
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "damage_up"
+  ]
  },
  {
   "id": 155,
@@ -5376,7 +5866,10 @@
    "red",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "familiar"
+  ]
  },
  {
   "id": 156,
@@ -5443,7 +5936,10 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "character_start",
+   "damage_up"
+  ]
  },
  {
   "id": 158,
@@ -5471,7 +5967,9 @@
    "white",
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 159,
@@ -5507,7 +6005,11 @@
    "red",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "flight",
+   "leviathan",
+   "spectral"
+  ]
  },
  {
   "id": 160,
@@ -5537,7 +6039,9 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 161,
@@ -5572,7 +6076,10 @@
    "black",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "extra_life",
+   "one_time_use"
+  ]
  },
  {
   "id": 162,
@@ -5608,7 +6115,12 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "invincibility",
+   "luck_scaling",
+   "seraphim",
+   "shield"
+  ]
  },
  {
   "id": 163,
@@ -5641,7 +6153,11 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar",
+   "spectral"
+  ]
  },
  {
   "id": 164,
@@ -5674,7 +6190,9 @@
    "grey",
    "silver"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 165,
@@ -5707,7 +6225,11 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "shot_speed_up",
+   "speed_up"
+  ]
  },
  {
   "id": 166,
@@ -5737,7 +6259,10 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "reroll"
+  ]
  },
  {
   "id": 167,
@@ -5769,7 +6294,11 @@
    "pink",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar",
+   "multi_shot"
+  ]
  },
  {
   "id": 168,
@@ -5802,7 +6331,10 @@
    "white",
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "explosive_tears",
+   "tear_modifier"
+  ]
  },
  {
   "id": 169,
@@ -5839,7 +6371,11 @@
    "blue",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "damage_multiplier",
+   "damage_up",
+   "tears_down"
+  ]
  },
  {
   "id": 170,
@@ -5872,7 +6408,10 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "familiar",
+   "spider_baby"
+  ]
  },
  {
   "id": 171,
@@ -5905,7 +6444,11 @@
    "brown",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "slow",
+   "spider_baby"
+  ]
  },
  {
   "id": 172,
@@ -5941,7 +6484,12 @@
    "red",
    "silver"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "invincibility",
+   "orbital",
+   "shield"
+  ]
  },
  {
   "id": 173,
@@ -5983,7 +6531,9 @@
    "orange",
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "seraphim"
+  ]
  },
  {
   "id": 174,
@@ -6011,7 +6561,12 @@
   "colors": [
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar",
+   "homing",
+   "spectral"
+  ]
  },
  {
   "id": 175,
@@ -6047,7 +6602,9 @@
   "colors": [
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 176,
@@ -6083,7 +6640,12 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "healing",
+   "hp_up",
+   "shot_speed_up",
+   "speed_up"
+  ]
  },
  {
   "id": 177,
@@ -6118,7 +6680,9 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 178,
@@ -6155,7 +6719,11 @@
    "white",
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "extra_life",
+   "familiar",
+   "freeze"
+  ]
  },
  {
   "id": 179,
@@ -6183,7 +6751,9 @@
    "ball"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "flight"
+  ]
  },
  {
   "id": 180,
@@ -6219,7 +6789,9 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "poison"
+  ]
  },
  {
   "id": 181,
@@ -6244,7 +6816,10 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "invincibility"
+  ]
  },
  {
   "id": 182,
@@ -6285,7 +6860,19 @@
    "red",
    "orange"
   ],
-  "tags": []
+  "tags": [
+   "damage_multiplier",
+   "damage_up",
+   "healing",
+   "homing",
+   "hp_up",
+   "range_up",
+   "seraphim",
+   "shot_speed_down",
+   "speed_down",
+   "tear_modifier",
+   "tears_down"
+  ]
  },
  {
   "id": 183,
@@ -6318,7 +6905,11 @@
    "brown",
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "shot_speed_up",
+   "speed_up",
+   "tears_up"
+  ]
  },
  {
   "id": 184,
@@ -6352,7 +6943,12 @@
    "indiana jones"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "flight",
+   "healing",
+   "hp_up",
+   "seraphim"
+  ]
  },
  {
   "id": 185,
@@ -6383,7 +6979,11 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "flight",
+   "seraphim",
+   "spectral"
+  ]
  },
  {
   "id": 186,
@@ -6419,7 +7019,11 @@
    "brown",
    "silver"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "invincibility",
+   "shield"
+  ]
  },
  {
   "id": 187,
@@ -6454,7 +7058,11 @@
    "grey",
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "familiar",
+   "guppy"
+  ]
  },
  {
   "id": 188,
@@ -6493,7 +7101,10 @@
    "brown",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar"
+  ]
  },
  {
   "id": 189,
@@ -6532,7 +7143,14 @@
    "silver",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "healing",
+   "hp_up",
+   "range_up",
+   "speed_up",
+   "tears_up"
+  ]
  },
  {
   "id": 190,
@@ -6564,7 +7182,9 @@
    "doitfgt"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "gives_bombs"
+  ]
  },
  {
   "id": 191,
@@ -6594,7 +7214,10 @@
    "cash money"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "explosive",
+   "tear_modifier"
+  ]
  },
  {
   "id": 192,
@@ -6626,7 +7249,11 @@
    "yellow book how to"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "bookworm",
+   "homing"
+  ]
  },
  {
   "id": 193,
@@ -6659,7 +7286,11 @@
    "red",
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "healing",
+   "hp_up"
+  ]
  },
  {
   "id": 194,
@@ -6691,7 +7322,10 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "shot_speed_up",
+   "speed_up"
+  ]
  },
  {
   "id": 195,
@@ -6738,7 +7372,9 @@
    "mom coin purse"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "yes_mother"
+  ]
  },
  {
   "id": 196,
@@ -6776,7 +7412,10 @@
    "brown",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "soul_hearts",
+   "tears_up"
+  ]
  },
  {
   "id": 197,
@@ -6809,7 +7448,10 @@
   "colors": [
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "range_up"
+  ]
  },
  {
   "id": 198,
@@ -6888,7 +7530,10 @@
   "colors": [
    "gold"
   ],
-  "tags": []
+  "tags": [
+   "gives_keys",
+   "yes_mother"
+  ]
  },
  {
   "id": 200,
@@ -6927,7 +7572,11 @@
    "grey",
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "charm",
+   "luck_scaling",
+   "yes_mother"
+  ]
  },
  {
   "id": 201,
@@ -6961,7 +7610,11 @@
    "grey",
    "silver"
   ],
-  "tags": []
+  "tags": [
+   "confusion",
+   "damage_up",
+   "luck_scaling"
+  ]
  },
  {
   "id": 202,
@@ -6993,7 +7646,10 @@
    "gold",
    "orange"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "freeze"
+  ]
  },
  {
   "id": 203,
@@ -7088,7 +7744,9 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "devil_deal_helper"
+  ]
  },
  {
   "id": 206,
@@ -7122,7 +7780,11 @@
   "colors": [
    "silver"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "damage_up",
+   "tears_up"
+  ]
  },
  {
   "id": 207,
@@ -7147,7 +7809,12 @@
   "colors": [
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "charm",
+   "contact_damage",
+   "orbital",
+   "shield"
+  ]
  },
  {
   "id": 208,
@@ -7178,7 +7845,9 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "damage_up"
+  ]
  },
  {
   "id": 209,
@@ -7213,7 +7882,11 @@
   "colors": [
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "gives_bombs",
+   "healing",
+   "oh_crap"
+  ]
  },
  {
   "id": 210,
@@ -7242,7 +7915,10 @@
   "colors": [
    "green"
   ],
-  "tags": []
+  "tags": [
+   "freeze",
+   "invincibility"
+  ]
  },
  {
   "id": 211,
@@ -7277,7 +7953,9 @@
    "purple",
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "spider_baby"
+  ]
  },
  {
   "id": 212,
@@ -7316,7 +7994,10 @@
    "purple",
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "extra_life",
+   "guppy"
+  ]
  },
  {
   "id": 213,
@@ -7350,7 +8031,11 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "shield",
+   "shot_speed_down",
+   "speed_down"
+  ]
  },
  {
   "id": 214,
@@ -7380,7 +8065,10 @@
    "drip"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "extra_life",
+   "range_up"
+  ]
  },
  {
   "id": 215,
@@ -7415,7 +8103,10 @@
   "colors": [
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "angel_deal_helper",
+   "devil_deal_helper"
+  ]
  },
  {
   "id": 216,
@@ -7454,7 +8145,10 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "black_hearts",
+   "damage_up"
+  ]
  },
  {
   "id": 217,
@@ -7490,7 +8184,11 @@
   "colors": [
    "orange"
   ],
-  "tags": []
+  "tags": [
+   "healing",
+   "luck_scaling",
+   "yes_mother"
+  ]
  },
  {
   "id": 218,
@@ -7523,7 +8221,10 @@
    "purple",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "healing",
+   "hp_up"
+  ]
  },
  {
   "id": 219,
@@ -7554,7 +8255,10 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "hp_up",
+   "luck_scaling"
+  ]
  },
  {
   "id": 220,
@@ -7584,7 +8288,10 @@
    "face"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "explosive",
+   "gives_bombs"
+  ]
  },
  {
   "id": 221,
@@ -7648,7 +8355,11 @@
    "nucleus"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "charge_shot",
+   "tear_modifier",
+   "tears_up"
+  ]
  },
  {
   "id": 223,
@@ -7680,7 +8391,11 @@
   "colors": [
    "orange"
   ],
-  "tags": []
+  "tags": [
+   "explosive",
+   "gives_bombs",
+   "healing"
+  ]
  },
  {
   "id": 224,
@@ -7715,7 +8430,10 @@
    "brown",
    "orange"
   ],
-  "tags": []
+  "tags": [
+   "range_down",
+   "tears_up"
+  ]
  },
  {
   "id": 225,
@@ -7757,7 +8475,9 @@
    "grey",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "luck_scaling"
+  ]
  },
  {
   "id": 226,
@@ -7796,7 +8516,12 @@
    "black",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "black_hearts",
+   "healing",
+   "hp_up",
+   "soul_hearts"
+  ]
  },
  {
   "id": 227,
@@ -7828,7 +8553,9 @@
   "colors": [
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "gives_coins"
+  ]
  },
  {
   "id": 228,
@@ -7871,7 +8598,12 @@
    "white",
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "fear",
+   "luck_scaling",
+   "tears_up",
+   "yes_mother"
+  ]
  },
  {
   "id": 229,
@@ -7903,7 +8635,10 @@
   "colors": [
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "tear_modifier",
+   "tears_down"
+  ]
  },
  {
   "id": 230,
@@ -7939,7 +8674,14 @@
    "pentagram"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "black_hearts",
+   "damage_up",
+   "fear",
+   "leviathan",
+   "luck_scaling",
+   "speed_up"
+  ]
  },
  {
   "id": 231,
@@ -7970,7 +8712,10 @@
    "black",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "luck_scaling",
+   "slow"
+  ]
  },
  {
   "id": 232,
@@ -8002,7 +8747,10 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "slow",
+   "speed_up"
+  ]
  },
  {
   "id": 233,
@@ -8035,7 +8783,12 @@
    "grey",
    "silver"
   ],
-  "tags": []
+  "tags": [
+   "orbital",
+   "range_up",
+   "spectral",
+   "tear_modifier"
+  ]
  },
  {
   "id": 234,
@@ -8066,7 +8819,9 @@
   "colors": [
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "spider_baby"
+  ]
  },
  {
   "id": 236,
@@ -8103,7 +8858,10 @@
    "red",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "oh_crap"
+  ]
  },
  {
   "id": 237,
@@ -8144,7 +8902,12 @@
    "silver",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "piercing",
+   "tear_modifier",
+   "tears_down"
+  ]
  },
  {
   "id": 238,
@@ -8173,7 +8936,11 @@
    "yellow",
    "gold"
   ],
-  "tags": []
+  "tags": [
+   "angel_deal_helper",
+   "devil_deal_helper",
+   "familiar"
+  ]
  },
  {
   "id": 239,
@@ -8199,7 +8966,11 @@
    "yellow",
    "gold"
   ],
-  "tags": []
+  "tags": [
+   "angel_deal_helper",
+   "devil_deal_helper",
+   "familiar"
+  ]
  },
  {
   "id": 240,
@@ -8236,7 +9007,9 @@
    "injection"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "spun"
+  ]
  },
  {
   "id": 241,
@@ -8341,7 +9114,9 @@
    "blue",
    "silver"
   ],
-  "tags": []
+  "tags": [
+   "shield"
+  ]
  },
  {
   "id": 244,
@@ -8375,7 +9150,11 @@
    "white",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "laser",
+   "tear_modifier",
+   "tears_up"
+  ]
  },
  {
   "id": 245,
@@ -8406,7 +9185,12 @@
    "spectacles"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_down",
+   "multi_shot",
+   "tear_modifier",
+   "tears_down"
+  ]
  },
  {
   "id": 246,
@@ -8501,7 +9285,10 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "spider_baby"
+  ]
  },
  {
   "id": 249,
@@ -8560,7 +9347,9 @@
   "colors": [
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "gives_bombs"
+  ]
  },
  {
   "id": 251,
@@ -8654,7 +9443,11 @@
    "red",
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "healing",
+   "hp_up",
+   "luck_up"
+  ]
  },
  {
   "id": 254,
@@ -8687,7 +9480,10 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "range_up"
+  ]
  },
  {
   "id": 255,
@@ -8719,7 +9515,11 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "shot_speed_up",
+   "speed_up",
+   "tears_up"
+  ]
  },
  {
   "id": 256,
@@ -8751,7 +9551,11 @@
   "colors": [
    "orange"
   ],
-  "tags": []
+  "tags": [
+   "burn",
+   "explosive",
+   "gives_bombs"
+  ]
  },
  {
   "id": 257,
@@ -8784,7 +9588,11 @@
   "colors": [
    "orange"
   ],
-  "tags": []
+  "tags": [
+   "burn",
+   "explosive",
+   "luck_scaling"
+  ]
  },
  {
   "id": 258,
@@ -8818,7 +9626,9 @@
    "red",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "reroll"
+  ]
  },
  {
   "id": 259,
@@ -8852,7 +9662,11 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "fear",
+   "luck_scaling"
+  ]
  },
  {
   "id": 260,
@@ -8884,7 +9698,12 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "angel_deal_helper",
+   "black_hearts",
+   "devil_deal_helper",
+   "teleport"
+  ]
  },
  {
   "id": 261,
@@ -8916,7 +9735,10 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "tear_modifier"
+  ]
  },
  {
   "id": 262,
@@ -8957,7 +9779,9 @@
    "red",
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "black_hearts"
+  ]
  },
  {
   "id": 263,
@@ -8981,7 +9805,9 @@
    "secret room"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 264,
@@ -9018,7 +9844,11 @@
    "gold",
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "familiar",
+   "shield"
+  ]
  },
  {
   "id": 265,
@@ -9052,7 +9882,11 @@
    "white",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar",
+   "luck_scaling"
+  ]
  },
  {
   "id": 266,
@@ -9084,7 +9918,11 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "familiar",
+   "slow",
+   "spider_baby"
+  ]
  },
  {
   "id": 267,
@@ -9118,7 +9956,10 @@
    "red",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar"
+  ]
  },
  {
   "id": 268,
@@ -9154,7 +9995,10 @@
    "green",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar"
+  ]
  },
  {
   "id": 269,
@@ -9189,7 +10033,10 @@
    "pink",
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar"
+  ]
  },
  {
   "id": 270,
@@ -9219,7 +10066,11 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "familiar",
+   "healing"
+  ]
  },
  {
   "id": 271,
@@ -9259,7 +10110,9 @@
   "colors": [
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 272,
@@ -9288,7 +10141,13 @@
    "smile"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "contact_damage",
+   "explosive",
+   "extra_life",
+   "familiar"
+  ]
  },
  {
   "id": 273,
@@ -9323,7 +10182,13 @@
   "colors": [
    "green"
   ],
-  "tags": []
+  "tags": [
+   "bob",
+   "contact_damage",
+   "explosive",
+   "familiar",
+   "poison"
+  ]
  },
  {
   "id": 274,
@@ -9358,7 +10223,10 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "orbital"
+  ]
  },
  {
   "id": 275,
@@ -9390,7 +10258,10 @@
    "lil' brimstone"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar"
+  ]
  },
  {
   "id": 276,
@@ -9419,7 +10290,10 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "charge_shot",
+   "familiar"
+  ]
  },
  {
   "id": 277,
@@ -9448,7 +10322,11 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "familiar",
+   "fear"
+  ]
  },
  {
   "id": 278,
@@ -9492,7 +10370,10 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "familiar",
+   "super_bum"
+  ]
  },
  {
   "id": 279,
@@ -9523,7 +10404,11 @@
   "colors": [
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "contact_damage",
+   "orbital"
+  ]
  },
  {
   "id": 280,
@@ -9558,7 +10443,11 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "charm",
+   "familiar",
+   "spider_baby"
+  ]
  },
  {
   "id": 281,
@@ -9591,7 +10480,10 @@
    "brown",
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "familiar",
+   "shield"
+  ]
  },
  {
   "id": 282,
@@ -9631,7 +10523,10 @@
    "grey",
    "orange"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "bookworm"
+  ]
  },
  {
   "id": 283,
@@ -9665,7 +10560,10 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "reroll"
+  ]
  },
  {
   "id": 284,
@@ -9698,7 +10596,10 @@
   "colors": [
    "green"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "reroll"
+  ]
  },
  {
   "id": 285,
@@ -9732,7 +10633,10 @@
    "orange",
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "reroll"
+  ]
  },
  {
   "id": 286,
@@ -9765,7 +10669,10 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "teleport"
+  ]
  },
  {
   "id": 287,
@@ -9802,7 +10709,10 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "bookworm"
+  ]
  },
  {
   "id": 288,
@@ -9832,7 +10742,10 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "spider_baby"
+  ]
  },
  {
   "id": 289,
@@ -9856,7 +10769,9 @@
    "shop item pool"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 290,
@@ -9882,7 +10797,9 @@
    "glass"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 291,
@@ -9917,7 +10834,10 @@
    "grey",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "oh_crap"
+  ]
  },
  {
   "id": 292,
@@ -9961,7 +10881,10 @@
    "grey",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "bookworm"
+  ]
  },
  {
   "id": 293,
@@ -9993,7 +10916,9 @@
    "white",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 294,
@@ -10026,7 +10951,9 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 295,
@@ -10061,7 +10988,9 @@
    "yellow",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 296,
@@ -10095,7 +11024,9 @@
    "grey",
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 297,
@@ -10124,7 +11055,10 @@
    "pandoras box"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "one_time_use"
+  ]
  },
  {
   "id": 298,
@@ -10157,7 +11091,11 @@
    "white",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "contact_damage",
+   "invincibility"
+  ]
  },
  {
   "id": 299,
@@ -10192,7 +11130,11 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "invincibility",
+   "speed_down"
+  ]
  },
  {
   "id": 300,
@@ -10229,7 +11171,10 @@
    "blue",
    "cyan"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "speed_up"
+  ]
  },
  {
   "id": 301,
@@ -10268,7 +11213,9 @@
    "black",
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "soul_hearts"
+  ]
  },
  {
   "id": 302,
@@ -10301,7 +11248,9 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "stompy"
+  ]
  },
  {
   "id": 303,
@@ -10330,7 +11279,11 @@
    "m"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "invincibility",
+   "luck_scaling",
+   "shield"
+  ]
  },
  {
   "id": 304,
@@ -10364,7 +11317,11 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "all_stats_up",
+   "damage_up",
+   "gives_keys"
+  ]
  },
  {
   "id": 305,
@@ -10397,7 +11354,9 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "poison"
+  ]
  },
  {
   "id": 306,
@@ -10434,7 +11393,10 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "piercing",
+   "speed_up"
+  ]
  },
  {
   "id": 307,
@@ -10476,7 +11438,17 @@
    "black",
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "gives_bombs",
+   "gives_coins",
+   "gives_keys",
+   "healing",
+   "hp_up",
+   "range_up",
+   "speed_up",
+   "tears_up"
+  ]
  },
  {
   "id": 308,
@@ -10547,7 +11519,10 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "size_up",
+   "tears_up"
+  ]
  },
  {
   "id": 310,
@@ -10586,7 +11561,13 @@
    "black",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "damage_multiplier",
+   "damage_up",
+   "shot_speed_down",
+   "speed_down",
+   "tears_down"
+  ]
  },
  {
   "id": 311,
@@ -10616,7 +11597,12 @@
    "item room pool judas shadow"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_multiplier",
+   "damage_up",
+   "extra_life",
+   "speed_up"
+  ]
  },
  {
   "id": 312,
@@ -10650,7 +11636,10 @@
    "pink",
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "healing",
+   "hp_up"
+  ]
  },
  {
   "id": 313,
@@ -10689,7 +11678,10 @@
    "blue",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "character_start",
+   "seraphim"
+  ]
  },
  {
   "id": 314,
@@ -10726,7 +11718,11 @@
    "grey",
    "orange"
   ],
-  "tags": []
+  "tags": [
+   "healing",
+   "hp_up",
+   "speed_down"
+  ]
  },
  {
   "id": 315,
@@ -10788,7 +11784,11 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "charge_shot",
+   "tear_modifier",
+   "teleport"
+  ]
  },
  {
   "id": 317,
@@ -10851,7 +11851,10 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "familiar"
+  ]
  },
  {
   "id": 319,
@@ -10883,7 +11886,9 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 320,
@@ -10917,7 +11922,11 @@
    "blue bozzy"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "contact_damage",
+   "familiar"
+  ]
  },
  {
   "id": 321,
@@ -10949,7 +11958,10 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "familiar",
+   "shield"
+  ]
  },
  {
   "id": 322,
@@ -10982,7 +11994,12 @@
    "blue",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "damage_multiplier",
+   "damage_up",
+   "familiar"
+  ]
  },
  {
   "id": 323,
@@ -11013,7 +12030,9 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 324,
@@ -11046,7 +12065,10 @@
    "purple",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "teleport"
+  ]
  },
  {
   "id": 325,
@@ -11075,7 +12097,9 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 326,
@@ -11107,7 +12131,11 @@
    "white",
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "contact_damage",
+   "invincibility"
+  ]
  },
  {
   "id": 327,
@@ -11130,7 +12158,10 @@
    "kodak"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "invincibility",
+   "shield"
+  ]
  },
  {
   "id": 328,
@@ -11160,7 +12191,9 @@
    "inverted"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up"
+  ]
  },
  {
   "id": 329,
@@ -11195,7 +12228,11 @@
    "pink",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "shot_speed_up",
+   "tear_modifier",
+   "tears_up"
+  ]
  },
  {
   "id": 330,
@@ -11228,7 +12265,11 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "damage_down",
+   "tear_modifier",
+   "tears_up"
+  ]
  },
  {
   "id": 331,
@@ -11269,7 +12310,16 @@
    "blue",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "homing",
+   "range_up",
+   "seraphim",
+   "shot_speed_down",
+   "speed_down",
+   "tear_modifier",
+   "tears_down"
+  ]
  },
  {
   "id": 332,
@@ -11305,7 +12355,9 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "extra_life"
+  ]
  },
  {
   "id": 333,
@@ -11373,7 +12425,9 @@
    "the lost item pool"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "hp_up"
+  ]
  },
  {
   "id": 335,
@@ -11410,7 +12464,9 @@
    "blue",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "soul_hearts"
+  ]
  },
  {
   "id": 336,
@@ -11446,7 +12502,14 @@
    "pink",
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "piercing",
+   "poison",
+   "range_down",
+   "shot_speed_down",
+   "spectral",
+   "speed_down"
+  ]
  },
  {
   "id": 337,
@@ -11480,7 +12543,10 @@
    "blue",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "slow",
+   "speed_up"
+  ]
  },
  {
   "id": 338,
@@ -11512,7 +12578,10 @@
    "blue",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "piercing"
+  ]
  },
  {
   "id": 339,
@@ -11545,7 +12614,12 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "black_hearts",
+   "range_up",
+   "shot_speed_up",
+   "speed_up"
+  ]
  },
  {
   "id": 340,
@@ -11577,7 +12651,9 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "speed_up"
+  ]
  },
  {
   "id": 341,
@@ -11612,7 +12688,11 @@
    "grey",
    "orange"
   ],
-  "tags": []
+  "tags": [
+   "shot_speed_up",
+   "speed_up",
+   "tears_up"
+  ]
  },
  {
   "id": 342,
@@ -11645,7 +12725,14 @@
    "fungus"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "fun_guy",
+   "healing",
+   "hp_up",
+   "shot_speed_down",
+   "speed_down",
+   "tears_up"
+  ]
  },
  {
   "id": 343,
@@ -11681,7 +12768,11 @@
    "brown",
    "gold"
   ],
-  "tags": []
+  "tags": [
+   "gives_keys",
+   "luck_up",
+   "soul_hearts"
+  ]
  },
  {
   "id": 344,
@@ -11713,7 +12804,10 @@
    "white",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "black_hearts",
+   "gives_bombs"
+  ]
  },
  {
   "id": 345,
@@ -11751,7 +12845,11 @@
    "purple",
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "range_up",
+   "spun"
+  ]
  },
  {
   "id": 346,
@@ -11785,7 +12883,10 @@
    "brown",
    "orange"
   ],
-  "tags": []
+  "tags": [
+   "healing",
+   "hp_up"
+  ]
  },
  {
   "id": 347,
@@ -11812,7 +12913,10 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "one_time_use"
+  ]
  },
  {
   "id": 348,
@@ -11843,7 +12947,9 @@
    "grey",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 349,
@@ -11873,7 +12979,10 @@
    "brown",
    "orange"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "character_start"
+  ]
  },
  {
   "id": 350,
@@ -11900,7 +13009,9 @@
   "colors": [
    "green"
   ],
-  "tags": []
+  "tags": [
+   "poison"
+  ]
  },
  {
   "id": 351,
@@ -11927,7 +13038,11 @@
   "colors": [
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "freeze",
+   "poison"
+  ]
  },
  {
   "id": 352,
@@ -11953,7 +13068,10 @@
   "colors": [
    "silver"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "spectral"
+  ]
  },
  {
   "id": 353,
@@ -11982,7 +13100,10 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "explosive",
+   "gives_bombs"
+  ]
  },
  {
   "id": 354,
@@ -12017,7 +13138,9 @@
    "brown",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "hp_up"
+  ]
  },
  {
   "id": 355,
@@ -12056,7 +13179,12 @@
    "white",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "luck_up",
+   "range_up",
+   "soul_hearts",
+   "yes_mother"
+  ]
  },
  {
   "id": 356,
@@ -12084,7 +13212,9 @@
   "colors": [
    "black"
   ],
-  "tags": []
+  "tags": [
+   "healing"
+  ]
  },
  {
   "id": 357,
@@ -12112,7 +13242,10 @@
    "gold",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "familiar"
+  ]
  },
  {
   "id": 358,
@@ -12143,7 +13276,10 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "multi_shot",
+   "spectral"
+  ]
  },
  {
   "id": 359,
@@ -12174,7 +13310,10 @@
    "silver",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "tear_modifier"
+  ]
  },
  {
   "id": 360,
@@ -12206,7 +13345,11 @@
    "black",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "character_start",
+   "conjoined",
+   "familiar"
+  ]
  },
  {
   "id": 361,
@@ -12235,7 +13378,9 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 362,
@@ -12266,7 +13411,9 @@
    "brown",
    "orange"
   ],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 363,
@@ -12296,7 +13443,13 @@
    "pink",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "contact_damage",
+   "familiar",
+   "seraphim",
+   "shield"
+  ]
  },
  {
   "id": 364,
@@ -12329,7 +13482,12 @@
    "white",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "contact_damage",
+   "familiar",
+   "orbital"
+  ]
  },
  {
   "id": 365,
@@ -12362,7 +13520,11 @@
    "white",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "contact_damage",
+   "familiar"
+  ]
  },
  {
   "id": 366,
@@ -12388,7 +13550,10 @@
    "transparent"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "explosive",
+   "gives_bombs"
+  ]
  },
  {
   "id": 367,
@@ -12419,7 +13584,12 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "explosive",
+   "gives_bombs",
+   "slow",
+   "spider_baby"
+  ]
  },
  {
   "id": 368,
@@ -12480,7 +13650,9 @@
    "pink",
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "range_up"
+  ]
  },
  {
   "id": 370,
@@ -12516,7 +13688,10 @@
    "yellow",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "range_up",
+   "tears_up"
+  ]
  },
  {
   "id": 371,
@@ -12581,7 +13756,10 @@
    "yellow",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "familiar",
+   "freeze"
+  ]
  },
  {
   "id": 373,
@@ -12615,7 +13793,10 @@
    "black",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "piercing"
+  ]
  },
  {
   "id": 374,
@@ -12652,7 +13833,12 @@
    "white",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "damage_multiplier",
+   "damage_up",
+   "luck_scaling",
+   "seraphim"
+  ]
  },
  {
   "id": 375,
@@ -12682,7 +13868,11 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "explosive",
+   "familiar",
+   "shield"
+  ]
  },
  {
   "id": 376,
@@ -12743,7 +13933,10 @@
    "white",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "spider_baby"
+  ]
  },
  {
   "id": 378,
@@ -12782,7 +13975,10 @@
    "white",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "explosive",
+   "oh_crap"
+  ]
  },
  {
   "id": 379,
@@ -12817,7 +14013,9 @@
    "grey",
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "spectral"
+  ]
  },
  {
   "id": 380,
@@ -12850,7 +14048,9 @@
    "grey",
    "silver"
   ],
-  "tags": []
+  "tags": [
+   "gives_coins"
+  ]
  },
  {
   "id": 381,
@@ -12880,7 +14080,9 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "tears_up"
+  ]
  },
  {
   "id": 382,
@@ -12912,7 +14114,9 @@
    "grey",
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 383,
@@ -12940,7 +14144,9 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 384,
@@ -12970,7 +14176,11 @@
    "pink",
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "charge_shot",
+   "contact_damage",
+   "familiar"
+  ]
  },
  {
   "id": 385,
@@ -13000,7 +14210,11 @@
   "colors": [
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "familiar",
+   "gives_bombs"
+  ]
  },
  {
   "id": 386,
@@ -13032,7 +14246,10 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "reroll"
+  ]
  },
  {
   "id": 387,
@@ -13060,7 +14277,9 @@
   "colors": [
    "gold"
   ],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 388,
@@ -13096,7 +14315,10 @@
    "grey",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "familiar",
+   "super_bum"
+  ]
  },
  {
   "id": 389,
@@ -13126,7 +14348,9 @@
    "purple",
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 390,
@@ -13161,7 +14385,11 @@
    "blue",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar",
+   "seraphim"
+  ]
  },
  {
   "id": 391,
@@ -13254,7 +14482,10 @@
   "colors": [
    "green"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "poison"
+  ]
  },
  {
   "id": 394,
@@ -13285,7 +14516,10 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "range_up",
+   "tears_up"
+  ]
  },
  {
   "id": 395,
@@ -13314,7 +14548,10 @@
    "visor"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "laser",
+   "tear_modifier"
+  ]
  },
  {
   "id": 396,
@@ -13350,7 +14587,10 @@
    "white",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "teleport"
+  ]
  },
  {
   "id": 397,
@@ -13387,7 +14627,13 @@
    "silver",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "range_up",
+   "shot_speed_up",
+   "speed_up",
+   "tear_modifier",
+   "tears_up"
+  ]
  },
  {
   "id": 398,
@@ -13418,7 +14664,9 @@
   "colors": [
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "fun_guy"
+  ]
  },
  {
   "id": 399,
@@ -13449,7 +14697,9 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "leviathan"
+  ]
  },
  {
   "id": 400,
@@ -13481,7 +14731,9 @@
    "grey",
    "silver"
   ],
-  "tags": []
+  "tags": [
+   "fear"
+  ]
  },
  {
   "id": 401,
@@ -13512,7 +14764,9 @@
    "orange",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "explosive"
+  ]
  },
  {
   "id": 402,
@@ -13575,7 +14829,11 @@
    "grey",
    "silver"
   ],
-  "tags": []
+  "tags": [
+   "familiar",
+   "fear",
+   "spider_baby"
+  ]
  },
  {
   "id": 404,
@@ -13602,7 +14860,12 @@
   "colors": [
    "green"
   ],
-  "tags": []
+  "tags": [
+   "charm",
+   "conjoined",
+   "familiar",
+   "poison"
+  ]
  },
  {
   "id": 405,
@@ -13637,7 +14900,12 @@
    "green",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "extra_life",
+   "familiar",
+   "reroll"
+  ]
  },
  {
   "id": 406,
@@ -13672,7 +14940,10 @@
    "black",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "reroll"
+  ]
  },
  {
   "id": 407,
@@ -13708,7 +14979,11 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "range_up",
+   "speed_up"
+  ]
  },
  {
   "id": 408,
@@ -13741,7 +15016,9 @@
    "grey",
    "silver"
   ],
-  "tags": []
+  "tags": [
+   "luck_scaling"
+  ]
  },
  {
   "id": 409,
@@ -13775,7 +15052,11 @@
    "grey",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "black_hearts",
+   "flight",
+   "shield"
+  ]
  },
  {
   "id": 410,
@@ -13835,7 +15116,9 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "damage_up"
+  ]
  },
  {
   "id": 412,
@@ -13864,7 +15147,9 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "character_start"
+  ]
  },
  {
   "id": 413,
@@ -13951,7 +15236,10 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "shot_speed_down",
+   "soul_hearts"
+  ]
  },
  {
   "id": 416,
@@ -14016,7 +15304,10 @@
    "red",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "damage_down",
+   "familiar"
+  ]
  },
  {
   "id": 418,
@@ -14049,7 +15340,10 @@
    "green",
    "orange"
   ],
-  "tags": []
+  "tags": [
+   "explosive",
+   "tear_modifier"
+  ]
  },
  {
   "id": 419,
@@ -14082,7 +15376,10 @@
    "yellow",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "teleport"
+  ]
  },
  {
   "id": 420,
@@ -14140,7 +15437,10 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "charm"
+  ]
  },
  {
   "id": 422,
@@ -14172,7 +15472,9 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 423,
@@ -14201,7 +15503,9 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "homing"
+  ]
  },
  {
   "id": 424,
@@ -14294,7 +15598,11 @@
   "colors": [
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "contact_damage",
+   "familiar"
+  ]
  },
  {
   "id": 427,
@@ -14321,7 +15629,10 @@
    "orange",
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "explosive"
+  ]
  },
  {
   "id": 428,
@@ -14354,7 +15665,10 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "healing",
+   "soul_hearts"
+  ]
  },
  {
   "id": 429,
@@ -14383,7 +15697,10 @@
    "gold",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "explosive",
+   "gives_coins"
+  ]
  },
  {
   "id": 430,
@@ -14411,7 +15728,10 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "familiar"
+  ]
  },
  {
   "id": 431,
@@ -14443,7 +15763,10 @@
    "grey",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar"
+  ]
  },
  {
   "id": 432,
@@ -14470,7 +15793,11 @@
   "colors": [
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "charm",
+   "explosive",
+   "gives_bombs"
+  ]
  },
  {
   "id": 433,
@@ -14499,7 +15826,9 @@
   "colors": [
    "black"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage"
+  ]
  },
  {
   "id": 434,
@@ -14527,7 +15856,10 @@
    "bottle"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "beelzebub"
+  ]
  },
  {
   "id": 435,
@@ -14555,7 +15887,9 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 436,
@@ -14583,7 +15917,9 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 437,
@@ -14616,7 +15952,11 @@
    "white",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "extra_life",
+   "teleport"
+  ]
  },
  {
   "id": 438,
@@ -14650,7 +15990,10 @@
    "blue",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "soul_hearts",
+   "tears_up"
+  ]
  },
  {
   "id": 439,
@@ -14685,7 +16028,11 @@
    "black",
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "luck_up",
+   "yes_mother"
+  ]
  },
  {
   "id": 440,
@@ -14750,7 +16097,9 @@
    "brown",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 442,
@@ -14784,7 +16133,13 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "range_up",
+   "shot_speed_up",
+   "speed_up",
+   "tears_up",
+   "uncaps_tears"
+  ]
  },
  {
   "id": 443,
@@ -14811,7 +16166,10 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "luck_scaling",
+   "tears_up"
+  ]
  },
  {
   "id": 444,
@@ -14868,7 +16226,10 @@
    "white",
    "silver"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "speed_up"
+  ]
  },
  {
   "id": 446,
@@ -14898,7 +16259,9 @@
    "grey",
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "poison"
+  ]
  },
  {
   "id": 447,
@@ -14982,7 +16345,9 @@
    "silver",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "soul_hearts"
+  ]
  },
  {
   "id": 450,
@@ -15099,7 +16464,9 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "range_up"
+  ]
  },
  {
   "id": 454,
@@ -15161,7 +16528,9 @@
    "silver",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "range_up"
+  ]
  },
  {
   "id": 456,
@@ -15196,7 +16565,9 @@
    "brown",
    "green"
   ],
-  "tags": []
+  "tags": [
+   "hp_up"
+  ]
  },
  {
   "id": 457,
@@ -15234,7 +16605,9 @@
   "colors": [
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "soul_hearts"
+  ]
  },
  {
   "id": 458,
@@ -15291,7 +16664,9 @@
   "colors": [
    "green"
   ],
-  "tags": []
+  "tags": [
+   "poison"
+  ]
  },
  {
   "id": 460,
@@ -15319,7 +16694,9 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "confusion"
+  ]
  },
  {
   "id": 461,
@@ -15348,7 +16725,11 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "slow",
+   "spider_baby"
+  ]
  },
  {
   "id": 462,
@@ -15376,7 +16757,11 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "homing",
+   "piercing",
+   "range_up"
+  ]
  },
  {
   "id": 463,
@@ -15407,7 +16792,9 @@
    "orange",
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "damage_up"
+  ]
  },
  {
   "id": 464,
@@ -15435,7 +16822,9 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "soul_hearts"
+  ]
  },
  {
   "id": 465,
@@ -15464,7 +16853,9 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "tears_up"
+  ]
  },
  {
   "id": 466,
@@ -15492,7 +16883,10 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "explosive",
+   "poison"
+  ]
  },
  {
   "id": 467,
@@ -15520,7 +16914,10 @@
   "colors": [
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "burn",
+   "familiar"
+  ]
  },
  {
   "id": 468,
@@ -15549,7 +16946,10 @@
    "blue",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "familiar"
+  ]
  },
  {
   "id": 469,
@@ -15578,7 +16978,9 @@
    "pink",
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 470,
@@ -15606,7 +17008,10 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "familiar"
+  ]
  },
  {
   "id": 471,
@@ -15634,7 +17039,9 @@
    "tooth"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 472,
@@ -15664,7 +17071,11 @@
    "gold",
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar",
+   "teleport"
+  ]
  },
  {
   "id": 473,
@@ -15692,7 +17103,9 @@
    "yellow",
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 475,
@@ -15724,7 +17137,11 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "extra_life",
+   "one_time_use"
+  ]
  },
  {
   "id": 476,
@@ -15755,7 +17172,9 @@
    "white",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 477,
@@ -15785,7 +17204,10 @@
    "purple",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "one_time_use"
+  ]
  },
  {
   "id": 478,
@@ -15812,7 +17234,11 @@
   "colors": [
    "green"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "explosive",
+   "freeze"
+  ]
  },
  {
   "id": 479,
@@ -15847,7 +17273,9 @@
    "brown",
    "orange"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 480,
@@ -15879,7 +17307,9 @@
    "brown",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 481,
@@ -15908,7 +17338,10 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "confusion"
+  ]
  },
  {
   "id": 482,
@@ -15940,7 +17373,10 @@
    "grey",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "extra_life"
+  ]
  },
  {
   "id": 483,
@@ -15969,7 +17405,11 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "explosive",
+   "one_time_use"
+  ]
  },
  {
   "id": 484,
@@ -15997,7 +17437,9 @@
    "white",
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 485,
@@ -16032,7 +17474,10 @@
    "yellow",
    "gold"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "gives_coins"
+  ]
  },
  {
   "id": 486,
@@ -16061,7 +17506,9 @@
    "pink",
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 487,
@@ -16093,7 +17540,9 @@
    "silver",
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 488,
@@ -16121,7 +17570,9 @@
    "grey",
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 489,
@@ -16151,7 +17602,10 @@
   "colors": [
    "grey"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "gives_keys"
+  ]
  },
  {
   "id": 490,
@@ -16178,7 +17632,10 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "one_time_use"
+  ]
  },
  {
   "id": 491,
@@ -16210,7 +17667,11 @@
    "yellow",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar",
+   "poison"
+  ]
  },
  {
   "id": 492,
@@ -16244,7 +17705,11 @@
    "blue",
    "green"
   ],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "familiar",
+   "luck_up"
+  ]
  },
  {
   "id": 493,
@@ -16276,7 +17741,11 @@
   "colors": [
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "healing",
+   "spun"
+  ]
  },
  {
   "id": 494,
@@ -16309,7 +17778,11 @@
    "grey",
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "fear",
+   "homing",
+   "poison"
+  ]
  },
  {
   "id": 495,
@@ -16335,7 +17808,10 @@
   "colors": [
    "white"
   ],
-  "tags": []
+  "tags": [
+   "luck_scaling",
+   "spectral"
+  ]
  },
  {
   "id": 496,
@@ -16372,7 +17848,11 @@
   "colors": [
    "black"
   ],
-  "tags": []
+  "tags": [
+   "explosive",
+   "luck_scaling",
+   "spun"
+  ]
  },
  {
   "id": 497,
@@ -16402,7 +17882,10 @@
    "pink",
    "purple"
   ],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "speed_up"
+  ]
  },
  {
   "id": 498,
@@ -16461,7 +17944,10 @@
    "yellow",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "angel_deal_helper",
+   "reroll"
+  ]
  },
  {
   "id": 500,
@@ -16492,7 +17978,9 @@
   "colors": [
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 501,
@@ -16521,7 +18009,9 @@
    "greed gullet"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "hp_up"
+  ]
  },
  {
   "id": 502,
@@ -16551,7 +18041,10 @@
    "pink",
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "luck_scaling",
+   "slow"
+  ]
  },
  {
   "id": 503,
@@ -16582,7 +18075,10 @@
   "colors": [
    "black"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "luck_scaling"
+  ]
  },
  {
   "id": 504,
@@ -16613,7 +18109,10 @@
   "colors": [
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "oh_crap"
+  ]
  },
  {
   "id": 505,
@@ -16645,7 +18144,9 @@
    "green",
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "charm"
+  ]
  },
  {
   "id": 506,
@@ -16705,7 +18206,9 @@
    "blue",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 508,
@@ -16735,7 +18238,12 @@
   "colors": [
    "pink"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "familiar",
+   "shield",
+   "yes_mother"
+  ]
  },
  {
   "id": 509,
@@ -16762,7 +18270,11 @@
    "pink",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "familiar",
+   "shield"
+  ]
  },
  {
   "id": 510,
@@ -16790,7 +18302,10 @@
   "colors": [
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "charm"
+  ]
  },
  {
   "id": 511,
@@ -16820,7 +18335,12 @@
   "colors": [
    "red"
   ],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "contact_damage",
+   "familiar",
+   "orbital"
+  ]
  },
  {
   "id": 512,
@@ -16850,7 +18370,9 @@
    "purple",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 513,
@@ -16885,7 +18407,12 @@
    "red",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "charm",
+   "damage_up",
+   "fear",
+   "soul_hearts"
+  ]
  },
  {
   "id": 514,
@@ -16915,7 +18442,10 @@
    "black",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "freeze",
+   "luck_scaling"
+  ]
  },
  {
   "id": 515,
@@ -16946,7 +18476,10 @@
    "green",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "one_time_use"
+  ]
  },
  {
   "id": 516,
@@ -16977,7 +18510,9 @@
    "grey",
    "silver"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 517,
@@ -17006,7 +18541,10 @@
    "yellow",
    "black"
   ],
-  "tags": []
+  "tags": [
+   "explosive",
+   "gives_bombs"
+  ]
  },
  {
   "id": 518,
@@ -17036,7 +18574,10 @@
    "brown",
    "orange"
   ],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar"
+  ]
  },
  {
   "id": 519,
@@ -17067,7 +18608,9 @@
    "white",
    "yellow"
   ],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 520,
@@ -17134,7 +18677,9 @@
    "pink",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 522,
@@ -17162,7 +18707,9 @@
   "colors": [
    "blue"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 523,
@@ -17190,7 +18737,9 @@
    "brown",
    "orange"
   ],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 524,
@@ -17262,7 +18811,10 @@
    "pink",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "orbital"
+  ]
  },
  {
   "id": 526,
@@ -17295,7 +18847,10 @@
    "white",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "familiar",
+   "poison"
+  ]
  },
  {
   "id": 527,
@@ -17327,7 +18882,10 @@
   "colors": [
    "brown"
   ],
-  "tags": []
+  "tags": [
+   "active",
+   "explosive"
+  ]
  },
  {
   "id": 528,
@@ -17363,7 +18921,10 @@
    "green",
    "white"
   ],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "orbital"
+  ]
  },
  {
   "id": 529,
@@ -17395,7 +18956,9 @@
    "white",
    "red"
   ],
-  "tags": []
+  "tags": [
+   "tear_modifier"
+  ]
  },
  {
   "id": 530,
@@ -17432,7 +18995,12 @@
    "contract"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "luck_up",
+   "range_up",
+   "speed_up",
+   "tears_up"
+  ]
  },
  {
   "id": 531,
@@ -17463,7 +19031,13 @@
    "heamolacria"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_multiplier",
+   "damage_up",
+   "range_down",
+   "tears_down",
+   "tears_up"
+  ]
  },
  {
   "id": 532,
@@ -17505,7 +19079,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "piercing",
+   "tear_modifier"
+  ]
  },
  {
   "id": 534,
@@ -17552,7 +19129,11 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "healing",
+   "shield",
+   "soul_hearts"
+  ]
  },
  {
   "id": 536,
@@ -17577,7 +19158,10 @@
    "sacrafice"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "one_time_use"
+  ]
  },
  {
   "id": 537,
@@ -17601,7 +19185,11 @@
    "face"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "charge_shot",
+   "familiar",
+   "slow"
+  ]
  },
  {
   "id": 538,
@@ -17643,7 +19231,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "charm",
+   "familiar"
+  ]
  },
  {
   "id": 540,
@@ -17688,7 +19279,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "bone_hearts"
+  ]
  },
  {
   "id": 542,
@@ -17710,7 +19303,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "contact_damage"
+  ]
  },
  {
   "id": 543,
@@ -17734,7 +19329,12 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "familiar",
+   "homing",
+   "oh_crap",
+   "shield"
+  ]
  },
  {
   "id": 544,
@@ -17756,7 +19356,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "familiar"
+  ]
  },
  {
   "id": 545,
@@ -17781,7 +19384,11 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "bookworm",
+   "charm"
+  ]
  },
  {
   "id": 546,
@@ -17805,7 +19412,9 @@
    "dad ring"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "freeze"
+  ]
  },
  {
   "id": 547,
@@ -17829,7 +19438,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "bone_hearts",
+   "tears_up"
+  ]
  },
  {
   "id": 548,
@@ -17851,7 +19463,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 549,
@@ -17875,7 +19489,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "bone_hearts",
+   "tears_up"
+  ]
  },
  {
   "id": 550,
@@ -17894,7 +19511,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 551,
@@ -17937,7 +19556,10 @@
    "mom shovel"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "yes_mother"
+  ]
  },
  {
   "id": 553,
@@ -17960,7 +19582,11 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "explosive",
+   "fun_guy",
+   "homing"
+  ]
  },
  {
   "id": 554,
@@ -17984,7 +19610,11 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "fear",
+   "shot_speed_up",
+   "tears_up"
+  ]
  },
  {
   "id": 555,
@@ -18006,7 +19636,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "gives_coins"
+  ]
  },
  {
   "id": 556,
@@ -18029,7 +19662,10 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "leviathan"
+  ]
  },
  {
   "id": 557,
@@ -18050,7 +19686,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 558,
@@ -18071,7 +19709,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "luck_scaling"
+  ]
  },
  {
   "id": 559,
@@ -18113,7 +19753,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "uncaps_tears"
+  ]
  },
  {
   "id": 561,
@@ -18137,7 +19779,11 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_down",
+   "tear_modifier",
+   "tears_up"
+  ]
  },
  {
   "id": 562,
@@ -18179,7 +19825,12 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "explosive",
+   "gives_bombs",
+   "homing",
+   "poison"
+  ]
  },
  {
   "id": 564,
@@ -18203,7 +19854,11 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "shot_speed_up",
+   "speed_up",
+   "tears_up"
+  ]
  },
  {
   "id": 565,
@@ -18226,7 +19881,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "familiar"
+  ]
  },
  {
   "id": 566,
@@ -18249,7 +19907,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "soul_hearts"
+  ]
  },
  {
   "id": 567,
@@ -18293,7 +19953,10 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "seraphim",
+   "shield"
+  ]
  },
  {
   "id": 569,
@@ -18317,7 +19980,11 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "invincibility",
+   "speed_up"
+  ]
  },
  {
   "id": 570,
@@ -18340,7 +20007,17 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "burn",
+   "charm",
+   "damage_multiplier",
+   "damage_up",
+   "fear",
+   "freeze",
+   "homing",
+   "poison",
+   "tear_modifier"
+  ]
  },
  {
   "id": 571,
@@ -18364,7 +20041,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "soul_hearts",
+   "speed_up"
+  ]
  },
  {
   "id": 572,
@@ -18391,7 +20071,14 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "flight",
+   "leviathan",
+   "range_up",
+   "shot_speed_down",
+   "speed_down"
+  ]
  },
  {
   "id": 573,
@@ -18417,7 +20104,15 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_multiplier",
+   "damage_up",
+   "healing",
+   "hp_up",
+   "orbital",
+   "seraphim",
+   "spectral"
+  ]
  },
  {
   "id": 574,
@@ -18463,7 +20158,11 @@
    "ew gross face spider in face"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "slow",
+   "spider_baby"
+  ]
  },
  {
   "id": 576,
@@ -18486,7 +20185,14 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "burn",
+   "charm",
+   "freeze",
+   "oh_crap",
+   "poison",
+   "shield"
+  ]
  },
  {
   "id": 577,
@@ -18507,7 +20213,12 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "extra_life",
+   "invincibility",
+   "one_time_use"
+  ]
  },
  {
   "id": 578,
@@ -18528,7 +20239,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 579,
@@ -18549,7 +20262,11 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "charge_shot",
+   "knife",
+   "tear_modifier"
+  ]
  },
  {
   "id": 580,
@@ -18574,7 +20291,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 581,
@@ -18598,7 +20317,11 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "familiar",
+   "homing"
+  ]
  },
  {
   "id": 582,
@@ -18621,7 +20344,10 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "fun_guy"
+  ]
  },
  {
   "id": 583,
@@ -18643,7 +20369,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "explosive",
+   "gives_bombs"
+  ]
  },
  {
   "id": 584,
@@ -18667,7 +20396,15 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "angel_deal_helper",
+   "bookworm",
+   "contact_damage",
+   "devil_deal_helper",
+   "familiar",
+   "spectral"
+  ]
  },
  {
   "id": 585,
@@ -18688,7 +20425,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "one_time_use"
+  ]
  },
  {
   "id": 586,
@@ -18733,7 +20473,12 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "healing",
+   "luck_scaling",
+   "luck_up"
+  ]
  },
  {
   "id": 589,
@@ -18760,7 +20505,9 @@
    "lunar"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "tears_up"
+  ]
  },
  {
   "id": 590,
@@ -18783,7 +20530,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "speed_up"
+  ]
  },
  {
   "id": 591,
@@ -18806,7 +20555,11 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "charm",
+   "healing",
+   "hp_up"
+  ]
  },
  {
   "id": 592,
@@ -18829,7 +20582,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "tear_modifier"
+  ]
  },
  {
   "id": 593,
@@ -18850,7 +20606,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "invincibility"
+  ]
  },
  {
   "id": 594,
@@ -18873,7 +20631,11 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "hp_up",
+   "poison",
+   "speed_down"
+  ]
  },
  {
   "id": 595,
@@ -18915,7 +20677,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "freeze",
+   "slow"
+  ]
  },
  {
   "id": 597,
@@ -18936,7 +20701,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "charge_shot",
+   "tear_modifier"
+  ]
  },
  {
   "id": 598,
@@ -18959,7 +20727,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "tears_up"
+  ]
  },
  {
   "id": 599,
@@ -19027,7 +20797,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "tears_up"
+  ]
  },
  {
   "id": 602,
@@ -19108,7 +20880,10 @@
    "power bracelet"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "yes_mother"
+  ]
  },
  {
   "id": 605,
@@ -19129,7 +20904,11 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "contact_damage",
+   "familiar"
+  ]
  },
  {
   "id": 606,
@@ -19150,7 +20929,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "luck_scaling"
+  ]
  },
  {
   "id": 607,
@@ -19171,7 +20952,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar"
+  ]
  },
  {
   "id": 608,
@@ -19192,7 +20976,11 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar",
+   "freeze"
+  ]
  },
  {
   "id": 609,
@@ -19215,7 +21003,11 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "luck_scaling",
+   "reroll"
+  ]
  },
  {
   "id": 610,
@@ -19236,7 +21028,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "contact_damage"
+  ]
  },
  {
   "id": 611,
@@ -19258,7 +21052,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 612,
@@ -19280,7 +21076,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 614,
@@ -19303,7 +21101,13 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "angel_deal_helper",
+   "devil_deal_helper",
+   "explosive",
+   "healing",
+   "hp_up"
+  ]
  },
  {
   "id": 615,
@@ -19355,7 +21159,11 @@
    "birds"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "angel_deal_helper",
+   "devil_deal_helper",
+   "luck_scaling"
+  ]
  },
  {
   "id": 617,
@@ -19399,7 +21207,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "luck_scaling"
+  ]
  },
  {
   "id": 619,
@@ -19423,7 +21233,13 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "hp_up",
+   "luck_scaling",
+   "luck_up",
+   "spectral"
+  ]
  },
  {
   "id": 621,
@@ -19451,7 +21267,10 @@
    "broth"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "healing"
+  ]
  },
  {
   "id": 622,
@@ -19473,7 +21292,12 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "healing",
+   "one_time_use",
+   "teleport"
+  ]
  },
  {
   "id": 623,
@@ -19494,7 +21318,11 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "gives_keys",
+   "piercing"
+  ]
  },
  {
   "id": 624,
@@ -19539,7 +21367,12 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "contact_damage",
+   "fun_guy",
+   "invincibility"
+  ]
  },
  {
   "id": 626,
@@ -19558,7 +21391,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "extra_life"
+  ]
  },
  {
   "id": 627,
@@ -19598,7 +21433,11 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "one_time_use",
+   "teleport"
+  ]
  },
  {
   "id": 629,
@@ -19623,7 +21462,12 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "contact_damage",
+   "familiar",
+   "orbital"
+  ]
  },
  {
   "id": 631,
@@ -19644,7 +21488,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 632,
@@ -19667,7 +21513,13 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "burn",
+   "confusion",
+   "fear",
+   "luck_up",
+   "poison"
+  ]
  },
  {
   "id": 633,
@@ -19691,7 +21543,11 @@
    "godma"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "healing",
+   "speed_up"
+  ]
  },
  {
   "id": 634,
@@ -19715,7 +21571,9 @@
    "ghost"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "explosive"
+  ]
  },
  {
   "id": 635,
@@ -19736,7 +21594,13 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "angel_deal_helper",
+   "devil_deal_helper",
+   "familiar",
+   "teleport"
+  ]
  },
  {
   "id": 636,
@@ -19757,7 +21621,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "one_time_use"
+  ]
  },
  {
   "id": 637,
@@ -19778,7 +21645,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "confusion"
+  ]
  },
  {
   "id": 638,
@@ -19800,7 +21669,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "one_time_use"
+  ]
  },
  {
   "id": 639,
@@ -19822,7 +21694,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 640,
@@ -19843,7 +21717,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 641,
@@ -19864,7 +21740,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "contact_damage"
+  ]
  },
  {
   "id": 642,
@@ -19889,7 +21767,9 @@
    "blood"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 643,
@@ -19914,7 +21794,12 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "charge_shot",
+   "flight",
+   "seraphim",
+   "soul_hearts"
+  ]
  },
  {
   "id": 644,
@@ -19942,7 +21827,12 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "range_up",
+   "speed_up",
+   "tears_up"
+  ]
  },
  {
   "id": 645,
@@ -19963,7 +21853,12 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "explosive",
+   "extra_life",
+   "familiar",
+   "orbital"
+  ]
  },
  {
   "id": 646,
@@ -19986,7 +21881,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "explosive",
+   "gives_bombs"
+  ]
  },
  {
   "id": 647,
@@ -20008,7 +21906,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "charge_shot"
+  ]
  },
  {
   "id": 649,
@@ -20035,7 +21935,11 @@
    "plum smug"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "beelzebub",
+   "contact_damage",
+   "familiar"
+  ]
  },
  {
   "id": 650,
@@ -20060,7 +21964,11 @@
    "extremely cute omg :plumsmug:"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "beelzebub",
+   "contact_damage"
+  ]
  },
  {
   "id": 651,
@@ -20081,7 +21989,12 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "familiar",
+   "homing",
+   "tears_up"
+  ]
  },
  {
   "id": 652,
@@ -20102,7 +22015,12 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar",
+   "freeze",
+   "shield"
+  ]
  },
  {
   "id": 653,
@@ -20123,7 +22041,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "explosive"
+  ]
  },
  {
   "id": 654,
@@ -20149,7 +22070,10 @@
    "p.h.d ph.d p.hd paper blood"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "black_hearts",
+   "damage_up"
+  ]
  },
  {
   "id": 655,
@@ -20170,7 +22094,12 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "contact_damage",
+   "familiar",
+   "shield"
+  ]
  },
  {
   "id": 657,
@@ -20193,7 +22122,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "tears_down"
+  ]
  },
  {
   "id": 658,
@@ -20215,7 +22146,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 659,
@@ -20238,7 +22171,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "range_up",
+   "size_up"
+  ]
  },
  {
   "id": 660,
@@ -20284,7 +22220,11 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar",
+   "freeze"
+  ]
  },
  {
   "id": 663,
@@ -20311,7 +22251,9 @@
    "grey host"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "contact_damage"
+  ]
  },
  {
   "id": 664,
@@ -20342,7 +22284,14 @@
    "food"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "hp_up",
+   "luck_up",
+   "range_up",
+   "shot_speed_up",
+   "speed_down",
+   "tears_up"
+  ]
  },
  {
   "id": 665,
@@ -20370,7 +22319,9 @@
    "guppy eye"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "guppy"
+  ]
  },
  {
   "id": 667,
@@ -20391,7 +22342,12 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "extra_life",
+   "familiar",
+   "gives_bombs",
+   "gives_keys"
+  ]
  },
  {
   "id": 668,
@@ -20414,7 +22370,9 @@
    "paper"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "teleport"
+  ]
  },
  {
   "id": 669,
@@ -20447,7 +22405,18 @@
    "food"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "angel_deal_helper",
+   "damage_up",
+   "devil_deal_helper",
+   "hp_up",
+   "luck_scaling",
+   "luck_up",
+   "range_up",
+   "shot_speed_up",
+   "speed_up",
+   "tears_up"
+  ]
  },
  {
   "id": 670,
@@ -20496,7 +22465,14 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "luck_up",
+   "range_up",
+   "shot_speed_up",
+   "speed_up",
+   "tears_up"
+  ]
  },
  {
   "id": 672,
@@ -20537,7 +22513,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up"
+  ]
  },
  {
   "id": 674,
@@ -20626,7 +22604,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "flight",
+   "spectral"
+  ]
  },
  {
   "id": 678,
@@ -20648,7 +22629,12 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "charge_shot",
+   "homing",
+   "spectral",
+   "tear_modifier"
+  ]
  },
  {
   "id": 679,
@@ -20669,7 +22655,12 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "charge_shot",
+   "conjoined",
+   "contact_damage",
+   "familiar"
+  ]
  },
  {
   "id": 680,
@@ -20694,7 +22685,10 @@
    "montezumas revenge"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "charge_shot",
+   "oh_crap"
+  ]
  },
  {
   "id": 681,
@@ -20715,7 +22709,11 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "familiar",
+   "teleport"
+  ]
  },
  {
   "id": 682,
@@ -20736,7 +22734,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 683,
@@ -20780,7 +22780,10 @@
    "this item is irrelevant 99.94% of you wont kill the beast as the lost me included :("
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "explosive"
+  ]
  },
  {
   "id": 685,
@@ -20801,7 +22804,11 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "contact_damage",
+   "poison"
+  ]
  },
  {
   "id": 686,
@@ -20829,7 +22836,14 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "luck_up",
+   "range_up",
+   "soul_hearts",
+   "speed_up",
+   "tears_up"
+  ]
  },
  {
   "id": 687,
@@ -20851,7 +22865,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "charm"
+  ]
  },
  {
   "id": 688,
@@ -20874,7 +22891,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "extra_life",
+   "speed_up"
+  ]
  },
  {
   "id": 689,
@@ -20940,7 +22960,10 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "reroll",
+   "seraphim"
+  ]
  },
  {
   "id": 692,
@@ -20986,7 +23009,9 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "beelzebub"
+  ]
  },
  {
   "id": 694,
@@ -21010,7 +23035,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up"
+  ]
  },
  {
   "id": 695,
@@ -21035,7 +23062,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "speed_up",
+   "tears_up"
+  ]
  },
  {
   "id": 696,
@@ -21058,7 +23088,9 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "seraphim"
+  ]
  },
  {
   "id": 697,
@@ -21080,7 +23112,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "familiar"
+  ]
  },
  {
   "id": 698,
@@ -21101,7 +23135,11 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "conjoined",
+   "familiar",
+   "shield"
+  ]
  },
  {
   "id": 699,
@@ -21170,7 +23208,9 @@
    "isaac tomb"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "angel_deal_helper"
+  ]
  },
  {
   "id": 702,
@@ -21192,7 +23232,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "orbital"
+  ]
  },
  {
   "id": 703,
@@ -21214,7 +23257,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 704,
@@ -21238,7 +23283,12 @@
    "bamson"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "charge_shot",
+   "knife",
+   "tear_modifier"
+  ]
  },
  {
   "id": 705,
@@ -21265,7 +23315,10 @@
    "omae wa mou shindeiru"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "character_start"
+  ]
  },
  {
   "id": 706,
@@ -21286,7 +23339,12 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "character_start",
+   "contact_damage",
+   "shield"
+  ]
  },
  {
   "id": 707,
@@ -21309,7 +23367,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "hp_up"
+  ]
  },
  {
   "id": 708,
@@ -21332,7 +23392,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up"
+  ]
  },
  {
   "id": 709,
@@ -21354,7 +23416,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 710,
@@ -21377,7 +23441,10 @@
    "bain"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "character_start"
+  ]
  },
  {
   "id": 711,
@@ -21402,7 +23469,10 @@
    "bazarus"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "character_start"
+  ]
  },
  {
   "id": 712,
@@ -21426,7 +23496,11 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "bookworm",
+   "character_start"
+  ]
  },
  {
   "id": 713,
@@ -21447,7 +23521,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "character_start"
+  ]
  },
  {
   "id": 714,
@@ -21466,7 +23543,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 715,
@@ -21485,7 +23564,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "character_start"
+  ]
  },
  {
   "id": 716,
@@ -21514,7 +23596,12 @@
    "keeper sack"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "gives_coins",
+   "range_up",
+   "speed_up"
+  ]
  },
  {
   "id": 717,
@@ -21541,7 +23628,9 @@
    "keeper kin"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "spider_baby"
+  ]
  },
  {
   "id": 719,
@@ -21567,7 +23656,9 @@
    "keeper box"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 720,
@@ -21589,7 +23680,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 721,
@@ -21640,7 +23733,10 @@
    "bacob"
   ],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "character_start"
+  ]
  },
  {
   "id": 723,
@@ -21663,7 +23759,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "reroll"
+  ]
  },
  {
   "id": 724,
@@ -21684,7 +23783,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "healing"
+  ]
  },
  {
   "id": 725,
@@ -21707,7 +23808,10 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "explosive",
+   "oh_crap"
+  ]
  },
  {
   "id": 726,
@@ -21750,7 +23854,12 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "contact_damage",
+   "explosive",
+   "gives_bombs",
+   "spectral"
+  ]
  },
  {
   "id": 728,
@@ -21772,7 +23881,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active",
+   "familiar"
+  ]
  },
  {
   "id": 729,
@@ -21793,7 +23905,9 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "active"
+  ]
  },
  {
   "id": 730,
@@ -21819,7 +23933,10 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "luck_up"
+  ]
  },
  {
   "id": 731,
@@ -21843,7 +23960,12 @@
   "transformations": [],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "range_up",
+   "shot_speed_down",
+   "speed_down"
+  ]
  },
  {
   "id": 732,
@@ -21871,6 +23993,9 @@
   ],
   "keywords": [],
   "colors": [],
-  "tags": []
+  "tags": [
+   "damage_up",
+   "yes_mother"
+  ]
  }
 ]
