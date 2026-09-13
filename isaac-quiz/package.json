@@ -11,7 +11,8 @@
     "test:watch": "vitest",
     "scrape": "node scripts/scrape-items.mjs",
     "tag": "node scripts/tag-items.mjs",
-    "fetch-sprites": "node scripts/fetch-sprites.mjs"
+    "fetch-sprites": "node scripts/fetch-sprites.mjs",
+    "samples": "node scripts/samples.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.125.0",

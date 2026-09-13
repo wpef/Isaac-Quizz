@@ -1,0 +1,299 @@
+[
+  {
+    "with": 118, "best": 38,
+    "why": "Tammy's Head tire un anneau de lasers Brimstone dans toutes les directions : un des combos les plus puissants du jeu.",
+    "distractors": [
+      { "id": 224, "why": "Cricket's Body fait éclater les larmes à l'impact : un laser n'éclate pas, l'effet est perdu." },
+      { "id": 261, "why": "Proptosis joue sur la perte de dégâts avec la distance des larmes : sans effet notable sur le laser." },
+      { "id": 213, "why": "Lost Contact fait bloquer les projectiles par tes larmes : le laser ne bloque rien, bonus quasi nul." }
+    ]
+  },
+  {
+    "with": 118, "best": 153,
+    "why": "Mutant Spider avec Brimstone : 4 lasers par charge, le multi-tir s'applique au laser.",
+    "distractors": [
+      { "id": 222, "why": "Anti-Gravity fait flotter les larmes en l'air : Brimstone n'a plus de larmes, rien ne se passe." },
+      { "id": 373, "why": "Dead Eye se charge en enchaînant des larmes qui touchent : le laser ne construit pas le combo." },
+      { "id": 5, "why": "My Reflection donne des larmes boomerang : aucun effet sur un laser." }
+    ]
+  },
+  {
+    "with": 118, "best": 233,
+    "why": "Tiny Planet fait orbiter le laser Brimstone autour d'Isaac : un cercle de mort qui balaie toute la salle.",
+    "distractors": [
+      { "id": 224, "why": "Cricket's Body : pas de larmes qui éclatent, effet perdu." },
+      { "id": 261, "why": "Proptosis : la perte de dégâts à distance ne concerne que les larmes." },
+      { "id": 6, "why": "Number One : range down et tears up, rien de spécial avec un laser chargé." }
+    ]
+  },
+  {
+    "with": 118, "best": 329,
+    "why": "Ludovico + Brimstone : un laser contrôlable en permanence qui tourne autour du point visé et hache tout.",
+    "distractors": [
+      { "id": 373, "why": "Dead Eye : le multiplicateur se construit sur des larmes consécutives, pas avec un laser." },
+      { "id": 213, "why": "Lost Contact : bloquer des projectiles avec des larmes, sans objet ici." },
+      { "id": 89, "why": "Spider Bite : ralentissement à la chance sur les larmes, gain marginal avec le laser." }
+    ]
+  },
+  {
+    "with": 118, "best": 360,
+    "why": "Incubus copie tous tes modificateurs de tir : tu obtiens un second Brimstone qui tire avec toi.",
+    "distractors": [
+      { "id": 8, "why": "Brother Bobby tire des larmes normales de 3.5 : il ne profite pas de Brimstone." },
+      { "id": 57, "why": "Distant Admiration est un orbital de contact : aucune interaction avec le laser." },
+      { "id": 10, "why": "Halo of Flies bloque des projectiles : pas de synergie offensive." }
+    ]
+  },
+  {
+    "with": 118, "best": 3,
+    "why": "Spoon Bender rend le laser Brimstone légèrement à tête chercheuse : il se courbe vers les ennemis.",
+    "distractors": [
+      { "id": 224, "why": "Cricket's Body : rien n'éclate avec un laser." },
+      { "id": 5, "why": "My Reflection : l'effet boomerang ne s'applique pas au laser." },
+      { "id": 261, "why": "Proptosis : dégâts qui décroissent avec la distance des larmes, pas du laser." }
+    ]
+  },
+  {
+    "with": 149, "best": 223,
+    "why": "Pyromaniac rend immunisé aux explosions et soigne : les tirs Ipecac deviennent sans danger pour toi.",
+    "distractors": [
+      { "id": 2, "why": "The Inner Eye triple les tirs Ipecac mais divise la cadence par plus de 2 : tu te blesses trois fois plus facilement." },
+      { "id": 1, "why": "The Sad Onion augmente la cadence : plus d'explosions près de toi, sans protection." },
+      { "id": 3, "why": "Spoon Bender fait courber des tirs en cloche : gain limité, toujours aucune protection contre tes propres explosions." }
+    ]
+  },
+  {
+    "with": 149, "best": 375,
+    "why": "Host Hat rend immunisé aux explosions : Ipecac devient un canon d'artillerie sans risque.",
+    "distractors": [
+      { "id": 224, "why": "Cricket's Body fait éclater le tir Ipecac en 4 tirs explosifs : encore plus de risques d'auto-dégâts." },
+      { "id": 6, "why": "Number One réduit fortement la portée : les explosions tombent à tes pieds." },
+      { "id": 261, "why": "Proptosis fait perdre des dégâts avec la distance : tu es incité à tirer de près, dangereux avec Ipecac." }
+    ]
+  },
+  {
+    "with": 52, "best": 223,
+    "why": "Pyromaniac : immunisé à tes propres bombes Dr. Fetus et soigné par elles. Le combo standard.",
+    "distractors": [
+      { "id": 373, "why": "Dead Eye ne se charge pas avec des bombes : effet nul." },
+      { "id": 213, "why": "Lost Contact : tes bombes ne bloquent pas les projectiles comme des larmes." },
+      { "id": 5, "why": "My Reflection : les bombes ne reviennent pas en boomerang." }
+    ]
+  },
+  {
+    "with": 52, "best": 353,
+    "why": "Bomber Boy : chaque bombe Dr. Fetus explose en croix, couverture de salle énorme.",
+    "distractors": [
+      { "id": 261, "why": "Proptosis : la perte de dégâts à distance ne s'applique pas aux bombes." },
+      { "id": 3, "why": "Spoon Bender : les bombes Dr. Fetus ne sont pas à tête chercheuse." },
+      { "id": 89, "why": "Spider Bite : ralentissement lié aux larmes, aucun effet avec des bombes." }
+    ]
+  },
+  {
+    "with": 52, "best": 220,
+    "why": "Sad Bombs : chaque bombe Dr. Fetus libère 10 larmes à l'explosion, énorme dégât de zone gratuit.",
+    "distractors": [
+      { "id": 373, "why": "Dead Eye : pas de larmes consécutives, pas de multiplicateur." },
+      { "id": 222, "why": "Anti-Gravity : pas de larmes à faire flotter." },
+      { "id": 213, "why": "Lost Contact : rien à bloquer avec des bombes." }
+    ]
+  },
+  {
+    "with": 68, "best": 153,
+    "why": "Mutant Spider avec Technology : 4 lasers à la fois, la cadence réduite compte peu face à la multiplication.",
+    "distractors": [
+      { "id": 224, "why": "Cricket's Body : un laser n'éclate pas à l'impact." },
+      { "id": 261, "why": "Proptosis : perte de dégâts à distance des larmes, hors sujet." },
+      { "id": 222, "why": "Anti-Gravity : rien à faire flotter." }
+    ]
+  },
+  {
+    "with": 114, "best": 153,
+    "why": "Mutant Spider : 4 couteaux lancés d'un coup, chacun avec les dégâts de Mom's Knife. Dévastateur.",
+    "distractors": [
+      { "id": 224, "why": "Cricket's Body : le couteau n'éclate pas en petites larmes." },
+      { "id": 373, "why": "Dead Eye : pas de larmes, pas de multiplicateur." },
+      { "id": 6, "why": "Number One : range down et tears up, bonus quasi nul pour le couteau." }
+    ]
+  },
+  {
+    "with": 114, "best": 245,
+    "why": "20/20 : deux couteaux au lieu d'un, sans malus de cadence.",
+    "distractors": [
+      { "id": 261, "why": "Proptosis : la courbe de dégâts par distance ne s'applique pas au couteau." },
+      { "id": 5, "why": "My Reflection : le couteau revient déjà en boomerang, aucun gain." },
+      { "id": 213, "why": "Lost Contact : le couteau ne bloque rien." }
+    ]
+  },
+  {
+    "with": 245, "best": 118,
+    "why": "Brimstone avec 20/20 : double laser sur chaque charge, sans malus.",
+    "distractors": [
+      { "id": 224, "why": "Cricket's Body divise les dégâts des morceaux : faible gain comparé à un double Brimstone." },
+      { "id": 1, "why": "The Sad Onion : tears up honnête mais rien d'explosif." },
+      { "id": 89, "why": "Spider Bite : ralentissement à la chance, marginal." }
+    ]
+  },
+  {
+    "with": 329, "best": 118,
+    "why": "Brimstone + Ludovico : un laser permanent piloté au stick qui broie tout ce qu'il touche.",
+    "distractors": [
+      { "id": 373, "why": "Dead Eye : la larme unique de Ludovico ne construit pas le combo de touches consécutives." },
+      { "id": 261, "why": "Proptosis : la larme Ludovico perd ses dégâts en s'éloignant : anti-synergie." },
+      { "id": 6, "why": "Number One : range down inutile, la larme est déjà contrôlée." }
+    ]
+  },
+  {
+    "with": 329, "best": 331,
+    "why": "Godhead + Ludovico : une larme géante contrôlable avec une aura de dégâts permanente. On promène une zone de mort.",
+    "distractors": [
+      { "id": 261, "why": "Proptosis : dégâts qui fondent avec la distance, terrible avec une larme qui se promène loin." },
+      { "id": 373, "why": "Dead Eye : impossible d'enchaîner des touches distinctes avec une seule larme." },
+      { "id": 213, "why": "Lost Contact : une seule larme, elle bloque un tir et disparaît." }
+    ]
+  },
+  {
+    "with": 329, "best": 182,
+    "why": "Sacred Heart + Ludovico : dégâts massifs et homing sur la larme contrôlée, qui va chercher les ennemis toute seule.",
+    "distractors": [
+      { "id": 261, "why": "Proptosis : perte de dégâts à distance, anti-synergie avec Ludovico." },
+      { "id": 6, "why": "Number One : range down, sans intérêt pour une larme contrôlée." },
+      { "id": 89, "why": "Spider Bite : ralentissement à la chance, gain marginal." }
+    ]
+  },
+  {
+    "with": 330, "best": 69,
+    "why": "Chocolate Milk + Soy Milk (Repentance) : des tirs chargés ultra rapides avec des dégâts restaurés, une mitrailleuse.",
+    "distractors": [
+      { "id": 149, "why": "Ipecac avec Soy Milk : cadence énorme d'explosions à faibles dégâts, tu te blesses en boucle." },
+      { "id": 224, "why": "Cricket's Body : des larmes minuscules qui éclatent en morceaux minuscules, dégâts dérisoires." },
+      { "id": 373, "why": "Dead Eye : les larmes Soy Milk ratent souvent et cassent le combo." }
+    ]
+  },
+  {
+    "with": 233, "best": 132,
+    "why": "A Lump of Coal + Tiny Planet : les larmes gagnent des dégâts en orbitant, elles deviennent énormes le temps de tourner.",
+    "distractors": [
+      { "id": 261, "why": "Proptosis : les larmes perdent leurs dégâts en s'éloignant, anti-synergie avec l'orbite." },
+      { "id": 373, "why": "Dead Eye : des larmes en orbite qui ratent cassent le multiplicateur." },
+      { "id": 5, "why": "My Reflection : boomerang inutile, les larmes tournent déjà." }
+    ]
+  },
+  {
+    "with": 316, "best": 260,
+    "why": "Black Candle annule la téléportation aléatoire de Cursed Eye : tu gardes la rafale sans le malus.",
+    "distractors": [
+      { "id": 1, "why": "The Sad Onion : tears up, mais la téléportation reste." },
+      { "id": 21, "why": "The Compass : rien à voir avec le malus de Cursed Eye." },
+      { "id": 224, "why": "Cricket's Body : plus de larmes, mais toujours le risque de téléportation." }
+    ]
+  },
+  {
+    "with": 7, "best": 34,
+    "why": "The Book of Belial avec Blood of the Martyr : multiplicateur de dégâts x1.5 permanent (Repentance).",
+    "distractors": [
+      { "id": 21, "why": "The Compass : utilitaire de carte, aucune interaction." },
+      { "id": 1, "why": "The Sad Onion : simple tears up." },
+      { "id": 88, "why": "Un item utilitaire sans lien avec Blood of the Martyr." }
+    ]
+  },
+  {
+    "with": 109, "best": 416,
+    "why": "Deep Pockets monte le plafond de pièces à 999 : Money = Power continue de scaler bien au-delà de 99.",
+    "distractors": [
+      { "id": 21, "why": "The Compass : aucun lien avec les pièces." },
+      { "id": 1, "why": "The Sad Onion : tears up sans rapport." },
+      { "id": 224, "why": "Cricket's Body : rien à voir avec l'argent." }
+    ]
+  },
+  {
+    "with": 63, "best": 116,
+    "why": "9 Volt + The Battery : recharge plus vite avec une réserve doublée, l'actif tourne quasi en continu.",
+    "distractors": [
+      { "id": 21, "why": "The Compass : utilitaire de carte." },
+      { "id": 1, "why": "The Sad Onion : aucun effet sur les charges." },
+      { "id": 261, "why": "Proptosis : modif de larmes, pas de charge." }
+    ]
+  },
+  {
+    "with": 562, "best": 240,
+    "why": "Rock Bottom empêche les stats de baisser : Experimental Treatment ne garde que ses bonus.",
+    "distractors": [
+      { "id": 21, "why": "The Compass : aucune stat." },
+      { "id": 38, "why": "Tammy's Head : actif d'attaque, aucune stat à verrouiller." },
+      { "id": 5, "why": "My Reflection : boomerang, sans stat concernée." }
+    ]
+  },
+  {
+    "with": 247, "best": 275,
+    "why": "BFFS! double la taille et les dégâts des familiers : Lil Brimstone devient un second Brimstone.",
+    "distractors": [
+      { "id": 1, "why": "The Sad Onion ne touche pas les familiers." },
+      { "id": 261, "why": "Proptosis modifie tes larmes, pas celles des familiers." },
+      { "id": 21, "why": "The Compass : utilitaire." }
+    ]
+  },
+  {
+    "with": 247, "best": 678,
+    "why": "C Section fait tirer des fœtus familiers : BFFS! double leurs dégâts.",
+    "distractors": [
+      { "id": 1, "why": "The Sad Onion : rien pour les familiers." },
+      { "id": 373, "why": "Dead Eye : concerne tes propres larmes." },
+      { "id": 21, "why": "The Compass : utilitaire." }
+    ]
+  },
+  {
+    "with": 395, "best": 118,
+    "why": "Tech X + Brimstone : l'anneau devient un cercle de laser Brimstone qui broie tout dedans.",
+    "distractors": [
+      { "id": 224, "why": "Cricket's Body : pas de larmes à faire éclater." },
+      { "id": 261, "why": "Proptosis : sans effet sur un anneau laser." },
+      { "id": 373, "why": "Dead Eye : pas de touches consécutives de larmes." }
+    ]
+  },
+  {
+    "with": 229, "best": 118,
+    "why": "Monstro's Lung + Brimstone : une salve de plusieurs lasers Brimstone d'un coup, dégâts colossaux.",
+    "distractors": [
+      { "id": 373, "why": "Dead Eye : les rafales de larmes qui ratent cassent le combo." },
+      { "id": 5, "why": "My Reflection : les larmes de la salve reviennent sur toi, chaos inutile." },
+      { "id": 213, "why": "Lost Contact : peu utile avec des salves dispersées." }
+    ]
+  },
+  {
+    "with": 169, "best": 229,
+    "why": "Monstro's Lung + Polyphemus : chaque larme de la salve garde les dégâts énormes de Polyphemus, un shotgun de boulets.",
+    "distractors": [
+      { "id": 330, "why": "Soy Milk divise énormément les dégâts : il annule l'intérêt de Polyphemus." },
+      { "id": 224, "why": "Cricket's Body : les gros tirs éclatent en petites larmes à demi-dégâts." },
+      { "id": 6, "why": "Number One : range down, tes boulets tombent trop tôt." }
+    ]
+  },
+  {
+    "with": 371, "best": 375,
+    "why": "Host Hat te rend immunisé aux explosions : Curse of the Tower ne peut plus te blesser et devient une arme.",
+    "distractors": [
+      { "id": 1, "why": "The Sad Onion : tears up, mais les bombes-troll te blessent toujours." },
+      { "id": 21, "why": "The Compass : utilitaire." },
+      { "id": 3, "why": "Spoon Bender : homing sur tes larmes, aucune protection." }
+    ]
+  },
+  {
+    "with": 2, "best": 118,
+    "why": "Brimstone avec The Inner Eye : 3 lasers par charge.",
+    "distractors": [
+      { "id": 261, "why": "Proptosis : perte de dégâts avec la distance, rien de spécial en triple." },
+      { "id": 213, "why": "Lost Contact : bloque des projectiles, gain faible." },
+      { "id": 6, "why": "Number One : cadence up mais range down, rien de fou." }
+    ]
+  },
+  {
+    "with": 331, "best": 329,
+    "why": "The Ludovico Technique avec Godhead : la larme contrôlable devient une aura de dégâts que tu promènes sur les ennemis.",
+    "distractors": [
+      { "id": 224, "why": "Cricket's Body : la larme Godhead éclate en morceaux sans aura." },
+      { "id": 6, "why": "Number One : range down inutile." },
+      { "id": 89, "why": "Spider Bite : marginal." }
+    ]
+  }
+]
