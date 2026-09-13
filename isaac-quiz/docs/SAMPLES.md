@@ -212,7 +212,7 @@
   "type": "PICK_BEST",
   "key": "PICK_BEST:luck:492",
   "goal": "luck",
-  "prompt": "Tu veux optimiser la luck. Lequel tu prends ?",
+  "prompt": "Tu veux monter ta luck. Lequel tu prends ?",
   "answerMode": "pedestal",
   "pedestals": [
     671,

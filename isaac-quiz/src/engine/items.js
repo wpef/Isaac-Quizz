@@ -176,12 +176,12 @@ export function devilPrepScore(it) {
 }
 
 export const GOALS = {
-  damage: { label: 'les dégâts', score: damageScore },
-  tears: { label: 'la cadence de tir (tears)', score: tearsScore },
-  luck: { label: 'la luck', score: (it) => statScore(it, 'luck') },
-  speed: { label: 'la vitesse', score: (it) => statScore(it, 'speed') },
-  survival: { label: 'ta survie', score: survivalScore, situation: 'low_hp' },
-  devil: { label: 'la préparation d’un devil deal', score: devilPrepScore, situation: 'devil_next' },
+  damage: { label: 'les dégâts', prompt: 'Tu veux maximiser les dégâts. Lequel tu prends ?', score: damageScore },
+  tears: { label: 'la cadence (tears)', prompt: 'Tu veux maximiser la cadence de tir (tears). Lequel tu prends ?', score: tearsScore },
+  luck: { label: 'la luck', prompt: 'Tu veux monter ta luck. Lequel tu prends ?', score: (it) => statScore(it, 'luck') },
+  speed: { label: 'la vitesse', prompt: 'Tu veux monter ta vitesse. Lequel tu prends ?', score: (it) => statScore(it, 'speed') },
+  survival: { label: 'la survie', prompt: 'Lequel te sauve la run ?', score: survivalScore, situation: 'low_hp' },
+  devil: { label: 'le devil deal', prompt: 'Lequel te prépare le mieux au devil deal ?', score: devilPrepScore, situation: 'devil_next' },
 };
 
 export function formatStat(stat, v) {

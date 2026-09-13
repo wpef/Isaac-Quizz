@@ -70,7 +70,7 @@ export function genPickBest(ctx) {
       type: 'PICK_BEST',
       key: `PICK_BEST:${goalKey}:${winner.id}`,
       goal: goalKey,
-      prompt: `Tu veux optimiser ${goal.label}. Lequel tu prends ?`,
+      prompt: goal.prompt,
       answerMode: 'pedestal',
       pedestals: shown.map((it) => it.id),
       choices: pedestalChoices(shown),
@@ -80,11 +80,11 @@ export function genPickBest(ctx) {
     if (goal.situation === 'low_hp') {
       q.situation = { floor: rng.pick(FLOORS.slice(3)), note: 'Tu es presque mort.' };
       q.hp = { red: rng.pick([0.5, 1]), max: 3, soul: 0, black: 0 };
-      q.prompt = `Tu es à ${q.hp.red === 0.5 ? 'un demi-cœur' : 'un cœur'} en ${q.situation.floor}. Tu veux optimiser ${goal.label}. Lequel ?`;
+      q.prompt = `Tu es à ${q.hp.red === 0.5 ? 'un demi-cœur' : 'un cœur'} en ${q.situation.floor}. ${goal.prompt}`;
     } else if (goal.situation === 'devil_next') {
       q.situation = { floor: rng.pick(FLOORS.slice(0, 5)), note: 'Devil deal probable après le boss.' };
       q.hp = { red: 3, max: 3, soul: 0, black: 0 };
-      q.prompt = `${q.situation.floor}, devil deal probable après le boss. Tu veux ${goal.label}. Lequel ?`;
+      q.prompt = `${q.situation.floor}, devil deal probable après le boss. ${goal.prompt}`;
     }
     return q;
   }

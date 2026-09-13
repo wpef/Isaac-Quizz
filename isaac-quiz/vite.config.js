@@ -12,6 +12,17 @@ export default defineConfig({
       },
     },
   },
+  build: {
+    chunkSizeWarningLimit: 900,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          data: ['./src/data/items.json', './src/data/tags.json', './src/data/synergies.json'],
+          react: ['react', 'react-dom'],
+        },
+      },
+    },
+  },
   test: {
     environment: 'node',
     include: ['src/**/*.test.js'],
