@@ -4,10 +4,11 @@ import { itemSprite } from '../lib/assets.js';
 import { fetchExplanation } from '../lib/explain.js';
 
 export default function Feedback({ question, choiceId, correct, points, items, tags, onNext, nextLabel = 'Salle suivante' }) {
-  const shown = question.pedestals.map((id) => items.get(id)).filter(Boolean);
+  const heldIds = (question.held || []).filter((id) => !question.pedestals.includes(id));
+  const shown = [...question.pedestals, ...heldIds].map((id) => items.get(id)).filter(Boolean);
   const [tab, setTab] = useState(() => {
-    const target = question.answerMode === 'pedestal' ? question.correctId : question.pedestals[0];
-    return target;
+    if (question.targetId !== undefined && question.targetId !== null && items.has(question.targetId)) return question.targetId;
+    return question.answerMode === 'pedestal' ? question.correctId : question.pedestals[0];
   });
   const [ai, setAi] = useState(null); // null | 'loading' | string | 'none'
 
@@ -44,16 +45,17 @@ export default function Feedback({ question, choiceId, correct, points, items, t
                 if (it.id === question.correctId) cls.push('tab--correct');
                 else if (it.id === choiceId) cls.push('tab--wrong');
               }
+              if (heldIds.includes(it.id)) cls.push('tab--held');
               return (
                 <button key={it.id} type="button" className={cls.join(' ')} onClick={() => setTab(it.id)}>
                   <img src={itemSprite(it.id)} alt="" draggable={false} />
-                  <span>{it.name}</span>
+                  <span>{heldIds.includes(it.id) ? `(build) ${it.name}` : it.name}</span>
                 </button>
               );
             })}
           </div>
         )}
-        <ItemSheet item={items.get(tab) || shown[0]} tags={tags} />
+        {shown.length > 0 && <ItemSheet item={items.get(tab) || shown[0]} tags={tags} />}
       </div>
       <div className="sheet__actions">
         {ai === null && (

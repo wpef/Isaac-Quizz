@@ -26,7 +26,17 @@ function Altar() {
  * state: 'idle' | 'correct' | 'wrong' | 'dim' ; picked: the player clicked this one.
  * Names are only rendered once `revealed` is true.
  */
-export default function Pedestal({ item, onClick, state = 'idle', picked = false, revealed = false, clickable = false }) {
+function Price({ price }) {
+  if (price === undefined || price === null) return null;
+  if (price === 0) return <div className="pedestal__price pedestal__price--free">gratuit</div>;
+  return (
+    <div className="pedestal__price" aria-label={`${price} cœur${price > 1 ? 's' : ''}`}>
+      {Array.from({ length: price }, (_, i) => <span key={i}>♥</span>)}
+    </div>
+  );
+}
+
+export default function Pedestal({ item, onClick, state = 'idle', picked = false, revealed = false, clickable = false, price }) {
   const cls = ['pedestal'];
   if (clickable) cls.push('pedestal--clickable');
   if (state === 'correct') cls.push('pedestal--correct');
@@ -47,6 +57,7 @@ export default function Pedestal({ item, onClick, state = 'idle', picked = false
         <img src={itemSprite(item.id)} alt="" draggable={false} />
       </div>
       <Altar />
+      <Price price={price} />
       <div className="pedestal__name">{item.name}</div>
     </button>
   );

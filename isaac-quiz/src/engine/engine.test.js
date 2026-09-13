@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import items from '../data/items.json';
 import tags from '../data/tags.json';
 import synergies from '../data/synergies.json';
+import scenarios from '../data/scenarios.json';
 import { createGenerator, GENERATORS, DEFAULT_WEIGHTS } from './index.js';
 
 const byId = new Map(items.map((i) => [i.id, i]));
@@ -22,19 +23,20 @@ function assertValid(q, type) {
   // Every choice has an explanation
   for (const c of q.choices) expect(typeof q.explanations[c.id]).toBe('string');
   // Pedestal items exist
-  expect(q.pedestals.length).toBeGreaterThanOrEqual(1);
+  if (q.answerMode === 'pedestal') expect(q.pedestals.length).toBeGreaterThanOrEqual(1);
   for (const id of q.pedestals) expect(byId.has(id)).toBe(true);
   expect(new Set(q.pedestals).size).toBe(q.pedestals.length);
   if (q.answerMode === 'pedestal') {
-    for (const c of q.choices) expect(q.pedestals).toContain(c.itemId);
+    for (const c of q.choices) if (c.itemId && typeof c.id === 'number') expect(q.pedestals).toContain(c.itemId);
   }
+  expect(q.targetId === null || byId.has(q.targetId)).toBe(true);
 }
 
 describe('each generator produces valid questions', () => {
   for (const type of TYPES) {
     for (const difficulty of DIFFS) {
       it(`${type} / ${difficulty}`, () => {
-        const gen = createGenerator({ items, tags, synergies, difficulty, seed: 42 });
+        const gen = createGenerator({ items, tags, synergies, scenarios, difficulty, seed: 42 });
         let count = 0;
         for (let i = 0; i < 15; i++) {
           const q = gen.next({ type });
@@ -42,7 +44,7 @@ describe('each generator produces valid questions', () => {
           assertValid(q, type);
           count++;
         }
-        expect(count).toBeGreaterThanOrEqual(type === 'SYNERGY' ? 8 : 12);
+        expect(count).toBeGreaterThanOrEqual(['SYNERGY', 'DEVIL_DEAL', 'PRIORITY', 'ANTI_SYNERGY', 'BUILD_CHOICE'].includes(type) ? 8 : 12);
       });
     }
   }
@@ -115,21 +117,21 @@ describe('answers are objectively derived from data', () => {
   it('SYNERGY uses the hand-written file', () => {
     const gen = createGenerator({ items, tags, synergies, difficulty: 'normal', seed: 1 });
     const q = gen.next({ type: 'SYNERGY' });
-    const entry = synergies.find((s) => s.with === q.held && s.best === q.correctId);
+    const entry = synergies.find((s) => s.with === q.held[0] && s.best === q.correctId);
     expect(entry).toBeTruthy();
-    expect(q.prompt).toContain(byId.get(q.held).name);
+    expect(q.prompt).toContain(byId.get(q.held[0]).name);
   });
 });
 
 describe('generator', () => {
   it('is deterministic for a given seed', () => {
-    const a = createGenerator({ items, tags, synergies, seed: 123 });
-    const b = createGenerator({ items, tags, synergies, seed: 123 });
+    const a = createGenerator({ items, tags, synergies, scenarios, seed: 123 });
+    const b = createGenerator({ items, tags, synergies, scenarios, seed: 123 });
     for (let i = 0; i < 10; i++) expect(a.next().key).toBe(b.next().key);
   });
 
   it('never repeats a question key within the last 20 and avoids recently seen items', () => {
-    const gen = createGenerator({ items, tags, synergies, difficulty: 'hard', seed: 99 });
+    const gen = createGenerator({ items, tags, synergies, scenarios, difficulty: 'hard', seed: 99 });
     const keys = [];
     const seen = [];
     for (let i = 0; i < 80; i++) {
@@ -140,14 +142,14 @@ describe('generator', () => {
       // The target item was not among the pedestals of the previous 5 questions.
       const recentItems = new Set(seen.slice(-5).flat());
       const targetId = q.answerMode === 'pedestal' ? q.correctId : q.pedestals[0];
-      if (q.type !== 'SYNERGY') expect(recentItems.has(targetId)).toBe(false);
+      if (!q.scenarioId && q.type !== 'SYNERGY') expect(recentItems.has(targetId)).toBe(false);
       keys.push(q.key);
       seen.push(q.pedestals);
     }
   });
 
   it('uses every question type over a long session', () => {
-    const gen = createGenerator({ items, tags, synergies, seed: 2024 });
+    const gen = createGenerator({ items, tags, synergies, scenarios, seed: 2024 });
     const types = new Set();
     for (let i = 0; i < 120; i++) types.add(gen.next().type);
     for (const t of Object.keys(DEFAULT_WEIGHTS)) expect(types.has(t)).toBe(true);

@@ -203,342 +203,247 @@
 ]
 ```
 
-## Une question par type (difficulté hard, seed 2026)
+## Une question par type servi par défaut (difficulté hard, seed 2026)
 
-### PICK_BEST
+### BUILD_CHOICE
 
 ```json
 {
-  "type": "PICK_BEST",
-  "key": "PICK_BEST:luck:492",
-  "goal": "luck",
-  "prompt": "Tu veux monter ta luck. Lequel tu prends ?",
+  "type": "BUILD_CHOICE",
+  "key": "SCENARIO:bc-019",
+  "scenarioId": "bc-019",
+  "prompt": "Item room. Lequel tu prends ?",
+  "context": null,
   "answerMode": "pedestal",
   "pedestals": [
-    671,
-    492,
-    686
+    168,
+    395,
+    373
   ],
+  "prices": null,
   "choices": [
     {
-      "id": 671,
-      "itemId": 671,
-      "label": "Candy Heart"
+      "id": 168,
+      "itemId": 168,
+      "label": null
     },
     {
-      "id": 492,
-      "itemId": 492,
-      "label": "YO LISTEN!"
+      "id": 395,
+      "itemId": 395,
+      "label": null
     },
     {
-      "id": 686,
-      "itemId": 686,
-      "label": "Soul Locket"
+      "id": 373,
+      "itemId": 373,
+      "label": null
     }
   ],
-  "correctId": 492,
+  "correctId": 373,
+  "targetId": 373,
   "explanations": {
-    "492": "YO LISTEN! : +1 luck → score la luck +1",
-    "671": "Candy Heart : +0.1 dégâts, +0.05 tears (cadence), +0.02 vitesse, +0.1 luck, +0.15 portée, +0.02 shot speed → score la luck +0.1",
-    "686": "Soul Locket : +0.2 dégâts, +0.1 tears (cadence), +0.04 vitesse, +0.2 luck, +0.3 portée, +1 soul hearts → score la luck +0.2"
+    "168": "Écrase Ludovico.",
+    "373": "La larme ne touche jamais mur ni sol : multiplicateur x2 permanent.",
+    "395": "Écrase Ludovico."
+  },
+  "held": [
+    329
+  ],
+  "situation": {
+    "floor": "Womb I",
+    "note": null
+  },
+  "hp": {
+    "red": 3,
+    "max": 3,
+    "soul": 0,
+    "black": 0
   },
   "_pedestals": [
-    "Candy Heart",
-    "YO LISTEN!",
-    "Soul Locket"
+    "Epic Fetus",
+    "Tech X",
+    "Dead Eye"
   ]
 }
 ```
 
-### ICON_QUIZ
+### DEVIL_DEAL
 
 ```json
 {
-  "type": "ICON_QUIZ",
-  "key": "ICON_QUIZ:162",
-  "prompt": "Lequel est « Celtic Cross » ?",
+  "type": "DEVIL_DEAL",
+  "key": "SCENARIO:dd-005",
+  "scenarioId": "dd-005",
+  "prompt": "Devil room. Tu fais quoi ?",
+  "context": null,
   "answerMode": "pedestal",
   "pedestals": [
-    306,
-    313,
-    162
+    114,
+    83
   ],
+  "prices": {
+    "83": 1,
+    "114": 2
+  },
   "choices": [
     {
-      "id": 306,
-      "itemId": 306,
-      "label": "Sagittarius"
+      "id": 114,
+      "itemId": 114,
+      "label": null
     },
     {
-      "id": 313,
-      "itemId": 313,
-      "label": "Holy Mantle"
+      "id": 83,
+      "itemId": 83,
+      "label": null
     },
     {
-      "id": 162,
-      "itemId": 162,
-      "label": "Celtic Cross"
+      "id": "opt:dd-005:2",
+      "label": "Je skip le deal",
+      "itemId": null
     }
   ],
-  "correctId": 162,
+  "correctId": 114,
+  "targetId": 114,
   "explanations": {
-    "162": "Celtic Cross — « You feel blessed ». Upon taking damage, you have a 20% chance to gain an invulnerability shield for 7 seconds",
-    "306": "Sagittarius — « Penetrative shot + speed up ». +0.2 Speed Up",
-    "313": "Holy Mantle — « Holy shield ». Each time you enter a new room, damage is negated for the first time you get hit"
+    "83": "Un actif situationnel contre un couteau qui gagne la run.",
+    "114": "Q4 qui remplace ton tir. Il te reste 1 conteneur + 2 soul hearts, largement assez avec ce niveau de dégâts.",
+    "opt:dd-005:2": "Un Mom's Knife à Caves II, ça ne se skip pas."
+  },
+  "held": [],
+  "situation": {
+    "floor": "Caves II",
+    "note": null
+  },
+  "hp": {
+    "red": 3,
+    "max": 3,
+    "soul": 2,
+    "black": 0
   },
   "_pedestals": [
-    "Sagittarius",
-    "Holy Mantle",
-    "Celtic Cross"
+    "Mom's Knife",
+    "The Nail"
   ]
 }
 ```
 
-### NAME_QUIZ
+### ANTI_SYNERGY
 
 ```json
 {
-  "type": "NAME_QUIZ",
-  "key": "NAME_QUIZ:201",
-  "prompt": "Comment s’appelle cet item ?",
-  "answerMode": "text",
-  "pedestals": [
-    201
-  ],
-  "choices": [
-    {
-      "id": "item:201",
-      "label": "Iron Bar",
-      "itemId": 201
-    },
-    {
-      "id": "item:114",
-      "label": "Mom's Knife",
-      "itemId": 114
-    },
-    {
-      "id": "item:107",
-      "label": "Pinking Shears",
-      "itemId": 107
-    }
-  ],
-  "correctId": "item:201",
-  "explanations": {
-    "item:201": "Iron Bar — « Concussive tears ». +0.3 Damage Up",
-    "item:114": "Mom's Knife — « Stab stab stab ». Tears are replaced with a knife which can be charged and thrown in a boomerang style action",
-    "item:107": "Pinking Shears — « Cut and run ». Cuts Isaac's head from his body for the current room, allowing him to fly and leaving the decapitated body to run around attacking enemies for 5.5 damage per tick"
-  },
-  "_pedestals": [
-    "Iron Bar"
-  ]
-}
-```
-
-### KNOWLEDGE
-
-```json
-{
-  "type": "KNOWLEDGE",
-  "key": "KNOWLEDGE:poison:336",
-  "tag": "poison",
-  "prompt": "Quel item empoisonne les ennemis ?",
+  "type": "ANTI_SYNERGY",
+  "key": "SCENARIO:as-010",
+  "scenarioId": "as-010",
+  "prompt": "Lequel est un piège avec ton build ?",
+  "context": null,
   "answerMode": "pedestal",
   "pedestals": [
-    528,
-    136,
-    336
+    3,
+    68,
+    261
   ],
+  "prices": null,
   "choices": [
     {
-      "id": 528,
-      "itemId": 528,
-      "label": "Angelic Prism"
+      "id": 3,
+      "itemId": 3,
+      "label": null
     },
     {
-      "id": 136,
-      "itemId": 136,
-      "label": "Best Friend"
+      "id": 68,
+      "itemId": 68,
+      "label": null
     },
     {
-      "id": 336,
-      "itemId": 336,
-      "label": "Dead Onion"
+      "id": 261,
+      "itemId": 261,
+      "label": null
     }
   ],
-  "correctId": 336,
+  "correctId": 261,
+  "targetId": 261,
   "explanations": {
-    "136": "Best Friend ne correspond pas (« empoisonne les ennemis ») : Places a decoy on the floor which attracts enemies and explodes after a period of time",
-    "336": "Dead Onion empoisonne les ennemis. Isaac's tears become large, brown and will penetrate all objects and enemies (piercing + spectral)",
-    "528": "Angelic Prism ne correspond pas (« empoisonne les ennemis ») : Grants a prism orbital with a large orbital radius"
+    "3": "Le laser se courbe vers les ennemis.",
+    "68": "Multiplicateur x1.5 sur le laser.",
+    "261": "Le laser fait x6 à bout portant mais perd 13 % de dégâts par case, jusqu'à 0.1x à 7 cases : ton laser plein écran devient un pistolet à eau."
+  },
+  "held": [
+    118
+  ],
+  "situation": {
+    "floor": "Depths II",
+    "note": null
+  },
+  "hp": {
+    "red": 4,
+    "max": 4,
+    "soul": 0,
+    "black": 0
   },
   "_pedestals": [
-    "Angelic Prism",
-    "Best Friend",
-    "Dead Onion"
+    "Spoon Bender",
+    "Technology",
+    "Proptosis"
   ]
 }
 ```
 
-### STAT_COMPARE
+### PRIORITY
 
 ```json
 {
-  "type": "STAT_COMPARE",
-  "key": "STAT_COMPARE:damage:197",
-  "stat": "damage",
-  "prompt": "Lequel donne le plus gros bonus de dégâts ?",
+  "type": "PRIORITY",
+  "key": "SCENARIO:pr-002",
+  "scenarioId": "pr-002",
+  "prompt": "Lequel tu prends ?",
+  "context": "Item room.",
   "answerMode": "pedestal",
   "pedestals": [
-    109,
-    197,
-    686
+    218,
+    21,
+    169
   ],
+  "prices": null,
   "choices": [
     {
-      "id": 109,
-      "itemId": 109,
-      "label": "Money = Power"
+      "id": 218,
+      "itemId": 218,
+      "label": null
     },
     {
-      "id": 197,
-      "itemId": 197,
-      "label": "Jesus Juice"
+      "id": 21,
+      "itemId": 21,
+      "label": null
     },
     {
-      "id": 686,
-      "itemId": 686,
-      "label": "Soul Locket"
+      "id": 169,
+      "itemId": 169,
+      "label": null
     }
   ],
-  "correctId": 197,
+  "correctId": 169,
+  "targetId": 169,
   "explanations": {
-    "109": "Money = Power : +0.04 dégâts (+0.04 dégâts)",
-    "197": "Jesus Juice : +0.5 dégâts (+0.5 dégâts, +0.38 portée)",
-    "686": "Soul Locket : +0.2 dégâts (+0.2 dégâts, +0.1 tears (cadence), +0.04 vitesse, +0.2 luck, +0.3 portée, +1 soul hearts)"
+    "21": "Utilitaire. Pas le moment.",
+    "169": "Tu as 7 cœurs et pas de dégâts : à Depths II c'est le scaling qui manque, pas la survie.",
+    "218": "Tu as déjà 7 cœurs. Sans dégâts, tu vas juste mourir plus lentement dans le Womb."
+  },
+  "held": [
+    1
+  ],
+  "situation": {
+    "floor": "Depths II",
+    "note": "Item room."
+  },
+  "hp": {
+    "red": 5,
+    "max": 5,
+    "soul": 2,
+    "black": 0
   },
   "_pedestals": [
-    "Money = Power",
-    "Jesus Juice",
-    "Soul Locket"
-  ]
-}
-```
-
-### POOL
-
-```json
-{
-  "type": "POOL",
-  "key": "POOL:101",
-  "prompt": "Cet item vient de quel pool ?",
-  "answerMode": "text",
-  "pedestals": [
-    101
-  ],
-  "choices": [
-    {
-      "id": "pool:shop",
-      "label": "Shop"
-    },
-    {
-      "id": "pool:item_room",
-      "label": "Item Room"
-    },
-    {
-      "id": "pool:secret",
-      "label": "Secret Room"
-    }
-  ],
-  "correctId": "pool:item_room",
-  "explanations": {
-    "pool:shop": "Pas Shop : The Halo vient de Item Room, Angel Room.",
-    "pool:item_room": "The Halo vient de : Item Room, Angel Room.",
-    "pool:secret": "Pas Secret Room : The Halo vient de Item Room, Angel Room."
-  },
-  "_pedestals": [
-    "The Halo"
-  ]
-}
-```
-
-### QUALITY
-
-```json
-{
-  "type": "QUALITY",
-  "key": "QUALITY:722",
-  "prompt": "Quelle est la qualité de cet item ?",
-  "answerMode": "text",
-  "pedestals": [
-    722
-  ],
-  "choices": [
-    {
-      "id": "q:0",
-      "label": "Qualité 0"
-    },
-    {
-      "id": "q:1",
-      "label": "Qualité 1"
-    },
-    {
-      "id": "q:2",
-      "label": "Qualité 2"
-    }
-  ],
-  "correctId": "q:2",
-  "explanations": {
-    "q:0": "Non, Anima Sola est qualité 2, pas 0.",
-    "q:1": "Non, Anima Sola est qualité 2, pas 1.",
-    "q:2": "Anima Sola est qualité 2 — « Repent ». When used, it puts the closes enemy in chains for 5 seconds, preventing it from moving. You can release the enemy early by using it again"
-  },
-  "_pedestals": [
-    "Anima Sola"
-  ]
-}
-```
-
-### TRANSFORMATION
-
-```json
-{
-  "type": "TRANSFORMATION",
-  "key": "TRANSFORMATION:bob:273",
-  "tag": "bob",
-  "prompt": "Lequel compte pour la transformation Bob ?",
-  "answerMode": "pedestal",
-  "pedestals": [
-    236,
-    322,
-    273
-  ],
-  "choices": [
-    {
-      "id": 236,
-      "itemId": 236,
-      "label": "E. Coli"
-    },
-    {
-      "id": 322,
-      "itemId": 322,
-      "label": "Mongo Baby"
-    },
-    {
-      "id": 273,
-      "itemId": 273,
-      "label": "Bob's Brain"
-    }
-  ],
-  "correctId": 273,
-  "explanations": {
-    "236": "E. Coli ne compte pas pour Bob (il compte pour Oh Crap).",
-    "273": "Bob's Brain compte pour Bob (1 des 3 items nécessaires).",
-    "322": "Mongo Baby ne compte pas pour Bob (il compte pour Conjoined)."
-  },
-  "_pedestals": [
-    "E. Coli",
-    "Mongo Baby",
-    "Bob's Brain"
+    "Placenta",
+    "The Compass",
+    "Polyphemus"
   ]
 }
 ```
@@ -548,21 +453,18 @@
 ```json
 {
   "type": "SYNERGY",
-  "key": "SYNERGY:118:153",
-  "held": 118,
-  "prompt": "Tu as Brimstone. Lequel synergise le mieux ?",
+  "key": "SYNERGY:233:132",
+  "held": [
+    233
+  ],
+  "prompt": "Tu as Tiny Planet. Lequel synergise le mieux ?",
   "answerMode": "pedestal",
   "pedestals": [
-    153,
     5,
-    373
+    373,
+    132
   ],
   "choices": [
-    {
-      "id": 153,
-      "itemId": 153,
-      "label": "Mutant Spider"
-    },
     {
       "id": 5,
       "itemId": 5,
@@ -572,18 +474,107 @@
       "id": 373,
       "itemId": 373,
       "label": "Dead Eye"
+    },
+    {
+      "id": 132,
+      "itemId": 132,
+      "label": "A Lump of Coal"
     }
   ],
-  "correctId": 153,
+  "correctId": 132,
+  "targetId": 132,
   "explanations": {
-    "5": "My Reflection : My Reflection donne des larmes boomerang : aucun effet sur un laser.",
-    "153": "Mutant Spider + Brimstone : Mutant Spider avec Brimstone : 4 lasers par charge, le multi-tir s'applique au laser.",
-    "373": "Dead Eye : Dead Eye se charge en enchaînant des larmes qui touchent : le laser ne construit pas le combo."
+    "5": "My Reflection : My Reflection : boomerang inutile, les larmes tournent déjà.",
+    "132": "A Lump of Coal + Tiny Planet : A Lump of Coal + Tiny Planet : les larmes gagnent des dégâts en orbitant, elles deviennent énormes le temps de tourner.",
+    "373": "Dead Eye : Dead Eye : des larmes en orbite qui ratent cassent le multiplicateur."
   },
   "_pedestals": [
-    "Mutant Spider",
     "My Reflection",
-    "Dead Eye"
+    "Dead Eye",
+    "A Lump of Coal"
+  ]
+}
+```
+
+### ICON_QUIZ
+
+```json
+{
+  "type": "ICON_QUIZ",
+  "key": "ICON_QUIZ:699",
+  "prompt": "Lequel est « Azazel's Rage » ?",
+  "answerMode": "pedestal",
+  "pedestals": [
+    699,
+    7,
+    9
+  ],
+  "choices": [
+    {
+      "id": 699,
+      "itemId": 699,
+      "label": "Azazel's Rage"
+    },
+    {
+      "id": 7,
+      "itemId": 7,
+      "label": "Blood of the Martyr"
+    },
+    {
+      "id": 9,
+      "itemId": 9,
+      "label": "Skatole"
+    }
+  ],
+  "correctId": 699,
+  "targetId": 699,
+  "explanations": {
+    "7": "Blood of the Martyr — « DMG up ». +1.0 Damage Up",
+    "9": "Skatole — « Fly love ». A lot of fly enemies are no longer aggressive towards Isaac",
+    "699": "Azazel's Rage — « Ancient power ». Isaac builds rage each time you clear a new room. This is shown by the Azazel skin spreading on Isaac's face"
+  },
+  "_pedestals": [
+    "Azazel's Rage",
+    "Blood of the Martyr",
+    "Skatole"
+  ]
+}
+```
+
+### STAT_QUIZ
+
+```json
+{
+  "type": "STAT_QUIZ",
+  "key": "STAT_QUIZ:237",
+  "prompt": "Cet item donne quoi ?",
+  "answerMode": "text",
+  "pedestals": [
+    237
+  ],
+  "choices": [
+    {
+      "id": "stat:0",
+      "label": "+2 tears (cadence), +1.5 portée, +0.2 shot speed"
+    },
+    {
+      "id": "stat:1",
+      "label": "+0.4 dégâts, x0.9 dégâts, +1.7 tears (cadence), +0.3 vitesse"
+    },
+    {
+      "id": "stat:2",
+      "label": "+1.5 dégâts, -0.3 tears (cadence)"
+    }
+  ],
+  "correctId": "stat:2",
+  "targetId": 237,
+  "explanations": {
+    "stat:0": "Non, ça c'est le profil de Dark Prince's Crown (+2 tears (cadence), +1.5 portée, +0.2 shot speed). Death's Touch donne +1.5 dégâts, -0.3 tears (cadence).",
+    "stat:1": "Non, ça c'est le profil de Odd Mushroom (Thin) (+0.4 dégâts, x0.9 dégâts, +1.7 tears (cadence), +0.3 vitesse). Death's Touch donne +1.5 dégâts, -0.3 tears (cadence).",
+    "stat:2": "Death's Touch : +1.5 dégâts, -0.3 tears (cadence). +1.5 Damage Up"
+  },
+  "_pedestals": [
+    "Death's Touch"
   ]
 }
 ```

@@ -465,6 +465,30 @@ button {
   color: var(--bad);
 }
 
+
+.pedestal__price {
+  margin-top: 2px;
+  font-family: var(--font-pixel);
+  font-size: 10px;
+  color: #ff5b4a;
+  text-shadow: 1px 1px 0 #000;
+  letter-spacing: 2px;
+}
+.pedestal__price--free {
+  font-size: 6px;
+  color: var(--gold);
+  letter-spacing: 0;
+}
+.altars--empty {
+  min-height: 40px;
+}
+.tab--held {
+  border-style: dashed;
+}
+.hud__held img + img {
+  margin-left: -4px;
+}
+
 /* ---------------------------------------------------------------- choices */
 .choices {
   display: flex;

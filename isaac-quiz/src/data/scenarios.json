@@ -1,0 +1,1043 @@
+[
+  {
+    "id": "as-001", "type": "ANTI_SYNERGY", "difficulty": "normal",
+    "held": ["Ipecac"], "floor": "Caves I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Tiny Planet", "trap": true, "why": "Tes tirs explosifs se mettent à orbiter autour de toi : dès que tu bouges, tu marches dans tes propres explosions." },
+      { "item": "Pyromaniac", "why": "Immunité aux explosions et soin sur chaque blast : le partenaire idéal d'Ipecac." },
+      { "item": "Spoon Bender", "why": "Tes bombes deviennent homing, elles vont chercher les ennemis loin de toi. Aucun danger." }
+    ]
+  },
+  {
+    "id": "as-002", "type": "ANTI_SYNERGY", "difficulty": "normal",
+    "held": ["Ipecac"], "floor": "Depths I", "hp": { "red": 2, "max": 4, "soul": 1, "black": 0 },
+    "options": [
+      { "item": "My Reflection", "trap": true, "why": "Effet boomerang : les tirs explosifs reviennent vers toi. Auto-dégâts quasi garantis." },
+      { "item": "Host Hat", "why": "Immunité aux explosions : Ipecac devient une artillerie sans risque." },
+      { "item": "Cricket's Head", "why": "Le multiplicateur x1.5 s'applique aussi au +40 d'Ipecac, contrairement à Polyphemus ou Sacred Heart." }
+    ]
+  },
+  {
+    "id": "as-003", "type": "ANTI_SYNERGY", "difficulty": "hard",
+    "held": ["Ipecac"], "floor": "Caves II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Rubber Cement", "trap": true, "why": "Les tirs rebondissent sur les murs sans exploser tant qu'ils ne touchent pas le sol : ils reviennent exploser près de toi. Le wiki le déconseille explicitement." },
+      { "item": "Dr. Fetus", "why": "Les bombes deviennent empoisonnées avec le +40 d'Ipecac. Combo classique." },
+      { "item": "Tech X", "why": "L'anneau devient empoisonné et explose un tick sur deux (10 + 2x dégâts)." }
+    ]
+  },
+  {
+    "id": "as-004", "type": "ANTI_SYNERGY", "difficulty": "hard",
+    "held": ["Ipecac"], "floor": "Basement II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Number One", "trap": true, "why": "Le x0.8 de portée de Number One se cumule avec celui d'Ipecac : les explosions tombent à tes pieds. Déconseillé par le wiki." },
+      { "item": "Magic Mushroom", "why": "Le multiplicateur x1.5 s'applique au +40 d'Ipecac, plus HP up et taille. Excellent." },
+      { "item": "Epic Fetus", "why": "Missiles verts empoisonnés à dégâts massifs, ciblés loin de toi." }
+    ]
+  },
+  {
+    "id": "as-005", "type": "ANTI_SYNERGY", "difficulty": "expert",
+    "held": ["Ipecac"], "floor": "Depths II", "hp": { "red": 2, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Loki's Horns", "trap": true, "why": "Chance de tirer vers l'arrière ou dans les 4 directions : une explosion Ipecac dans ton dos. Risque d'auto-dégâts élevé." },
+      { "item": "Fire Mind", "why": "Chaque explosion laisse un feu au centre (100 % avec Ipecac)." },
+      { "item": "Cricket's Body", "why": "Le tir principal éclate en 4 tirs explosifs. Fort, et les éclats partent vers l'avant." }
+    ]
+  },
+  {
+    "id": "as-006", "type": "ANTI_SYNERGY", "difficulty": "expert",
+    "held": ["Ipecac"], "floor": "Womb I", "hp": { "red": 2, "max": 3, "soul": 1, "black": 0 },
+    "options": [
+      { "item": "Mom's Eye", "trap": true, "why": "Chance de tirer une deuxième larme vers l'arrière : une bombe Ipecac qui part dans ton dos." },
+      { "item": "The Sad Onion", "why": "Tears up simple : plus d'explosions, toujours devant toi." },
+      { "item": "Haemolacria", "why": "Tirs empoisonnés qui éclatent en morceaux explosifs à fort dégât à l'impact." }
+    ]
+  },
+  {
+    "id": "as-007", "type": "ANTI_SYNERGY", "difficulty": "normal",
+    "held": ["Brimstone"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Dr. Fetus", "trap": true, "why": "En Repentance, Dr. Fetus écrase totalement Brimstone : tu perds ton laser pour des bombes à cadence réduite." },
+      { "item": "Tammy's Head", "why": "Dix lasers Brimstone dans toutes les directions, rechargé chaque salle." },
+      { "item": "The Ludovico Technique", "why": "Anneau laser contrôlable sans charge, 15 ticks de dégâts par seconde." }
+    ]
+  },
+  {
+    "id": "as-008", "type": "ANTI_SYNERGY", "difficulty": "hard",
+    "held": ["Brimstone"], "floor": "Caves II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Dead Eye", "trap": true, "why": "Le multiplicateur de Dead Eye ne bouge pas avec les lasers : il reste figé à sa valeur d'avant. Un piédestal perdu." },
+      { "item": "Soy Milk", "why": "Le laser part automatiquement à pleine charge et dure tant que tu maintiens le tir." },
+      { "item": "Chocolate Milk", "why": "Charge variable : de 25 % à 250 % de dégâts selon la charge." }
+    ]
+  },
+  {
+    "id": "as-009", "type": "ANTI_SYNERGY", "difficulty": "hard",
+    "held": ["Brimstone"], "floor": "Basement II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Anti-Gravity", "trap": true, "why": "Le laser ne scale plus avec la cadence et ne peut plus être maintenu en continu. Tu perds le scaling tears de Brimstone." },
+      { "item": "Rubber Cement", "why": "Le laser rebondit sur les murs et crée un second faisceau à pleins dégâts." },
+      { "item": "A Lump of Coal", "why": "Le laser grossit et gagne +20 % de dégâts par case parcourue." }
+    ]
+  },
+  {
+    "id": "as-010", "type": "ANTI_SYNERGY", "difficulty": "expert",
+    "held": ["Brimstone"], "floor": "Depths II", "hp": { "red": 4, "max": 4, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Proptosis", "trap": true, "why": "Le laser fait x6 à bout portant mais perd 13 % de dégâts par case, jusqu'à 0.1x à 7 cases : ton laser plein écran devient un pistolet à eau." },
+      { "item": "Spoon Bender", "why": "Le laser se courbe vers les ennemis." },
+      { "item": "Technology", "why": "Multiplicateur x1.5 sur le laser." }
+    ]
+  },
+  {
+    "id": "as-011", "type": "ANTI_SYNERGY", "difficulty": "normal",
+    "held": ["Mom's Knife"], "floor": "Caves I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Dead Eye", "trap": true, "why": "Le multiplicateur de Dead Eye ne monte ni ne descend avec le couteau : item mort." },
+      { "item": "20/20", "why": "Deux couteaux au lieu d'un, sans malus de cadence." },
+      { "item": "Proptosis", "why": "Le couteau fait triple dégâts quelle que soit la distance." }
+    ]
+  },
+  {
+    "id": "as-012", "type": "ANTI_SYNERGY", "difficulty": "hard",
+    "held": ["Mom's Knife"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Chocolate Milk", "trap": true, "why": "Seul l'effet stat s'applique : le délai de tir x2.5, sans la charge. Ton couteau part 2.5 fois moins souvent." },
+      { "item": "Mutant Spider", "why": "Quatre couteaux en éventail à chaque lancer." },
+      { "item": "Epic Fetus", "why": "Chaque explosion projette 10 couteaux en cercle." }
+    ]
+  },
+  {
+    "id": "as-013", "type": "ANTI_SYNERGY", "difficulty": "normal",
+    "held": ["The Ludovico Technique"], "floor": "Caves II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Epic Fetus", "trap": true, "why": "Epic Fetus écrase Ludovico : tu perds le contrôle de la larme pour des missiles à cadence lente." },
+      { "item": "Brimstone", "why": "La larme devient un grand anneau laser contrôlable." },
+      { "item": "Godhead", "why": "La larme devient homing avec une aura de dégâts que tu promènes." }
+    ]
+  },
+  {
+    "id": "as-014", "type": "ANTI_SYNERGY", "difficulty": "hard",
+    "held": ["The Ludovico Technique"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Tech X", "trap": true, "why": "Tech X écrase complètement Ludovico. Tu troques une larme contrôlée pour des anneaux à charger." },
+      { "item": "Dead Eye", "why": "La larme ne touche jamais mur ni sol : le multiplicateur monte à x2 et n'en redescend plus." },
+      { "item": "Strange Attractor", "why": "Ennemis, items et même la plupart des boss sont aspirés vers ta larme : dégâts constants en sécurité." }
+    ]
+  },
+  {
+    "id": "as-015", "type": "ANTI_SYNERGY", "difficulty": "expert",
+    "held": ["The Ludovico Technique"], "floor": "Womb I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Almond Milk", "trap": true, "why": "La larme se téléporte sans arrêt dans une petite zone : viser devient presque impossible." },
+      { "item": "Spoon Bender", "why": "L'anneau s'étire vers les ennemis proches puis se reforme." },
+      { "item": "A Lump of Coal", "why": "Plus la larme est loin d'Isaac, plus elle est grosse et forte." }
+    ]
+  },
+  {
+    "id": "as-016", "type": "ANTI_SYNERGY", "difficulty": "expert",
+    "held": ["The Ludovico Technique"], "floor": "Depths II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Explosivo", "trap": true, "why": "La larme se colle à l'ennemi touché et devient incontrôlable jusqu'à sa mort." },
+      { "item": "Dr. Fetus", "why": "Une bombe contrôlable à haute vitesse, très bon contrôle de foule." },
+      { "item": "Lost Contact", "why": "La larme bloque les projectiles ennemis sans disparaître." }
+    ]
+  },
+  {
+    "id": "as-017", "type": "ANTI_SYNERGY", "difficulty": "normal",
+    "held": ["Soy Milk"], "floor": "Caves I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Proptosis", "trap": true, "why": "Les larmes minuscules de Soy Milk disparaissent encore plus vite : ta portée devient ridicule." },
+      { "item": "Chocolate Milk", "why": "Des tirs moyennement chargés à un rythme très rapide : la mitrailleuse (Repentance)." },
+      { "item": "Godhead", "why": "L'aura de dégâts n'est pas touchée par le malus de Soy Milk." }
+    ]
+  },
+  {
+    "id": "as-018", "type": "ANTI_SYNERGY", "difficulty": "hard",
+    "held": ["Soy Milk"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Dr. Fetus", "trap": true, "why": "Une rafale de mini-bombes à 0.2x dégâts qui se poussent les unes les autres. Faible et dangereux." },
+      { "item": "20/20", "why": "Deux tirs à la fois : jusqu'à +60 % de dégâts sur Soy Milk." },
+      { "item": "Tech X", "why": "Les anneaux se chargent et partent automatiquement à pleine charge." }
+    ]
+  },
+  {
+    "id": "as-019", "type": "ANTI_SYNERGY", "difficulty": "normal",
+    "held": ["Dr. Fetus"], "floor": "Caves II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "My Reflection", "trap": true, "why": "Les bombes perdent leur élan et glissent vers toi. Auto-dégâts très probables." },
+      { "item": "Pyromaniac", "why": "Les explosions te soignent : quasi invincible tant que tu as un conteneur." },
+      { "item": "Bomber Boy", "why": "Chaque bombe explose en croix." }
+    ]
+  },
+  {
+    "id": "as-020", "type": "ANTI_SYNERGY", "difficulty": "hard",
+    "held": ["Dr. Fetus"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Tiny Planet", "trap": true, "why": "Les bombes tournent autour de toi de façon incontrôlable. Auto-dégâts très probables." },
+      { "item": "Mr. Mega", "why": "+25 dégâts flat par bombe." },
+      { "item": "Sad Bombs", "why": "Chaque bombe tirée libère un cercle de larmes." }
+    ]
+  },
+  {
+    "id": "as-021", "type": "ANTI_SYNERGY", "difficulty": "expert",
+    "held": ["Dr. Fetus"], "floor": "Womb I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Tractor Beam", "trap": true, "why": "Les bombes sont ramenées vers toi à grande vitesse le long du rayon. Auto-dégâts très probables." },
+      { "item": "Fire Mind", "why": "Les bombes laissent un feu de 16 dégâts." },
+      { "item": "Polyphemus", "why": "Bombes plus grosses et plus fortes, qui laissent une bombe de 100 dégâts derrière elles." }
+    ]
+  },
+  {
+    "id": "as-022", "type": "ANTI_SYNERGY", "difficulty": "hard",
+    "held": ["Dr. Fetus"], "floor": "Depths II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Soy Milk", "trap": true, "why": "Des mini-bombes à 0.2x dégâts en rafale qui se poussent entre elles : tu perds ton one-shot pour un feu d'artifice." },
+      { "item": "Godhead", "why": "Les bombes deviennent homing." },
+      { "item": "Cricket's Body", "why": "Chaque bombe éclate en 4 petites bombes de 35 et la portée augmente au lieu de baisser." }
+    ]
+  },
+  {
+    "id": "as-023", "type": "ANTI_SYNERGY", "difficulty": "normal",
+    "held": ["Tech X"], "floor": "Caves II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "The Ludovico Technique", "trap": true, "why": "Tech X écrase Ludovico : le piédestal ne t'apporte rien." },
+      { "item": "Brimstone", "why": "Anneau Brimstone entouré d'un laser, x1.5 dégâts." },
+      { "item": "Haemolacria", "why": "Les tirs éclatent en 3 à 5 anneaux Tech X à pleins dégâts." }
+    ]
+  },
+  {
+    "id": "as-024", "type": "ANTI_SYNERGY", "difficulty": "hard",
+    "held": ["Tech X"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Dead Eye", "trap": true, "why": "Le multiplicateur ne bouge pas avec Tech X. Piédestal perdu." },
+      { "item": "Epic Fetus", "why": "Chaque missile tire 10 lasers avec +25 dégâts flat." },
+      { "item": "Monstro's Lung", "why": "3 à 5 anneaux supplémentaires en éventail." }
+    ]
+  },
+  {
+    "id": "as-025", "type": "ANTI_SYNERGY", "difficulty": "normal",
+    "held": ["Tiny Planet"], "floor": "Caves I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Dr. Fetus", "trap": true, "why": "Les bombes orbitent trop près : explosions sur toi si tu restes immobile." },
+      { "item": "A Lump of Coal", "why": "Les larmes restent très longtemps à l'écran et gagnent des dégâts en continu." },
+      { "item": "Rubber Cement", "why": "Les larmes rebondissent sur les ennemis et continuent d'orbiter sans être détruites." }
+    ]
+  },
+  {
+    "id": "as-026", "type": "ANTI_SYNERGY", "difficulty": "hard",
+    "held": ["Tiny Planet"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Proptosis", "trap": true, "why": "Les larmes disparaissent après une demi-orbite à dégâts de base : tu perds l'intérêt des deux items." },
+      { "item": "Godhead", "why": "Des larmes avec aura orbitent autour de toi : une barrière de dégâts." },
+      { "item": "The Ludovico Technique", "why": "La larme orbite en restant contrôlable, taille et vitesse réglables." }
+    ]
+  },
+  {
+    "id": "as-027", "type": "ANTI_SYNERGY", "difficulty": "hard",
+    "held": ["Dead Eye"], "floor": "Caves II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Cricket's Body", "trap": true, "why": "Les éclats qui ne touchent rien comptent comme des ratés : tu perds ton multiplicateur presque à chaque tir." },
+      { "item": "Spoon Bender", "why": "Homing : plus de touches, moins de ratés." },
+      { "item": "Immaculate Heart", "why": "Ses larmes orbitales montent le multiplicateur et ne peuvent pas le faire baisser." }
+    ]
+  },
+  {
+    "id": "as-028", "type": "ANTI_SYNERGY", "difficulty": "expert",
+    "held": ["Dead Eye"], "floor": "Depths II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "The Parasite", "trap": true, "why": "Les larmes secondaires qui ratent sont des ratés : perte du multiplicateur quasi garantie." },
+      { "item": "Proptosis", "why": "Une larme qui s'éteint d'elle-même ne compte pas comme un raté." },
+      { "item": "The Ludovico Technique", "why": "La larme ne touche jamais un mur : x2 permanent." }
+    ]
+  },
+  {
+    "id": "as-029", "type": "ANTI_SYNERGY", "difficulty": "expert",
+    "held": ["Ipecac", "Monstro's Lung"], "floor": "Womb I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Brimstone", "trap": true, "why": "Avec Ipecac + Monstro's Lung, les lasers partent dans des directions erratiques et explosent sur les rochers ou ennemis près de toi." },
+      { "item": "Pyromaniac", "why": "Immunité aux explosions : ta salve d'Ipecac ne te fait plus rien." },
+      { "item": "Host Hat", "why": "Immunité aux explosions." }
+    ]
+  },
+  {
+    "id": "as-030", "type": "ANTI_SYNERGY", "difficulty": "hard",
+    "held": ["Epic Fetus"], "floor": "Womb I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "The Ludovico Technique", "trap": true, "why": "Epic Fetus écrase Ludovico : aucun effet, piédestal gâché." },
+      { "item": "Ipecac", "why": "Missiles verts empoisonnés à dégâts énormes." },
+      { "item": "Tech X", "why": "Chaque missile tire 10 lasers avec +25 dégâts flat." }
+    ]
+  },
+  {
+    "id": "as-031", "type": "ANTI_SYNERGY", "difficulty": "hard",
+    "held": ["Brimstone"], "floor": "Womb I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Tiny Planet", "trap": true, "why": "Le laser fait un tour autour de toi puis part tout droit : tu perds la portée orbitale de Tiny Planet et n'y gagnes qu'une animation." },
+      { "item": "Monstro's Lung", "why": "3 à 5 lasers supplémentaires par charge, Brimstone garde la priorité sur le tears down." },
+      { "item": "Marked", "why": "Un viseur contrôlable qui fait tirer le laser automatiquement." }
+    ]
+  },
+  {
+    "id": "as-032", "type": "ANTI_SYNERGY", "difficulty": "expert",
+    "held": ["Soy Milk"], "floor": "Womb II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Mom's Knife", "trap": true, "why": "Le couteau ne part plus automatiquement à pleine charge et ne profite pas de la cadence. Deux items qui se neutralisent." },
+      { "item": "Monstro's Lung", "why": "Rafales continues sans temps de charge." },
+      { "item": "Rock Bottom", "why": "Ta cadence énorme est conservée et tes dégâts ne peuvent plus baisser." }
+    ]
+  },
+
+  {
+    "id": "bc-001", "type": "BUILD_CHOICE", "difficulty": "normal",
+    "held": ["Brimstone"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Tammy's Head", "best": true, "why": "Dix lasers Brimstone dans toutes les directions, rechargé chaque salle. Un des combos les plus forts du jeu." },
+      { "item": "The Sad Onion", "why": "Tears up honnête : ta charge est plus rapide, mais rien de comparable." },
+      { "item": "Cricket's Body", "why": "Des éclats au point d'impact du laser, gain marginal." }
+    ]
+  },
+  {
+    "id": "bc-002", "type": "BUILD_CHOICE", "difficulty": "normal",
+    "held": ["Brimstone"], "floor": "Caves II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "The Ludovico Technique", "best": true, "why": "Anneau laser contrôlable sans charge : 15 ticks de dégâts par seconde partout où tu le poses." },
+      { "item": "Rubber Cement", "why": "Rebonds du laser, bien mais loin derrière." },
+      { "item": "Proptosis", "why": "Ton laser plein écran perd ses dégâts avec la distance. Piège." }
+    ]
+  },
+  {
+    "id": "bc-003", "type": "BUILD_CHOICE", "difficulty": "hard",
+    "held": ["Brimstone"], "floor": "Depths II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Soy Milk", "best": true, "why": "Le laser part automatiquement à pleine charge et reste allumé tant que tu tires. Repentance a fait de ce combo une synergie." },
+      { "item": "Cricket's Body", "why": "Gain marginal avec un laser." },
+      { "item": "Dead Eye", "why": "Le multiplicateur ne bouge pas avec Brimstone. Item mort." }
+    ]
+  },
+  {
+    "id": "bc-004", "type": "BUILD_CHOICE", "difficulty": "hard",
+    "held": ["Brimstone"], "floor": "Womb I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Chocolate Milk", "best": true, "why": "Charge variable : jusqu'à 250 % de dégâts et 160 % de largeur à pleine charge, et des petits tirs rapides quand il faut." },
+      { "item": "Anti-Gravity", "why": "Le laser ne scale plus avec la cadence. Piège." },
+      { "item": "Proptosis", "why": "Dégâts qui fondent avec la distance : anti-synergie." }
+    ]
+  },
+  {
+    "id": "bc-005", "type": "BUILD_CHOICE", "difficulty": "normal",
+    "held": ["Ipecac"], "floor": "Caves II", "hp": { "red": 2, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Pyromaniac", "best": true, "why": "Immunité aux explosions et soin : Ipecac sans son seul défaut." },
+      { "item": "The Sad Onion", "why": "Plus d'explosions, mais toujours le risque de t'exploser toi-même à 2 cœurs." },
+      { "item": "Cricket's Body", "why": "Quatre éclats explosifs : fort, mais encore plus dangereux sans immunité." }
+    ]
+  },
+  {
+    "id": "bc-006", "type": "BUILD_CHOICE", "difficulty": "normal",
+    "held": ["Ipecac"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Host Hat", "best": true, "why": "Immunité aux explosions : Ipecac devient une artillerie sans risque." },
+      { "item": "Number One", "why": "Les portées x0.8 se cumulent : explosions à tes pieds." },
+      { "item": "Rubber Cement", "why": "Rebonds sans exploser jusqu'au sol : les tirs reviennent près de toi." }
+    ]
+  },
+  {
+    "id": "bc-007", "type": "BUILD_CHOICE", "difficulty": "hard",
+    "held": ["Ipecac"], "floor": "Depths II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Dr. Fetus", "best": true, "why": "Bombes empoisonnées avec le +40 d'Ipecac, qui explosent au contact." },
+      { "item": "Tiny Planet", "why": "Explosifs en orbite autour de toi. Piège." },
+      { "item": "My Reflection", "why": "Explosifs boomerang. Piège." }
+    ]
+  },
+  {
+    "id": "bc-008", "type": "BUILD_CHOICE", "difficulty": "expert",
+    "held": ["Ipecac"], "floor": "Womb I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Cricket's Head", "best": true, "why": "x1.5 appliqué au +40 flat d'Ipecac : (3.5 + 0.5 + 40) x 1.5 ≈ 66 par tir." },
+      { "item": "Polyphemus", "why": "Ses multiplicateurs ne s'appliquent pas au +40 : (3.5 + 4) x 2 + 40 = 55." },
+      { "item": "Sacred Heart", "why": "x2.3 sur les dégâts de base seulement : ≈ 50 par tir, plus le homing. Bon, mais moins." }
+    ]
+  },
+  {
+    "id": "bc-009", "type": "BUILD_CHOICE", "difficulty": "normal",
+    "held": ["Dr. Fetus"], "floor": "Caves I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Pyromaniac", "best": true, "why": "Tes bombes te soignent au lieu de te blesser : quasi invincible." },
+      { "item": "The Sad Onion", "why": "Cadence de bombes plus haute, sans régler le problème des auto-dégâts." },
+      { "item": "Spoon Bender", "why": "Bombes homing, sympa mais anecdotique." }
+    ]
+  },
+  {
+    "id": "bc-010", "type": "BUILD_CHOICE", "difficulty": "hard",
+    "held": ["Dr. Fetus"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Bomber Boy", "best": true, "why": "Explosions en croix : couverture énorme de chaque bombe tirée." },
+      { "item": "Rubber Cement", "why": "Seul l'effet stat s'applique aux bombes." },
+      { "item": "Dead Eye", "why": "Le multiplicateur ne bouge pas avec Dr. Fetus." }
+    ]
+  },
+  {
+    "id": "bc-011", "type": "BUILD_CHOICE", "difficulty": "hard",
+    "held": ["Dr. Fetus"], "floor": "Depths II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Mr. Mega", "best": true, "why": "+25 dégâts flat par bombe tirée." },
+      { "item": "Number One", "why": "Range down et tears up : peu d'intérêt pour des bombes." },
+      { "item": "My Reflection", "why": "Les bombes reviennent vers toi. Piège." }
+    ]
+  },
+  {
+    "id": "bc-012", "type": "BUILD_CHOICE", "difficulty": "normal",
+    "held": ["Mom's Knife"], "floor": "Caves I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "20/20", "best": true, "why": "Deux couteaux au lieu d'un, sans malus." },
+      { "item": "Chocolate Milk", "why": "Seul le délai x2.5 s'applique : couteau plus lent." },
+      { "item": "Dead Eye", "why": "Multiplicateur figé avec le couteau." }
+    ]
+  },
+  {
+    "id": "bc-013", "type": "BUILD_CHOICE", "difficulty": "hard",
+    "held": ["Mom's Knife"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Proptosis", "best": true, "why": "Le couteau fait triple dégâts quelle que soit la distance : le malus de Proptosis disparaît." },
+      { "item": "Number One", "why": "Cadence up, range down : peu utile sur un couteau." },
+      { "item": "Rubber Cement", "why": "Seul l'effet stat s'applique." }
+    ]
+  },
+  {
+    "id": "bc-014", "type": "BUILD_CHOICE", "difficulty": "expert",
+    "held": ["Mom's Knife"], "floor": "Womb I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Epic Fetus", "best": true, "why": "Chaque explosion projette 10 couteaux en cercle depuis le point d'impact." },
+      { "item": "Dead Eye", "why": "Item mort avec le couteau." },
+      { "item": "Anti-Gravity", "why": "Seul l'effet stat s'applique." }
+    ]
+  },
+  {
+    "id": "bc-015", "type": "BUILD_CHOICE", "difficulty": "normal",
+    "held": ["Tech X"], "floor": "Caves II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Brimstone", "best": true, "why": "Anneau Brimstone enroulé d'un laser, x1.5 dégâts." },
+      { "item": "The Sad Onion", "why": "Charge un peu plus rapide, c'est tout." },
+      { "item": "The Ludovico Technique", "why": "Écrasé par Tech X : aucun effet." }
+    ]
+  },
+  {
+    "id": "bc-016", "type": "BUILD_CHOICE", "difficulty": "hard",
+    "held": ["Tech X"], "floor": "Depths II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Haemolacria", "best": true, "why": "Les tirs éclatent en 3 à 5 anneaux Tech X à 100 % de dégâts." },
+      { "item": "Dead Eye", "why": "Multiplicateur figé avec Tech X." },
+      { "item": "Number One", "why": "Cadence up, range down, sans plus." }
+    ]
+  },
+  {
+    "id": "bc-017", "type": "BUILD_CHOICE", "difficulty": "normal",
+    "held": ["The Ludovico Technique"], "floor": "Caves II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Godhead", "best": true, "why": "Larme homing avec une aura de dégâts permanente que tu promènes sur les ennemis." },
+      { "item": "Cricket's Body", "why": "Mécanique écrasée par Ludovico, seules les stats restent." },
+      { "item": "Almond Milk", "why": "La larme se téléporte dans une petite zone : injouable." }
+    ]
+  },
+  {
+    "id": "bc-018", "type": "BUILD_CHOICE", "difficulty": "hard",
+    "held": ["The Ludovico Technique"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Strange Attractor", "best": true, "why": "Ennemis, items et la plupart des boss sont aspirés vers ta larme : dégâts constants sans risque." },
+      { "item": "Explosivo", "why": "La larme se colle et devient incontrôlable." },
+      { "item": "Haemolacria", "why": "Écrase Ludovico, ne laisse que le perçant." }
+    ]
+  },
+  {
+    "id": "bc-019", "type": "BUILD_CHOICE", "difficulty": "expert",
+    "held": ["The Ludovico Technique"], "floor": "Womb I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Dead Eye", "best": true, "why": "La larme ne touche jamais mur ni sol : multiplicateur x2 permanent." },
+      { "item": "Tech X", "why": "Écrase Ludovico." },
+      { "item": "Epic Fetus", "why": "Écrase Ludovico." }
+    ]
+  },
+  {
+    "id": "bc-020", "type": "BUILD_CHOICE", "difficulty": "normal",
+    "held": ["Soy Milk"], "floor": "Caves I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Chocolate Milk", "best": true, "why": "Tirs moyennement chargés à un rythme très rapide : la mitrailleuse de Repentance." },
+      { "item": "Proptosis", "why": "Les larmes disparaissent plus vite : portée nulle." },
+      { "item": "Dr. Fetus", "why": "Mini-bombes faibles en rafale, dangereux." }
+    ]
+  },
+  {
+    "id": "bc-021", "type": "BUILD_CHOICE", "difficulty": "hard",
+    "held": ["Soy Milk"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Godhead", "best": true, "why": "L'aura de dégâts ignore le malus de Soy Milk, et le homing rend la cadence énorme encore plus utile." },
+      { "item": "Almond Milk", "why": "Écrase Soy Milk pour un effet équivalent : piédestal gâché." },
+      { "item": "Epic Fetus", "why": "Dégâts des missiles réduits par Soy Milk." }
+    ]
+  },
+  {
+    "id": "bc-022", "type": "BUILD_CHOICE", "difficulty": "normal",
+    "held": ["Tiny Planet"], "floor": "Caves I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "A Lump of Coal", "best": true, "why": "Les larmes restent très longtemps en orbite et gagnent des dégâts en continu." },
+      { "item": "Proptosis", "why": "Les larmes disparaissent après une demi-orbite." },
+      { "item": "Dr. Fetus", "why": "Bombes en orbite sur toi. Piège." }
+    ]
+  },
+  {
+    "id": "bc-023", "type": "BUILD_CHOICE", "difficulty": "hard",
+    "held": ["Tiny Planet"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Rubber Cement", "best": true, "why": "Les larmes rebondissent sur les ennemis et continuent d'orbiter : elles ne sont jamais détruites." },
+      { "item": "Dr. Fetus", "why": "Bombes en orbite. Piège." },
+      { "item": "Proptosis", "why": "Demi-orbite puis disparition." }
+    ]
+  },
+  {
+    "id": "bc-024", "type": "BUILD_CHOICE", "difficulty": "hard",
+    "held": ["Dead Eye"], "floor": "Caves II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "The Ludovico Technique", "best": true, "why": "Multiplicateur x2 permanent, la larme ne rate jamais." },
+      { "item": "Cricket's Body", "why": "Les éclats ratés cassent le multiplicateur." },
+      { "item": "The Parasite", "why": "Idem : les larmes secondaires ratées comptent comme des ratés." }
+    ]
+  },
+  {
+    "id": "bc-025", "type": "BUILD_CHOICE", "difficulty": "normal",
+    "held": ["Cursed Eye"], "floor": "Basement II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Black Candle", "best": true, "why": "Annule la téléportation aléatoire de Cursed Eye : tu gardes la rafale sans le malus." },
+      { "item": "The Sad Onion", "why": "Tears up, mais la téléportation reste." },
+      { "item": "Pentagram", "why": "Dégâts et devil chance, mais la téléportation reste." }
+    ]
+  },
+  {
+    "id": "bc-026", "type": "BUILD_CHOICE", "difficulty": "hard",
+    "held": ["Blood of the Martyr"], "floor": "Caves I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "The Book of Belial", "best": true, "why": "Avec Blood of the Martyr, Book of Belial donne un multiplicateur x1.5 permanent." },
+      { "item": "The Sad Onion", "why": "Simple tears up." },
+      { "item": "Wire Coat Hanger", "why": "Simple tears up." }
+    ]
+  },
+  {
+    "id": "bc-027", "type": "BUILD_CHOICE", "difficulty": "hard",
+    "held": ["Money = Power"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "context": "Tu as 99 pièces.",
+    "options": [
+      { "item": "Deep Pockets", "best": true, "why": "Plafond de pièces à 999 : Money = Power continue de scaler au-delà de 99." },
+      { "item": "The Sad Onion", "why": "Tears up, sans lien avec ton build." },
+      { "item": "The Compass", "why": "Utilitaire de carte." }
+    ]
+  },
+  {
+    "id": "bc-028", "type": "BUILD_CHOICE", "difficulty": "hard",
+    "held": ["Curse of The Tower"], "floor": "Caves II", "hp": { "red": 2, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Host Hat", "best": true, "why": "Immunité aux explosions : les bombes-troll de Curse of the Tower deviennent une arme gratuite." },
+      { "item": "The Sad Onion", "why": "Tes bombes-troll te blessent toujours." },
+      { "item": "Spoon Bender", "why": "Homing sur les larmes, aucune protection." }
+    ]
+  },
+  {
+    "id": "bc-029", "type": "BUILD_CHOICE", "difficulty": "normal",
+    "held": ["Epic Fetus"], "floor": "Womb I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Ipecac", "best": true, "why": "Missiles verts empoisonnés aux dégâts très augmentés." },
+      { "item": "The Ludovico Technique", "why": "Écrasé par Epic Fetus." },
+      { "item": "Tiny Planet", "why": "Écrasé par Epic Fetus." }
+    ]
+  },
+  {
+    "id": "bc-030", "type": "BUILD_CHOICE", "difficulty": "normal",
+    "held": ["Guppy's Paw", "Dead Cat"], "floor": "Depths II", "hp": { "red": 1, "max": 1, "soul": 3, "black": 0 },
+    "options": [
+      { "item": "Guppy's Tail", "best": true, "why": "Troisième item chat : transformation Guppy, vol et mouches bleues à chaque touche. Ça change la run." },
+      { "item": "The Sad Onion", "why": "Tears up, mais tu laisses passer Guppy." },
+      { "item": "Pentagram", "why": "+1 dégât, mais tu laisses passer Guppy." }
+    ]
+  },
+  {
+    "id": "bc-031", "type": "BUILD_CHOICE", "difficulty": "hard",
+    "held": ["Polyphemus"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Monstro's Lung", "best": true, "why": "Une salve de boulets Polyphemus : chaque larme garde ses dégâts énormes." },
+      { "item": "Soy Milk", "why": "Le x0.2 de Soy Milk annule l'intérêt de Polyphemus." },
+      { "item": "Cricket's Body", "why": "Tes gros tirs éclatent en petites larmes à demi-dégâts." }
+    ]
+  },
+  {
+    "id": "bc-032", "type": "BUILD_CHOICE", "difficulty": "normal",
+    "held": ["BFFS!"], "floor": "Caves II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Lil Brimstone", "best": true, "why": "BFFS! double les dégâts des familiers : Lil Brimstone devient un second Brimstone." },
+      { "item": "The Sad Onion", "why": "Ne touche pas les familiers." },
+      { "item": "Spoon Bender", "why": "Ne touche pas les familiers." }
+    ]
+  },
+  {
+    "id": "bc-033", "type": "BUILD_CHOICE", "difficulty": "normal",
+    "held": ["Chocolate Milk"], "floor": "Caves I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Soy Milk", "best": true, "why": "Tirs chargés rapides à dégâts restaurés : la mitrailleuse." },
+      { "item": "Dead Eye", "why": "Les tirs spammés ratent et cassent le multiplicateur." },
+      { "item": "Number One", "why": "Range down, peu utile." }
+    ]
+  },
+  {
+    "id": "bc-034", "type": "BUILD_CHOICE", "difficulty": "hard",
+    "held": ["Monstro's Lung"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Polyphemus", "best": true, "why": "Un shotgun de boulets à dégâts énormes." },
+      { "item": "Dead Eye", "why": "Une salve dont la moitié rate : multiplicateur perdu en boucle." },
+      { "item": "Number One", "why": "Range down sur une salve déjà courte." }
+    ]
+  },
+  {
+    "id": "bc-035", "type": "BUILD_CHOICE", "difficulty": "expert",
+    "held": ["Haemolacria"], "floor": "Womb I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Brimstone", "best": true, "why": "Chaque larme éclate en 4 à 7 lasers Brimstone à l'impact." },
+      { "item": "The Ludovico Technique", "why": "Haemolacria écrase Ludovico." },
+      { "item": "Dead Eye", "why": "Les éclats ratés cassent le multiplicateur." }
+    ]
+  },
+  {
+    "id": "bc-036", "type": "BUILD_CHOICE", "difficulty": "normal",
+    "held": ["20/20"], "floor": "Caves II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Brimstone", "best": true, "why": "Double laser sur chaque charge, sans malus." },
+      { "item": "The Sad Onion", "why": "Tears up simple." },
+      { "item": "Number One", "why": "Range down, tears up : rien de fou." }
+    ]
+  },
+  {
+    "id": "bc-037", "type": "BUILD_CHOICE", "difficulty": "hard",
+    "held": ["Godhead"], "floor": "Depths II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "The Ludovico Technique", "best": true, "why": "Une aura de dégâts que tu promènes sur les ennemis." },
+      { "item": "Tech X", "why": "Perd l'aura de Godhead, ne garde que le homing." },
+      { "item": "Cricket's Body", "why": "Des éclats sans aura, gain faible." }
+    ]
+  },
+  {
+    "id": "bc-038", "type": "BUILD_CHOICE", "difficulty": "hard",
+    "held": ["Marked"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Brimstone", "best": true, "why": "Le laser part automatiquement vers le viseur : un canon Brimstone à 360°." },
+      { "item": "Dead Eye", "why": "Le tir automatique rate souvent : multiplicateur perdu." },
+      { "item": "Number One", "why": "Range down sur un tir qui vise déjà loin." }
+    ]
+  },
+  {
+    "id": "bc-039", "type": "BUILD_CHOICE", "difficulty": "expert",
+    "held": ["Ipecac"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Technology", "best": true, "why": "Laser empoisonné qui explose au contact (10 + 2x dégâts) : Ipecac à portée illimitée et sans arc." },
+      { "item": "Loki's Horns", "why": "Tirs vers l'arrière : explosion dans ton dos." },
+      { "item": "Number One", "why": "Explosions à tes pieds." }
+    ]
+  },
+  {
+    "id": "bc-040", "type": "BUILD_CHOICE", "difficulty": "expert",
+    "held": ["Dr. Fetus"], "floor": "Womb II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "options": [
+      { "item": "Proptosis", "best": true, "why": "Les dégâts non flat sont triplés et le malus de distance ne s'applique pas : tes bombes passent de 35 à ~82 (formule 5x dégâts + 30)." },
+      { "item": "Soy Milk", "why": "Mini-bombes à 0.2x." },
+      { "item": "Tiny Planet", "why": "Bombes en orbite sur toi." }
+    ]
+  },
+
+  {
+    "id": "dd-001", "type": "DEVIL_DEAL", "difficulty": "normal",
+    "held": [], "floor": "Basement II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "deals": [ { "item": "Brimstone", "price": 2 }, { "item": "Guppy's Paw", "price": 1 } ],
+    "options": [
+      { "item": "Brimstone", "best": true, "why": "Un Q4 qui gagne la run au deuxième étage. Tu restes à 1 cœur mais tu tues tout avant d'être touché : le prix n'a jamais été aussi bas." },
+      { "item": "Guppy's Paw", "why": "Convertir tes cœurs en soul hearts ne te fait pas gagner de run. Pas quand Brimstone est à côté." },
+      { "skip": true, "why": "Skipper pour préserver les angel rooms n'a de sens que si le deal est faible. Là tu jettes un Brimstone." }
+    ]
+  },
+  {
+    "id": "dd-002", "type": "DEVIL_DEAL", "difficulty": "hard",
+    "held": ["Tech X"], "floor": "Depths I", "hp": { "red": 1, "max": 1, "soul": 3, "black": 0 },
+    "deals": [ { "item": "Brimstone", "price": 2 } ],
+    "options": [
+      { "item": "Brimstone", "best": true, "why": "Un deal à 2 cœurs se prend avec un seul conteneur, et tu ne meurs pas tant qu'il te reste des soul hearts. Tu passes à 0 conteneur / 3 soul hearts avec Tech X + Brimstone : ça se prend." },
+      { "skip": true, "why": "Tu laisses la synergie Tech X + Brimstone par peur d'une règle qui n'existe pas." },
+      { "label": "Impossible, il faut 2 conteneurs", "why": "Faux : un deal à 2 cœurs coûte ton dernier conteneur si tu n'en as qu'un, tant que tu as des soul/black hearts pour survivre." }
+    ]
+  },
+  {
+    "id": "dd-003", "type": "DEVIL_DEAL", "difficulty": "hard",
+    "held": [], "floor": "Depths I", "hp": { "red": 1, "max": 1, "soul": 0, "black": 0 },
+    "deals": [ { "item": "Brimstone", "price": 2 } ],
+    "options": [
+      { "label": "Explorer l'étage pour trouver un soul heart, puis revenir", "best": true, "why": "Sans soul/black/bone heart, payer ton dernier conteneur te tuerait : le jeu refuse. Un seul soul heart débloque l'achat, et la porte reste ouverte sur l'étage." },
+      { "item": "Brimstone", "why": "Impossible : le deal viderait tes conteneurs sans rien pour survivre." },
+      { "label": "Descendre direct à l'étage suivant", "why": "Tu abandonnes un Brimstone sans avoir cherché le soul heart qui le rend achetable." }
+    ]
+  },
+  {
+    "id": "dd-004", "type": "DEVIL_DEAL", "difficulty": "normal",
+    "held": ["Guppy's Paw", "Guppy's Collar"], "floor": "Womb I", "hp": { "red": 4, "max": 4, "soul": 0, "black": 0 },
+    "deals": [ { "item": "Guppy's Head", "price": 1 }, { "item": "The Pact", "price": 1 } ],
+    "options": [
+      { "item": "Guppy's Head", "best": true, "why": "Troisième item chat : transformation Guppy, vol et mouches sur chaque touche. Pour 1 cœur." },
+      { "item": "The Pact", "why": "Des stats correctes, mais tu passes à côté de Guppy." },
+      { "skip": true, "why": "Tu as 4 cœurs et Guppy à portée de main." }
+    ]
+  },
+  {
+    "id": "dd-005", "type": "DEVIL_DEAL", "difficulty": "normal",
+    "held": [], "floor": "Caves II", "hp": { "red": 3, "max": 3, "soul": 2, "black": 0 },
+    "deals": [ { "item": "Mom's Knife", "price": 2 }, { "item": "The Nail", "price": 1 } ],
+    "options": [
+      { "item": "Mom's Knife", "best": true, "why": "Q4 qui remplace ton tir. Il te reste 1 conteneur + 2 soul hearts, largement assez avec ce niveau de dégâts." },
+      { "item": "The Nail", "why": "Un actif situationnel contre un couteau qui gagne la run." },
+      { "skip": true, "why": "Un Mom's Knife à Caves II, ça ne se skip pas." }
+    ]
+  },
+  {
+    "id": "dd-006", "type": "DEVIL_DEAL", "difficulty": "hard",
+    "held": ["Key Piece #1"], "floor": "Depths II", "hp": { "red": 4, "max": 4, "soul": 0, "black": 0 },
+    "context": "Tu vises Mega Satan.",
+    "deals": [ { "item": "Brimstone", "price": 2 } ],
+    "options": [
+      { "skip": true, "best": true, "why": "Payer un deal bloque les angel rooms pour le reste de la run : plus de Key Piece #2, plus de Mega Satan (sauf Dad's Key). Ton objectif passe avant le Brimstone." },
+      { "item": "Brimstone", "why": "Tu verrouilles les angel rooms et tu perds ta seconde moitié de clé." },
+      { "label": "Prendre Brimstone, un ange peut encore apparaître", "why": "Faux : un deal payé supprime les angel rooms pour toute la run (hors Book of Virtues / Act of Contrition)." }
+    ]
+  },
+  {
+    "id": "dd-007", "type": "DEVIL_DEAL", "difficulty": "hard",
+    "held": [], "floor": "Basement II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "context": "Dans la devil room : un item à 1 cœur, un black heart au sol et un red chest. Tu veux garder les angel rooms.",
+    "deals": [ { "item": "The Pact", "price": 1 } ],
+    "options": [
+      { "label": "Prendre le black heart et ouvrir le red chest, laisser l'item", "best": true, "why": "Seul le fait de payer de la vie compte comme un deal. Black hearts et red chests sont gratuits et ne bloquent pas les angel rooms." },
+      { "label": "Ne rien toucher du tout", "why": "Tu laisses un black heart gratuit qui ne coûte rien à tes angel rooms." },
+      { "item": "The Pact", "why": "Payé = deal pris = plus d'angel room de la run." }
+    ]
+  },
+  {
+    "id": "dd-008", "type": "DEVIL_DEAL", "difficulty": "hard",
+    "held": [], "floor": "Caves I", "hp": { "red": 0, "max": 0, "soul": 4, "black": 0 },
+    "context": "Tu joues ??? (Blue Baby).",
+    "deals": [ { "item": "Brimstone", "price": 2 } ],
+    "options": [
+      { "item": "Brimstone", "best": true, "why": "Sans conteneur rouge, tout item coûte 3 soul hearts. Il t'en reste 1 mais tu as Brimstone à Caves I : tu refais tes soul hearts en tuant tout de loin." },
+      { "label": "Impossible sans cœurs rouges", "why": "Faux : sans conteneur, les deals coûtent 3 soul hearts." },
+      { "skip": true, "why": "Trop prudent : Brimstone au troisième étage vaut largement 3 soul hearts." }
+    ]
+  },
+  {
+    "id": "dd-009", "type": "DEVIL_DEAL", "difficulty": "normal",
+    "held": [], "floor": "Basement II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "context": "Krampus est mort et a laissé A Lump of Coal.",
+    "deals": [ { "item": "A Lump of Coal", "price": 0 } ],
+    "options": [
+      { "label": "Le prendre : c'est gratuit, les angel rooms restent possibles", "best": true, "why": "Seul un item payé en vie compte comme un deal. Les drops de Krampus sont gratuits." },
+      { "label": "Le laisser pour préserver les angel rooms", "why": "Tu jettes un bon item pour rien : un drop gratuit ne bloque pas les anges." },
+      { "label": "Le prendre seulement si tu as déjà pris un deal", "why": "Aucun lien : gratuit, c'est gratuit." }
+    ]
+  },
+  {
+    "id": "dd-010", "type": "DEVIL_DEAL", "difficulty": "normal",
+    "held": [], "floor": "Basement II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "deals": [ { "item": "Goat Head", "price": 1 }, { "item": "The Pact", "price": 1 } ],
+    "options": [
+      { "item": "Goat Head", "best": true, "why": "Devil ou angel room garantie à chaque étage jusqu'à la fin : c'est une run entière de deals pour 1 cœur au deuxième étage." },
+      { "item": "The Pact", "why": "Quelques stats maintenant contre une devil room garantie à chaque étage." },
+      { "skip": true, "why": "Goat Head est justement l'item qui rend le skip inutile : tu prends, et tu auras toutes les devil rooms." }
+    ]
+  },
+  {
+    "id": "dd-011", "type": "DEVIL_DEAL", "difficulty": "hard",
+    "held": [], "floor": "Caves I", "hp": { "red": 6, "max": 6, "soul": 0, "black": 0 },
+    "deals": [ { "item": "Brimstone", "price": 2 }, { "item": "Dead Cat", "price": 1 } ],
+    "options": [
+      { "item": "Brimstone", "best": true, "why": "Brimstone à 2 cœurs quand tu en as 6, évidemment. Dead Cat te ramènerait à 1 conteneur et gâcherait tes 6 cœurs." },
+      { "item": "Dead Cat", "why": "Dead Cat met tes conteneurs à 1 : tu perds 5 cœurs pour 9 vies. Il n'a de sens qu'avec 1 ou 2 conteneurs." },
+      { "label": "Prendre les deux", "why": "Dead Cat annule tes cœurs restants : tu finis à 1 conteneur avec un Brimstone, alors que Brimstone seul te laisse 4 cœurs." }
+    ]
+  },
+  {
+    "id": "dd-012", "type": "DEVIL_DEAL", "difficulty": "hard",
+    "held": [], "floor": "Depths II", "hp": { "red": 1, "max": 1, "soul": 1, "black": 0 },
+    "deals": [ { "item": "Dead Cat", "price": 1 } ],
+    "options": [
+      { "item": "Dead Cat", "best": true, "why": "À 1 conteneur, Dead Cat ne te coûte rien de réel : tu passes à 0 conteneur / 1 soul heart puis Dead Cat te remet 1 cœur, avec 9 vies en prime." },
+      { "skip": true, "why": "Neuf vies quasi gratuites à Depths II, ça ne se refuse pas." },
+      { "label": "Impossible : le deal viderait mes conteneurs", "why": "Tu as un soul heart, donc l'achat est autorisé. Et Dead Cat redonne un conteneur." }
+    ]
+  },
+  {
+    "id": "dd-013", "type": "DEVIL_DEAL", "difficulty": "normal",
+    "held": [], "floor": "Caves II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "context": "Aucun item ne t'aide pour la devil room.",
+    "prompt": "Quelle est la règle n°1 pour faire apparaître la devil room après le boss ?",
+    "options": [
+      { "label": "Ne prendre aucun dégât rouge sur l'étage (+99 %)", "best": true, "why": "Base 1 %, +99 % si aucun dégât sur cœur rouge pendant l'étage, +35 % si aucun dans la salle du boss. Le reste est anecdotique." },
+      { "label": "Tuer le boss le plus vite possible", "why": "Le temps ne compte pas." },
+      { "label": "Avoir des soul hearts en réserve", "why": "En avoir ne change rien. Mais encaisser sur soul heart, oui : ça ne compte pas comme dégât rouge." }
+    ]
+  },
+  {
+    "id": "dd-014", "type": "DEVIL_DEAL", "difficulty": "hard",
+    "held": [], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 2, "black": 0 },
+    "prompt": "Tu prends un coup dans la salle du boss, absorbé par un soul heart. Effet sur la devil room ?",
+    "options": [
+      { "label": "Aucun : seuls les dégâts sur cœurs rouges comptent", "best": true, "why": "Les soul/black hearts encaissent sans toucher à la chance. Garde-les devant tes rouges quand tu chasses les deals." },
+      { "label": "Tu perds le bonus +35 % du boss", "why": "Non : le coup n'a pas touché de cœur rouge." },
+      { "label": "Tu perds tout le bonus de l'étage", "why": "Non : aucun dégât rouge." }
+    ]
+  },
+  {
+    "id": "dd-015", "type": "DEVIL_DEAL", "difficulty": "expert",
+    "held": [], "floor": "Basement II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "context": "Tu as vu la porte de la devil room à Basement II et tu n'y es PAS entré.",
+    "prompt": "À la prochaine ouverture de porte, tu tombes sur quoi ?",
+    "options": [
+      { "label": "Une angel room, garantie", "best": true, "why": "Première génération réussie après avoir vu sans entrer la première devil room de la run : 100 % angel." },
+      { "label": "50/50 devil ou angel", "why": "C'est la base sans ce bonus. Ici l'ange est garanti." },
+      { "label": "Une devil room, garantie", "why": "Non : ne pas entrer force l'ange." }
+    ]
+  },
+  {
+    "id": "dd-016", "type": "DEVIL_DEAL", "difficulty": "hard",
+    "held": ["Book of Virtues"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "context": "Tu as payé un deal à Basement II.",
+    "prompt": "Les angel rooms sont-elles encore possibles ?",
+    "options": [
+      { "label": "Oui : Book of Virtues les autorise malgré le deal", "best": true, "why": "Book of Virtues et Act of Contrition sont les deux items qui rouvrent les angel rooms après un deal payé." },
+      { "label": "Non, un deal payé les bloque pour toujours", "why": "Vrai en général, faux avec Book of Virtues ou Act of Contrition." },
+      { "label": "Oui, mais seulement à l'étage en cours", "why": "Ça, c'est la fortune « You feel blessed! » du confessionnal." }
+    ]
+  },
+  {
+    "id": "dd-017", "type": "DEVIL_DEAL", "difficulty": "expert",
+    "held": [], "floor": "Caves I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "prompt": "Quelle action donne +35 % de chance de devil room ?",
+    "options": [
+      { "label": "Faire exploser un beggar", "best": true, "why": "Bomber un beggar : +35 % pour l'étage." },
+      { "label": "Faire exploser un tinted rock", "why": "Ça donne des soul hearts, pas de devil chance." },
+      { "label": "Acheter un item au shop", "why": "Aucun effet." }
+    ]
+  },
+  {
+    "id": "dd-018", "type": "DEVIL_DEAL", "difficulty": "normal",
+    "held": [], "floor": "Womb I", "hp": { "red": 2, "max": 2, "soul": 0, "black": 0 },
+    "deals": [ { "item": "Sacrificial Altar", "price": 1 }, { "item": "Sulfur", "price": 1 } ],
+    "context": "Tu n'as aucun familier.",
+    "options": [
+      { "skip": true, "best": true, "why": "Sacrificial Altar sans familier ne fait rien, Sulfur est un Brimstone temporaire à 3 salles de recharge. Aucun des deux ne vaut un de tes 2 derniers cœurs à Womb I." },
+      { "item": "Sacrificial Altar", "why": "Il sacrifie des familiers contre des items. Tu n'en as pas." },
+      { "item": "Sulfur", "why": "Un Brimstone de 1 salle toutes les 3 salles, pour ton avant-dernier cœur. Non." }
+    ]
+  },
+  {
+    "id": "dd-019", "type": "DEVIL_DEAL", "difficulty": "hard",
+    "held": ["Brimstone", "Tammy's Head"], "floor": "Womb II", "hp": { "red": 2, "max": 2, "soul": 0, "black": 0 },
+    "deals": [ { "item": "The Pact", "price": 1 }, { "item": "Guppy's Hairball", "price": 1 } ],
+    "options": [
+      { "skip": true, "best": true, "why": "Ton build tue déjà tout. À 2 cœurs sans soul hearts avant Mom's Heart, un cœur vaut plus que quelques stats ou un familier chat." },
+      { "item": "The Pact", "why": "Tu passes à 1 cœur pour un peu de dégâts sur un build qui n'en a plus besoin." },
+      { "item": "Guppy's Hairball", "why": "Un familier de contact médiocre pour ton avant-dernier cœur." }
+    ]
+  },
+  {
+    "id": "dd-020", "type": "DEVIL_DEAL", "difficulty": "hard",
+    "held": [], "floor": "Basement II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "deals": [ { "item": "The Book of Belial", "price": 1 }, { "item": "Guppy's Collar", "price": 1 } ],
+    "options": [
+      { "item": "The Book of Belial", "best": true, "why": "+2 dégâts sur activation et +12.5 % de chance de devil deal par étage : il fait boule de neige sur toute la run. Q2, mais le meilleur des deux." },
+      { "item": "Guppy's Collar", "why": "50 % de revivre avec un demi-cœur. Un Q1 qui ne construit rien." },
+      { "skip": true, "why": "Pour 1 cœur au deuxième étage, Book of Belial rentabilise le deal à lui seul." }
+    ]
+  },
+
+  {
+    "id": "pr-001", "type": "PRIORITY", "difficulty": "normal",
+    "held": ["Brimstone", "Tammy's Head"], "floor": "Womb I", "hp": { "red": 1, "max": 3, "soul": 0, "black": 0 },
+    "context": "Boss room, un seul item.",
+    "options": [
+      { "item": "Placenta", "best": true, "why": "+1 conteneur et régénération. Ton build tue déjà tout, ce qui te manque c'est de survivre jusqu'à Mom's Heart." },
+      { "label": "Le laisser et chercher un soul heart", "why": "Un conteneur gratuit avec régénération vaut mieux qu'un soul heart hypothétique." },
+      { "label": "Le reroll avec ton D6 en espérant un dégât", "why": "Tu n'as pas besoin de dégâts. Tu as besoin de cœurs." }
+    ]
+  },
+  {
+    "id": "pr-002", "type": "PRIORITY", "difficulty": "normal",
+    "held": ["The Sad Onion"], "floor": "Depths II", "hp": { "red": 5, "max": 5, "soul": 2, "black": 0 },
+    "context": "Item room.",
+    "options": [
+      { "item": "Polyphemus", "best": true, "why": "Tu as 7 cœurs et pas de dégâts : à Depths II c'est le scaling qui manque, pas la survie." },
+      { "item": "Placenta", "why": "Tu as déjà 7 cœurs. Sans dégâts, tu vas juste mourir plus lentement dans le Womb." },
+      { "item": "The Compass", "why": "Utilitaire. Pas le moment." }
+    ]
+  },
+  {
+    "id": "pr-003", "type": "PRIORITY", "difficulty": "hard",
+    "held": ["Mom's Knife", "20/20", "The D6"], "floor": "Womb II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "context": "Item room : The Sad Onion. D6 chargé.",
+    "prompt": "Tu fais quoi ?",
+    "options": [
+      { "label": "Reroll avec le D6", "best": true, "why": "Un tears up sur un build couteau est faible. Le D6 te donne une chance de Q3/Q4 (HP, Sacred Heart, Godhead…) pour zéro coût." },
+      { "item": "The Sad Onion", "why": "Q3 sur un tir normal, mais sur un couteau ce n'est qu'une petite cadence en plus." },
+      { "label": "Le laisser et garder la charge du D6", "why": "Le D6 se recharge en 6 salles. Rerolle." }
+    ]
+  },
+  {
+    "id": "pr-004", "type": "PRIORITY", "difficulty": "normal",
+    "held": ["Brimstone", "Mutant Spider"], "floor": "Depths I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "context": "Secret room : Missing No.",
+    "prompt": "Tu prends ?",
+    "options": [
+      { "label": "Non", "best": true, "why": "Missing No. rerolle tous tes passifs à chaque nouvel étage : tu détruis un build Brimstone quad-laser pour de l'aléatoire." },
+      { "item": "Missing No", "why": "Tu perds Brimstone + Mutant Spider dès l'étage suivant." },
+      { "label": "Oui, seulement si je le retire après", "why": "Un passif ne se retire pas. Tu l'as, tu subis." }
+    ]
+  },
+  {
+    "id": "pr-005", "type": "PRIORITY", "difficulty": "normal",
+    "held": [], "floor": "Basement I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "context": "Item room.",
+    "options": [
+      { "item": "Pentagram", "best": true, "why": "+1 dégât et +10 % de devil chance dès le premier étage : les deux choses qui font une run." },
+      { "item": "Yum Heart", "why": "Un soin actif à Basement I, où tu n'as encore rien à soigner." },
+      { "item": "The Compass", "why": "Utilitaire, aucun impact sur ta capacité à tuer." }
+    ]
+  },
+  {
+    "id": "pr-006", "type": "PRIORITY", "difficulty": "hard",
+    "held": [], "floor": "Caves I", "hp": { "red": 1, "max": 3, "soul": 0, "black": 0 },
+    "context": "Une curse room est visible. Tu n'as pas le vol.",
+    "prompt": "Tu entres ?",
+    "options": [
+      { "label": "Non", "best": true, "why": "Entrer coûte un demi-cœur, sortir un autre : à 1 cœur tu ressors à 0. Le vol évite seulement l'entrée, pas la sortie ; il te faudrait un soul heart d'avance ou Holy Mantle. (Ces dégâts ne réduisent pas la devil chance.)" },
+      { "label": "Oui, la porte ne fait mal qu'une fois", "why": "Faux : elle fait mal à l'entrée ET à la sortie." },
+      { "label": "Oui, et je sors avec une bombe sur le mur", "why": "Bomber un mur de curse room ne crée pas de sortie. Tu repasses la porte." }
+    ]
+  },
+  {
+    "id": "pr-007", "type": "PRIORITY", "difficulty": "hard",
+    "held": ["Guppy's Head", "Guppy's Paw", "Guppy's Tail"], "floor": "Womb I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "context": "Transformation Guppy active. Item room.",
+    "options": [
+      { "item": "The Sad Onion", "best": true, "why": "Guppy fait apparaître une mouche à chaque larme qui touche (66 %) : la cadence multiplie tes mouches. Tears up > damage up sur ce build." },
+      { "item": "Pentagram", "why": "+1 dégât ne touche pas les mouches, qui font 2x tes dégâts de contact. La cadence rapporte plus." },
+      { "item": "Speed Ball", "why": "Vitesse et shot speed : tu voles déjà, et tes mouches n'en profitent pas." }
+    ]
+  },
+  {
+    "id": "pr-008", "type": "PRIORITY", "difficulty": "normal",
+    "held": ["The D6"], "floor": "Basement I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "context": "Item room : Wire Coat Hanger (Q3 mais simple tears up). D6 chargé.",
+    "prompt": "Tu fais quoi ?",
+    "options": [
+      { "label": "Tu prends : un Q3 au premier étage se garde", "best": true, "why": "Wire Coat Hanger est un vrai tears up permanent, Q3. On rerolle les Q0/Q1, pas un Q3 sûr contre un aléatoire moyen à 2." },
+      { "label": "Reroll", "why": "Rerolle les Q0/Q1. Un Q3 garanti bat la moyenne d'un reroll." },
+      { "label": "Le laisser pour garder la charge", "why": "Aucun sens : le prendre ne consomme pas le D6." }
+    ]
+  },
+  {
+    "id": "pr-009", "type": "PRIORITY", "difficulty": "hard",
+    "held": ["Ipecac"], "floor": "Caves II", "hp": { "red": 2, "max": 4, "soul": 0, "black": 0 },
+    "context": "Item room : Pyromaniac. Boss room après : un HP up.",
+    "prompt": "Ordre de priorité ?",
+    "options": [
+      { "item": "Pyromaniac", "best": true, "why": "Avec Ipecac, Pyromaniac = immunité à tes explosions + soin à chaque blast. Il vaut plus que n'importe quel HP up, et il te soigne en plus." },
+      { "label": "L'HP up d'abord, Pyromaniac ne soigne que si j'explose", "why": "Tu exploses en permanence avec Ipecac : c'est un soin gratuit continu." },
+      { "label": "Ni l'un ni l'autre, chercher un soul heart", "why": "Tu laisses l'item qui règle le seul défaut de ton build." }
+    ]
+  },
+  {
+    "id": "pr-010", "type": "PRIORITY", "difficulty": "hard",
+    "held": ["Tech X", "The Ludovico Technique"], "floor": "Depths II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "context": "Tu n'as pas encore remarqué que Tech X a écrasé Ludovico. Item room.",
+    "options": [
+      { "item": "Brimstone", "best": true, "why": "Tech X + Brimstone : anneau Brimstone x1.5. Ludovico ne fait déjà plus rien." },
+      { "item": "Dead Eye", "why": "Multiplicateur figé avec Tech X." },
+      { "item": "Almond Milk", "why": "Ludovico est écrasé, donc pas de larme à téléporter, mais Almond Milk baisse tes dégâts x0.33 pour rien avec Tech X." }
+    ]
+  },
+  {
+    "id": "pr-011", "type": "PRIORITY", "difficulty": "normal",
+    "held": ["Brimstone"], "floor": "Depths I", "hp": { "red": 4, "max": 4, "soul": 0, "black": 0 },
+    "context": "Item room : D4 (rerolle tous tes passifs).",
+    "prompt": "Tu prends ?",
+    "options": [
+      { "label": "Non", "best": true, "why": "Le D4 rerolle tes passifs à chaque utilisation : tu as Brimstone, tu ne joues pas à la loterie." },
+      { "item": "D4", "why": "Tu risques Brimstone contre un aléatoire. Le D4 n'est bon que sur un build nul." },
+      { "label": "Oui, pour l'utiliser une seule fois", "why": "Une seule fois suffit à perdre Brimstone." }
+    ]
+  },
+  {
+    "id": "pr-012", "type": "PRIORITY", "difficulty": "hard",
+    "held": [], "floor": "Womb I", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "context": "Aucun dégât notable. Item room : Chaos, Sacred Heart en boss room derrière.",
+    "prompt": "Tu prends Chaos avant d'entrer chez le boss ?",
+    "options": [
+      { "label": "Non, je prends Sacred Heart d'abord", "best": true, "why": "Chaos rend tous les items d'un pool aléatoire : le Sacred Heart déjà visible resterait, mais tout ce que tu n'as pas encore vu devient une loterie. Prends le Q4 sûr, décide de Chaos après." },
+      { "item": "Chaos", "why": "Aucun intérêt à mélanger les pools tant qu'un Q4 t'attend au boss." },
+      { "label": "Chaos puis Sacred Heart, l'ordre n'importe pas", "why": "L'item du boss est déjà généré, mais Chaos change tous les pedestals suivants. L'ordre importe pour le reste de la run." }
+    ]
+  },
+  {
+    "id": "pr-013", "type": "PRIORITY", "difficulty": "normal",
+    "held": ["Soy Milk"], "floor": "Caves II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "context": "Item room.",
+    "options": [
+      { "item": "Rock Bottom", "best": true, "why": "Verrouille tes stats au plus haut : la cadence x5.5 est gardée et tes dégâts ne pourront plus descendre. Chaque damage up devient énorme." },
+      { "item": "Number One", "why": "Encore de la cadence sur un build qui en a trop, et du range down." },
+      { "item": "The Compass", "why": "Utilitaire." }
+    ]
+  },
+  {
+    "id": "pr-014", "type": "PRIORITY", "difficulty": "hard",
+    "held": ["Dr. Fetus"], "floor": "Womb I", "hp": { "red": 2, "max": 2, "soul": 0, "black": 0 },
+    "context": "Item room : Pyromaniac. Shop : Placenta à 15 pièces, tu as 15 pièces.",
+    "prompt": "Tu priorises quoi ?",
+    "options": [
+      { "item": "Pyromaniac", "best": true, "why": "Avec Dr. Fetus, Pyromaniac te rend immunisé et te soigne à chaque bombe : c'est à la fois ta survie et ta liberté de tir. Placenta ne règle pas les auto-dégâts." },
+      { "item": "Placenta", "why": "+1 cœur, mais tu continues à te blesser avec tes propres bombes." },
+      { "label": "Les deux : Placenta au shop puis Pyromaniac", "why": "Tu peux, mais la question est la priorité : Pyromaniac d'abord, il te soigne pour le reste de l'étage." }
+    ]
+  },
+  {
+    "id": "pr-015", "type": "PRIORITY", "difficulty": "expert",
+    "held": ["Brimstone", "Spoon Bender"], "floor": "Depths II", "hp": { "red": 2, "max": 2, "soul": 3, "black": 0 },
+    "context": "Sacrifice room disponible. Tu veux pousser tes chances d'angel room.",
+    "prompt": "Un sacrifice sur les piques, ça coûte quoi ?",
+    "options": [
+      { "label": "Un cœur entier, pris sur les soul hearts d'abord", "best": true, "why": "Chaque pique retire un cœur entier, en commençant par les soul hearts. Avec 3 soul hearts tu peux faire 3 sacrifices sans toucher tes rouges : le 3e donne 67 % de « You feel blessed! » (+15 % d'angel), le 5e la version forte (+50 %), le 6e 33 % de téléportation à l'angel room." },
+      { "label": "Un demi-cœur", "why": "Non : un cœur entier par sacrifice en Repentance." },
+      { "label": "Un cœur rouge, obligatoirement", "why": "Non : les soul hearts partent d'abord, comme pour n'importe quel dégât." }
+    ]
+  },
+  {
+    "id": "pr-016", "type": "PRIORITY", "difficulty": "hard",
+    "held": ["Polyphemus"], "floor": "Womb II", "hp": { "red": 4, "max": 4, "soul": 0, "black": 0 },
+    "context": "Item room : Soy Milk.",
+    "prompt": "Tu prends ?",
+    "options": [
+      { "label": "Non", "best": true, "why": "Soy Milk multiplie tes dégâts par 0.2 : tes boulets Polyphemus deviennent des cailloux. La cadence ne rattrape pas une telle perte sur un build gros tir." },
+      { "item": "Soy Milk", "why": "Tu détruis l'intérêt de Polyphemus." },
+      { "label": "Oui, la cadence compense toujours", "why": "Pas avec un x0.2 sur un build qui tirait 15+ par larme." }
+    ]
+  },
+  {
+    "id": "pr-017", "type": "PRIORITY", "difficulty": "normal",
+    "held": [], "floor": "Basement II", "hp": { "red": 3, "max": 3, "soul": 0, "black": 0 },
+    "context": "Tu as pris 1 dégât rouge sur l'étage. Le boss est encore vivant.",
+    "prompt": "La devil room est-elle encore probable ?",
+    "options": [
+      { "label": "Peu probable : le +99 % est perdu, il reste le +35 % du boss", "best": true, "why": "Un dégât rouge sur l'étage supprime le +99 %. Ne pas prendre de dégât rouge contre le boss garde +35 % : ça reste jouable, mais loin de garanti." },
+      { "label": "Oui, seuls les dégâts contre le boss comptent", "why": "Faux : tout dégât rouge sur l'étage enlève le gros bonus." },
+      { "label": "Non, c'est mort pour cet étage", "why": "Il reste le +35 % si tu ne prends pas de dégât rouge dans la salle du boss." }
+    ]
+  }
+]

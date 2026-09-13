@@ -13,6 +13,7 @@ import {
   eligible, familyOf, visualSimilarity, nameSimilarity, statScore, statLine, formatStat,
   GOALS, MAIN_POOLS, POOL_LABELS, STAT_LABELS,
 } from './items.js';
+import { makeScenarioGenerator } from './scenarios.js';
 
 const FLOORS = ['Basement II', 'Caves I', 'Caves II', 'Depths I', 'Depths II', 'Womb I', 'Womb II', 'Mines I', 'Mausoleum I'];
 
@@ -75,6 +76,7 @@ export function genPickBest(ctx) {
       pedestals: shown.map((it) => it.id),
       choices: pedestalChoices(shown),
       correctId: winner.id,
+      targetId: winner.id,
       explanations,
     };
     if (goal.situation === 'low_hp') {
@@ -117,6 +119,7 @@ export function genIconQuiz(ctx) {
     pedestals: shown.map((it) => it.id),
     choices: pedestalChoices(shown),
     correctId: target.id,
+    targetId: target.id,
     explanations,
   };
 }
@@ -144,6 +147,7 @@ export function genNameQuiz(ctx) {
     pedestals: [target.id],
     choices: options.map((it) => ({ id: `item:${it.id}`, label: it.name, itemId: it.id })),
     correctId: `item:${target.id}`,
+    targetId: target.id,
     explanations,
   };
 }
@@ -267,6 +271,7 @@ export function genKnowledge(ctx) {
       pedestals: shown.map((it) => it.id),
       choices: pedestalChoices(shown),
       correctId: target.id,
+      targetId: target.id,
       explanations,
     };
   }
@@ -308,6 +313,7 @@ export function genStatCompare(ctx) {
       pedestals: shown.map((x) => x.it.id),
       choices: pedestalChoices(shown.map((x) => x.it)),
       correctId: winnerEntry.it.id,
+      targetId: winnerEntry.it.id,
       explanations,
     };
   }
@@ -359,6 +365,7 @@ export function genPool(ctx) {
     pedestals: [target.id],
     choices: options.map((p) => ({ id: `pool:${p}`, label: POOL_LABELS[p] })),
     correctId: `pool:${correct}`,
+    targetId: target.id,
     explanations,
   };
 }
@@ -392,6 +399,7 @@ export function genQuality(ctx) {
     pedestals: [target.id],
     choices: options.map((x) => ({ id: `q:${x}`, label: `Qualité ${x}` })),
     correctId: `q:${q}`,
+    targetId: target.id,
     explanations,
   };
 }
@@ -445,6 +453,7 @@ export function genTransformation(ctx) {
       pedestals: shown.map((it) => it.id),
       choices: pedestalChoices(shown),
       correctId: target.id,
+      targetId: target.id,
       explanations,
     };
   }
@@ -468,12 +477,67 @@ export function genSynergy(ctx) {
   return {
     type: 'SYNERGY',
     key: `SYNERGY:${entry.with}:${entry.best}`,
-    held: held.id,
+    held: [held.id],
     prompt: `Tu as ${held.name}. Lequel synergise le mieux ?`,
     answerMode: 'pedestal',
     pedestals: shown.map((it) => it.id),
     choices: pedestalChoices(shown),
     correctId: best.id,
+    targetId: best.id,
+    explanations,
+  };
+}
+
+
+// ---------------------------------------------------------------- STAT_QUIZ
+// One icon, three stat lines: which one is this item's real stat block?
+export function genStatQuiz(ctx) {
+  const { rng, difficulty } = ctx;
+  const withStats = eligible(ctx.items, difficulty).filter((it) => statLine(it));
+  const target = pickTarget(ctx, withStats);
+  if (!target) return null;
+  const line = statLine(target);
+  const keys = new Set(Object.keys(target.stats));
+  const others = ctx.items.filter((it) => it.id !== target.id && statLine(it) && statLine(it) !== line);
+  const overlap = (it) => Object.keys(it.stats).filter((k) => keys.has(k)).length;
+  let pool;
+  if (difficulty === 'expert') {
+    pool = others.filter((it) => overlap(it) === keys.size && Object.keys(it.stats).length === keys.size);
+    if (pool.length < 2) pool = others.filter((it) => overlap(it) >= 1);
+  } else if (difficulty === 'hard') {
+    pool = others.filter((it) => overlap(it) >= 1);
+  } else {
+    pool = others;
+  }
+  if (pool.length < 2) pool = others;
+  const seen = new Set([line]);
+  const distractors = [];
+  for (const it of rng.shuffle(pool)) {
+    const l = statLine(it);
+    if (seen.has(l)) continue;
+    seen.add(l);
+    distractors.push(it);
+    if (distractors.length === 2) break;
+  }
+  if (distractors.length < 2) return null;
+  const options = rng.shuffle([target, ...distractors]);
+  const explanations = {};
+  const choices = options.map((it, i) => {
+    const id = `stat:${i}`;
+    explanations[id] = it.id === target.id
+      ? `${target.name} : ${line}. ${firstLine(target)}`
+      : `Non, ça c'est le profil de ${it.name} (${statLine(it)}). ${target.name} donne ${line}.`;
+    return { id, label: statLine(it) };
+  });
+  return {
+    type: 'STAT_QUIZ',
+    key: `STAT_QUIZ:${target.id}`,
+    prompt: 'Cet item donne quoi ?',
+    answerMode: 'text',
+    pedestals: [target.id],
+    choices,
+    correctId: `stat:${options.indexOf(target)}`,
+    targetId: target.id,
     explanations,
   };
 }
@@ -488,9 +552,19 @@ export const GENERATORS = {
   QUALITY: genQuality,
   TRANSFORMATION: genTransformation,
   SYNERGY: genSynergy,
+  STAT_QUIZ: genStatQuiz,
+  BUILD_CHOICE: makeScenarioGenerator('BUILD_CHOICE'),
+  DEVIL_DEAL: makeScenarioGenerator('DEVIL_DEAL'),
+  ANTI_SYNERGY: makeScenarioGenerator('ANTI_SYNERGY'),
+  PRIORITY: makeScenarioGenerator('PRIORITY'),
 };
 
 export const TYPE_LABELS = {
+  BUILD_CHOICE: 'Choix de build',
+  DEVIL_DEAL: 'Devil deal',
+  ANTI_SYNERGY: 'Anti-synergie',
+  PRIORITY: 'Priorité de run',
+  STAT_QUIZ: 'Quiz de stats',
   PICK_BEST: 'Meilleur choix',
   ICON_QUIZ: 'Reconnaissance d’icône',
   NAME_QUIZ: 'Nom de l’item',

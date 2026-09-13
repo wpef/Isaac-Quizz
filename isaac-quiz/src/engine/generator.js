@@ -2,23 +2,26 @@
 import { createRng } from './rng.js';
 import { byId as indexById } from './items.js';
 import { GENERATORS } from './questions.js';
+import { resolveScenarios } from './scenarios.js';
 
+// Decision questions dominate; recognition (icon / stat block) stays as a light background.
+// The older generated types (PICK_BEST, NAME_QUIZ, KNOWLEDGE, STAT_COMPARE, POOL, QUALITY,
+// TRANSFORMATION) remain available through `next({ type })` but are not served by default.
 export const DEFAULT_WEIGHTS = {
-  PICK_BEST: 3,
-  ICON_QUIZ: 2,
-  NAME_QUIZ: 2,
-  KNOWLEDGE: 2.5,
-  STAT_COMPARE: 2,
-  POOL: 1.5,
-  QUALITY: 1,
-  TRANSFORMATION: 1,
+  BUILD_CHOICE: 3,
+  DEVIL_DEAL: 2.5,
+  ANTI_SYNERGY: 2.5,
+  PRIORITY: 2,
   SYNERGY: 1.5,
+  ICON_QUIZ: 1,
+  STAT_QUIZ: 1,
 };
 
 export function createGenerator({
   items,
   tags,
   synergies = [],
+  scenarios = [],
   difficulty = 'normal',
   seed = Date.now(),
   weights = DEFAULT_WEIGHTS,
@@ -28,6 +31,9 @@ export function createGenerator({
 }) {
   const rng = createRng(seed);
   const byId = indexById(items);
+  const resolved = resolveScenarios(scenarios, items).scenarios;
+  const recentScenarios = new Set();
+  const recentScenarioList = [];
   const history = []; // last question keys
   const recentList = []; // last shown item ids (FIFO)
   const recent = new Set();
@@ -39,6 +45,8 @@ export function createGenerator({
     byId,
     tags,
     synergies,
+    scenarios: resolved,
+    recentScenarios,
     rng,
     difficulty,
     recent,
@@ -61,6 +69,12 @@ export function createGenerator({
       }
     }
     while (recentList.length > recentItemsSize) recent.delete(recentList.shift());
+    if (q.scenarioId) {
+      recentScenarios.add(q.scenarioId);
+      recentScenarioList.push(q.scenarioId);
+      // Scenario banks are finite: remember roughly the last third of each bank.
+      while (recentScenarioList.length > 25) recentScenarios.delete(recentScenarioList.shift());
+    }
   }
 
   function pickType(forceType) {
@@ -78,7 +92,7 @@ export function createGenerator({
       if (history.includes(q.key)) continue;
       // Don't repeat the exact same set of pedestals either.
       const setKey = q.pedestals.slice().sort().join(',');
-      if (history.includes(`set:${setKey}`)) continue;
+      if (q.pedestals.length && history.includes(`set:${setKey}`)) continue;
       remember(q);
       history.push(`set:${setKey}`);
       if (history.length > historySize * 2) history.shift();

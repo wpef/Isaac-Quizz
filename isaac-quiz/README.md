@@ -20,27 +20,50 @@ Difficulté **Normal / Hard / Expert** = qualité des items tirés et proximité
 Après chaque réponse : fiche Platinum God des 3 items (description, qualité, pools, unlock, tags),
 bouton **Pourquoi ?** (Netlify Function optionnelle, voir plus bas).
 
-## Types de questions (`src/engine/questions.js`)
+## Types de questions
 
-1. **PICK_BEST** — 2 ou 3 icônes, objectif (dégâts / tears / luck / speed / survie / devil deal).
-   Réponse calculée depuis `stats` + `tags` ; refus de générer sans vainqueur objectif.
-   La situation (HP bas, devil deal à venir) n'apparaît que si elle change la réponse et est
-   reflétée dans le HUD (cœurs, étage).
-2. **ICON_QUIZ** — nom donné, 3 icônes proches visuellement (palette / famille).
-3. **NAME_QUIZ** — 1 icône, 3 noms.
-4. **KNOWLEDGE** — "Quel item donne le vol / ignore le tears cap / est à usage unique…" (tags).
-5. **STAT_COMPARE** — "Lequel donne le plus gros bonus de X ?" (stats).
-6. **POOL** — "Cet item vient de quel pool ?"
-7. **QUALITY** — "Quelle qualité ?" (0 à 4).
-8. **TRANSFORMATION** — "Lequel compte pour Guppy / Leviathan / Bob… ?"
-9. **SYNERGY** — "Tu as X, lequel synergise le mieux ?" (`src/data/synergies.json`, ~33 entrées
-   écrites à la main avec distracteurs expliqués).
+Le cœur du jeu est une **banque de scénarios de theorycraft écrite à la main** (`src/data/scenarios.json`,
+109 scénarios, vérifiés contre le wiki Repentance) + quelques types générés depuis les données.
+
+| Type | Poids | Source | Exemple |
+|------|-------|--------|---------|
+| **BUILD_CHOICE** | 3 | scénarios | « Tu as Brimstone, Depths I. Item room : Tammy's Head / Sad Onion / Cricket's Body. » |
+| **DEVIL_DEAL** | 2.5 | scénarios | « 1 conteneur + 3 soul hearts, Brimstone à 2 cœurs. Tu prends ? » (prix affichés, option skip, règles de prix / angel lock / devil chance) |
+| **ANTI_SYNERGY** | 2.5 | scénarios | « Tu as Ipecac. Lequel est un piège ? » (Tiny Planet, My Reflection, Number One…) |
+| **PRIORITY** | 2 | scénarios | « Womb I, 1 cœur, build Brimstone + Tammy's Head. Boss room : Placenta ou reroll ? », curse room à 1 cœur, D6, Missing No… |
+| **SYNERGY** | 1.5 | `synergies.json` | « Tu as Dr. Fetus. Lequel synergise le mieux ? » |
+| **ICON_QUIZ** | 1 | généré | « Lequel est Celtic Cross ? » (distracteurs même palette / famille) |
+| **STAT_QUIZ** | 1 | généré (stats PG) | « Cet item donne quoi ? » 3 blocs de stats, l'icône seule |
+
+Chaque scénario porte le build tenu (affiché dans le HUD), l'étage, les cœurs (HUD), 2-3 options
+avec une explication par option, et une difficulté (`normal` / `hard` / `expert`). Les items sont
+référencés par nom Platinum God et résolus/validés par les tests (`src/engine/scenarios.test.js`).
+
+Format d'un scénario :
+
+```json
+{ "id": "dd-002", "type": "DEVIL_DEAL", "difficulty": "hard",
+  "held": ["Tech X"], "floor": "Depths I", "hp": { "red": 1, "max": 1, "soul": 3, "black": 0 },
+  "deals": [ { "item": "Brimstone", "price": 2 } ],
+  "options": [
+    { "item": "Brimstone", "best": true, "why": "…" },
+    { "skip": true, "why": "…" },
+    { "label": "Impossible, il faut 2 conteneurs", "why": "…" } ] }
+```
+
+`best` (ou `trap` pour ANTI_SYNERGY) marque l'unique bonne réponse. Une option peut être un item
+(piédestal cliquable), un `skip` ou un `label` libre (bouton texte). `deals` affiche les prix en cœurs.
+
+Les anciens types générés (PICK_BEST, NAME_QUIZ, KNOWLEDGE, STAT_COMPARE, POOL, QUALITY,
+TRANSFORMATION) existent toujours dans `src/engine/questions.js` mais ne sont plus servis par défaut
+(`DEFAULT_WEIGHTS` dans `generator.js`) ; `?type=POOL` les force pour débug.
 
 Format d'une question :
 
 ```js
-{ type, key, prompt, answerMode: 'pedestal'|'text', pedestals: [itemId], choices: [{id, label, itemId?}],
-  correctId, explanations: { [choiceId]: text }, situation?: {floor, note}, hp?: {red, max, soul, black}, held? }
+{ type, key, prompt, context?, answerMode: 'pedestal'|'text', pedestals: [itemId], prices?: {itemId: n},
+  choices: [{id, label?, itemId?}], correctId, targetId, explanations: { [choiceId]: text },
+  situation?: {floor, note}, hp?: {red, max, soul, black}, held?: [itemId] }
 ```
 
 Voir `docs/SAMPLES.md` (`npm run samples`) pour 5 entrées d'`items.json` et une question de chaque type.
@@ -121,8 +144,8 @@ après la première visite.
 isaac-quiz/
 ├── scripts/            scrape-items, tag-items, fetch-sprites, make-icons, samples
 ├── src/
-│   ├── data/           items.json (718), tags.json, synergies.json
-│   ├── engine/         rng, items (scores/similarité), questions (9 générateurs), generator (pondération, anti-répétition, SRS)
+│   ├── data/           items.json (718), tags.json, synergies.json, scenarios.json (109 scénarios)
+│   ├── engine/         rng, items, questions (générateurs), scenarios (banque → questions), generator (pondération, anti-répétition, SRS)
 │   ├── components/     Room, Hud, Pedestal, Question, Feedback, ItemSheet, Title, Summary, Stats
 │   └── lib/            storage, srs (Leitner), stats, explain, assets (fallback sprites)
 ├── netlify/functions/  explain.js

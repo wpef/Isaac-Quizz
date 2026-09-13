@@ -40,7 +40,7 @@ function hearts(hp) {
   return list;
 }
 
-export default function Hud({ hp, score, streak, bestStreak, floor, progress, heldItem, difficulty }) {
+export default function Hud({ hp, score, streak, bestStreak, floor, progress, heldItems = [], difficulty }) {
   return (
     <div className="hud">
       <div>
@@ -48,10 +48,12 @@ export default function Hud({ hp, score, streak, bestStreak, floor, progress, he
           {hearts(hp).map((k, i) => <Heart key={i} kind={k} />)}
         </div>
         {floor && <div className="hud__floor">{floor}</div>}
-        {heldItem && (
-          <div className="hud__held">
-            <img src={itemSprite(heldItem.id)} alt="" draggable={false} />
-            <span>{heldItem.name}</span>
+        {heldItems.length > 0 && (
+          <div className="hud__held" aria-label="Ton build">
+            {heldItems.map((it) => (
+              <img key={it.id} src={itemSprite(it.id)} alt={it.name} title={it.name} draggable={false} />
+            ))}
+            <span>{heldItems.length === 1 ? heldItems[0].name : `${heldItems.length} items`}</span>
           </div>
         )}
       </div>

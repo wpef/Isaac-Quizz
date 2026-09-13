@@ -25,7 +25,7 @@ export function recordStat(stats, question, correct, { items, tags, streak }) {
     bestStreak: Math.max(stats.bestStreak, streak),
   };
   inc(next.types, question.type, correct);
-  const targetId = question.answerMode === 'pedestal' ? question.correctId : question.pedestals[0];
+  const targetId = question.targetId ?? (question.answerMode === 'pedestal' ? question.correctId : question.pedestals[0]);
   const target = items.get(targetId);
   if (target) {
     const groups = new Set((target.tags || []).map((t) => tags[t]?.group).filter(Boolean));

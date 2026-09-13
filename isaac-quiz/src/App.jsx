@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import itemsData from './data/items.json';
 import tags from './data/tags.json';
 import synergies from './data/synergies.json';
+import scenarios from './data/scenarios.json';
 import { createGenerator, DEFAULT_WEIGHTS } from './engine/index.js';
 import Room from './components/Room.jsx';
 import Hud from './components/Hud.jsx';
@@ -58,6 +59,7 @@ export default function App() {
       items: itemsData,
       tags,
       synergies,
+      scenarios,
       difficulty,
       seed: Date.now() ^ (Math.random() * 0xffffffff),
       itemWeight: makeItemWeight(srs, { review }),
@@ -107,7 +109,7 @@ export default function App() {
             type: question.type,
             prompt: question.prompt,
             correct,
-            targetId: question.answerMode === 'pedestal' ? question.correctId : question.pedestals[0],
+            targetId: question.targetId ?? (question.answerMode === 'pedestal' ? question.correctId : question.pedestals[0]),
             correctLabel: question.choices.find((c) => c.id === question.correctId)?.label,
             pickedItemId: picked?.itemId ?? null,
             pickedLabel: picked?.label,
@@ -221,7 +223,7 @@ export default function App() {
         bestStreak={stats.bestStreak}
         floor={question.situation?.floor}
         progress={progress}
-        heldItem={question.held ? items.get(question.held) : null}
+        heldItems={(question.held || []).map((id) => items.get(id)).filter(Boolean)}
         difficulty={difficulty}
       />
       <Question question={question} items={items} answered={answered} choiceId={choiceId} onAnswer={answer} />

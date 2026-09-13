@@ -31,8 +31,8 @@ function bump(entry, correct, now) {
  */
 export function recordAnswer(srs, question, choiceId, correct, now = Date.now()) {
   const next = { items: { ...srs.items }, types: { ...srs.types } };
-  const targetId = question.answerMode === 'pedestal' ? question.correctId : question.pedestals[0];
-  next.items[targetId] = bump(next.items[targetId], correct, now);
+  const targetId = question.targetId ?? (question.answerMode === 'pedestal' ? question.correctId : question.pedestals[0]);
+  if (targetId !== null && targetId !== undefined) next.items[targetId] = bump(next.items[targetId], correct, now);
   if (!correct) {
     const picked = question.choices.find((c) => c.id === choiceId);
     if (picked?.itemId && picked.itemId !== targetId) {
